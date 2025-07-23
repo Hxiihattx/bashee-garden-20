@@ -41,6 +41,22 @@ const Services = () => {
       features: ["Powerful 2-stroke engines", "Various cutting heads", "Ergonomic design", "Professional durability"],
       pricing: "From £25/day",
       link: "/equipment/strimmers"
+    },
+    {
+      title: "Garden Clearance",
+      description: "Complete garden clearance service with waste removal.",
+      image: gardenClearanceImg,
+      features: ["Professional operators", "Waste disposal included", "Full site clearance", "Emergency callouts"],
+      pricing: "From £150/day",
+      link: "/equipment/garden-clearance"
+    },
+    {
+      title: "Lawn Maintenance",
+      description: "Regular lawn care and maintenance services.",
+      image: remoteMowerImg,
+      features: ["Weekly/monthly service", "Professional maintenance", "Seasonal treatments", "Equipment included"],
+      pricing: "From £200/month",
+      link: "/equipment/lawn-maintenance"
     }
   ];
 
@@ -111,7 +127,7 @@ const Services = () => {
             Modern, well-maintained equipment for all your garden maintenance needs
           </p>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {hireEquipment.map((item, index) => (
               <div key={index} className="card-elegant overflow-hidden hover:-translate-y-2 transition-all duration-300">
                 <div className="relative h-64">
@@ -131,7 +147,7 @@ const Services = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link to={item.link}>
+                  <Link to="/booking">
                     <Button className="w-full group">
                       Check Availability
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

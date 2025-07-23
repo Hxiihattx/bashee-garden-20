@@ -99,9 +99,9 @@ const Booking = () => {
       <div className="min-h-screen bg-muted/30 py-12">
         <div className="container-narrow">
           {/* Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-section text-foreground mb-4">Book Your Equipment</h1>
-            <p className="text-body text-muted-foreground max-w-2xl mx-auto">
+          <div className="text-center mb-8 lg:mb-12">
+            <h1 className="text-2xl lg:text-section text-foreground mb-3 lg:mb-4">Book Your Equipment</h1>
+            <p className="text-sm lg:text-body text-muted-foreground max-w-2xl mx-auto">
               Follow these simple steps to book your garden equipment. We'll confirm availability and arrange delivery.
             </p>
           </div>
@@ -141,16 +141,16 @@ const Booking = () => {
           </div>
 
           {/* Step Content */}
-          <Card className="mb-8">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                {currentStep === 1 && <><User className="h-5 w-5" /> Choose Equipment</>}
-                {currentStep === 2 && <><CalendarIcon className="h-5 w-5" /> Select Date & Time</>}
-                {currentStep === 3 && <><MessageSquare className="h-5 w-5" /> Service Options</>}
-                {currentStep === 4 && <><Mail className="h-5 w-5" /> Your Details</>}
+          <Card className="mb-6 lg:mb-8">
+            <CardHeader className="pb-4 lg:pb-6">
+              <CardTitle className="flex items-center gap-2 text-lg lg:text-xl">
+                {currentStep === 1 && <><User className="h-4 w-4 lg:h-5 lg:w-5" /> Choose Equipment</>}
+                {currentStep === 2 && <><CalendarIcon className="h-4 w-4 lg:h-5 lg:w-5" /> Select Date & Time</>}
+                {currentStep === 3 && <><MessageSquare className="h-4 w-4 lg:h-5 lg:w-5" /> Service Options</>}
+                {currentStep === 4 && <><Mail className="h-4 w-4 lg:h-5 lg:w-5" /> Your Details</>}
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-6">
+            <CardContent className="space-y-4 lg:space-y-6 pt-0">
               {/* Step 1: Equipment Selection */}
               {currentStep === 1 && (
                 <div className="grid gap-4">
@@ -158,7 +158,7 @@ const Booking = () => {
                     <div
                       key={item.id}
                       className={cn(
-                        "p-4 border rounded-lg cursor-pointer transition-all hover:shadow-md",
+                        "p-3 lg:p-4 border rounded-lg cursor-pointer transition-all hover:shadow-md",
                         selectedEquipment === item.id
                           ? "border-primary bg-primary/5 shadow-md"
                           : "border-border hover:border-primary/50"
@@ -167,11 +167,11 @@ const Booking = () => {
                     >
                       <div className="flex items-center justify-between">
                         <div>
-                          <h3 className="font-semibold text-foreground">{item.name}</h3>
-                          <p className="text-sm text-muted-foreground">{item.description}</p>
+                          <h3 className="font-semibold text-sm lg:text-base text-foreground">{item.name}</h3>
+                          <p className="text-xs lg:text-sm text-muted-foreground">{item.description}</p>
                         </div>
                         <div className="text-right">
-                          <p className="font-bold text-primary">{item.price}</p>
+                          <p className="font-bold text-primary text-sm lg:text-base">{item.price}</p>
                         </div>
                       </div>
                     </div>
@@ -182,8 +182,8 @@ const Booking = () => {
               {/* Step 2: Date & Time Selection */}
               {currentStep === 2 && (
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <Label className="text-base font-semibold mb-4 block">Select Date</Label>
+                    <div>
+                      <Label className="text-sm lg:text-base font-semibold mb-3 lg:mb-4 block">Select Date</Label>
                     <Calendar
                       mode="single"
                       selected={selectedDate}
@@ -192,9 +192,9 @@ const Booking = () => {
                       className="rounded-md border"
                     />
                   </div>
-                  <div className="space-y-4">
+                    <div className="space-y-3 lg:space-y-4">
                     <div>
-                      <Label className="text-base font-semibold mb-3 block">Time Slot</Label>
+                      <Label className="text-sm lg:text-base font-semibold mb-2 lg:mb-3 block">Time Slot</Label>
                       <Select value={selectedTime} onValueChange={setSelectedTime}>
                         <SelectTrigger>
                           <SelectValue placeholder="Choose time slot" />
@@ -212,7 +212,7 @@ const Booking = () => {
                       </Select>
                     </div>
                     <div>
-                      <Label className="text-base font-semibold mb-3 block">Duration</Label>
+                      <Label className="text-sm lg:text-base font-semibold mb-2 lg:mb-3 block">Duration</Label>
                       <Select value={duration} onValueChange={setDuration}>
                         <SelectTrigger>
                           <SelectValue placeholder="How long do you need it?" />
@@ -234,11 +234,11 @@ const Booking = () => {
               {currentStep === 3 && (
                 <div className="space-y-6">
                   <div>
-                    <Label className="text-base font-semibold mb-4 block">Do you need an operator?</Label>
+                    <Label className="text-sm lg:text-base font-semibold mb-3 lg:mb-4 block">Do you need an operator?</Label>
                     <div className="grid gap-3">
                       <div
                         className={cn(
-                          "p-4 border rounded-lg cursor-pointer transition-all",
+                          "p-3 lg:p-4 border rounded-lg cursor-pointer transition-all",
                           needsOperator === "no"
                             ? "border-primary bg-primary/5"
                             : "border-border hover:border-primary/50"
@@ -246,13 +246,13 @@ const Booking = () => {
                         onClick={() => setNeedsOperator("no")}
                       >
                         <div>
-                          <h4 className="font-semibold">Self-Operated</h4>
-                          <p className="text-sm text-muted-foreground">You'll operate the equipment yourself. Basic training included.</p>
+                          <h4 className="font-semibold text-sm lg:text-base">Self-Operated</h4>
+                          <p className="text-xs lg:text-sm text-muted-foreground">You'll operate the equipment yourself. Basic training included.</p>
                         </div>
                       </div>
                       <div
                         className={cn(
-                          "p-4 border rounded-lg cursor-pointer transition-all",
+                          "p-3 lg:p-4 border rounded-lg cursor-pointer transition-all",
                           needsOperator === "yes"
                             ? "border-primary bg-primary/5"
                             : "border-border hover:border-primary/50"
@@ -260,17 +260,17 @@ const Booking = () => {
                         onClick={() => setNeedsOperator("yes")}
                       >
                         <div>
-                          <h4 className="font-semibold">With Professional Operator</h4>
-                          <p className="text-sm text-muted-foreground">Our experienced operator will handle everything. Additional cost applies.</p>
+                          <h4 className="font-semibold text-sm lg:text-base">With Professional Operator</h4>
+                          <p className="text-xs lg:text-sm text-muted-foreground">Our experienced operator will handle everything. Additional cost applies.</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   
                   {selectedEquipment && (
-                    <div className="p-4 bg-muted rounded-lg">
-                      <h4 className="font-semibold mb-2">Your Selection</h4>
-                      <p className="text-sm text-muted-foreground">
+                    <div className="p-3 lg:p-4 bg-muted rounded-lg">
+                      <h4 className="font-semibold mb-2 text-sm lg:text-base">Your Selection</h4>
+                      <p className="text-xs lg:text-sm text-muted-foreground">
                         {getSelectedEquipmentDetails()?.name} - {getSelectedEquipmentDetails()?.price}
                         {needsOperator === "yes" && " + Operator fee"}
                       </p>
@@ -281,8 +281,8 @@ const Booking = () => {
 
               {/* Step 4: Customer Information */}
               {currentStep === 4 && (
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-4">
+                <div className="grid md:grid-cols-2 gap-4 lg:gap-6">
+                  <div className="space-y-3 lg:space-y-4">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
                       <Input
@@ -313,7 +313,7 @@ const Booking = () => {
                       />
                     </div>
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-3 lg:space-y-4">
                     <div>
                       <Label htmlFor="address">Service Address</Label>
                       <Textarea
@@ -393,9 +393,9 @@ const Booking = () => {
               Our team is here to help you choose the right equipment and schedule your booking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:01234567890" className="flex items-center gap-2 text-sm text-primary hover:underline">
+              <a href="tel:07484844898" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Phone className="h-4 w-4" />
-                Call us: 0123 456 789
+                Call us: 07484 844898
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Mail className="h-4 w-4" />

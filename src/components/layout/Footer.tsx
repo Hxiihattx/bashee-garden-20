@@ -3,18 +3,18 @@ import { Phone, Mail, MapPin, Clock, Instagram, Facebook, MessageCircle, Leaf } 
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer className="bg-gradient-to-br from-secondary to-secondary-light text-secondary-foreground">
       <div className="container-wide section-padding">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
+          {/* Company Info - Larger Column */}
+          <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center space-x-3">
               <div className="h-12 w-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-lg">
                 <Leaf className="h-7 w-7 text-primary-foreground" />
               </div>
               <div>
                 <div className="font-bold text-xl text-secondary-foreground">BasheeGardens</div>
-                <div className="text-sm text-secondary-foreground/80 font-medium">Equipment Hire & Garden Services</div>
+                <div className="text-sm text-secondary-foreground/80 font-medium">Garden Equipment Hire</div>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-secondary-foreground/90">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-4">
+          <div className="lg:col-span-2 space-y-4">
             <h3 className="font-semibold text-lg">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
               <Link to="/services" className="text-sm hover:text-primary transition-colors">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="space-y-4">
+          <div className="lg:col-span-2 space-y-4">
             <h3 className="font-semibold text-lg">Services</h3>
             <div className="flex flex-col space-y-2 text-sm text-secondary-foreground/90">
               <span>Remote-Controlled Mowers</span>
@@ -65,12 +65,12 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-4">
+          <div className="lg:col-span-3 space-y-4">
             <h3 className="font-semibold text-lg">Contact Us</h3>
             <div className="space-y-3">
-              <a href="tel:01234567890" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+              <a href="tel:07484844898" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                <span>0123 456 789</span>
+                <span>07484 844898</span>
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />

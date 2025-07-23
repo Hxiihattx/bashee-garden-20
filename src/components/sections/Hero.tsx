@@ -19,13 +19,13 @@ const Hero = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-4xl xl:text-5xl font-bold text-foreground leading-tight">
+              <h1 className="text-hero text-foreground leading-tight">
                 Garden Equipment Hire Made Easy in 
                 <span className="text-primary"> South East London</span>
               </h1>
 
               {/* Subheading */}
-              <p className="text-lg xl:text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-muted-foreground leading-relaxed">
                 Professional remote-controlled mowers, ride-on tractors, and garden clearance services. 
                 Trusted by homeowners, landscapers, and local councils across Croydon.
               </p>
@@ -111,14 +111,14 @@ const Hero = () => {
               <span>Trusted by Schools & Councils</span>
             </div>
 
-            {/* Main Heading - Smaller for mobile */}
-            <h1 className="text-2xl sm:text-3xl font-bold text-foreground leading-tight">
+            {/* Main Heading - Mobile optimized */}
+            <h1 className="text-hero text-foreground leading-tight">
               Garden Equipment Hire Made Easy in 
               <span className="text-primary"> South East London</span>
             </h1>
 
             {/* Subheading */}
-            <p className="text-base text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed">
               Professional remote-controlled mowers, ride-on tractors, and garden clearance services. 
               Trusted by homeowners, landscapers, and local councils.
             </p>

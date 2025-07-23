@@ -69,28 +69,28 @@ const ServicesOverview = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mb-16">
           {services.map((service, index) => (
             <div
               key={index}
-              className="card-service group"
+            className="card-service group"
             >
               {/* Image */}
-              <div className="relative overflow-hidden rounded-lg mb-4">
+              <div className="relative overflow-hidden rounded-lg mb-3">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-32 xl:h-40 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
 
               {/* Content */}
-              <div className="space-y-4">
-                <h3 className="text-subsection group-hover:text-primary transition-colors">
+              <div className="space-y-3">
+                <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-body text-muted-foreground">
+                <p className="text-sm text-muted-foreground leading-relaxed">
                   {service.description}
                 </p>
 
@@ -107,8 +107,8 @@ const ServicesOverview = () => {
                 </div>
 
                 {/* CTA */}
-                <Link to={service.link}>
-                  <Button variant="ghost" className="group/btn p-0 h-auto font-medium">
+                <Link to="/booking">
+                  <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-sm">
                     Learn More
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                   </Button>

@@ -39,9 +39,9 @@ const Header = () => {
         <div className="container-wide">
           <div className="flex items-center justify-between text-sm">
             <div className="flex items-center space-x-4">
-              <a href="tel:01234567890" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
+              <a href="tel:07484844898" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Phone className="h-3 w-3" />
-                <span>0123 456 789</span>
+                <span>07484 844898</span>
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
@@ -60,12 +60,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 hover-lift">
-            <div className="h-10 w-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-lg">
-              <Leaf className="h-6 w-6 text-primary-foreground" />
+            <div className="h-8 w-8 sm:h-10 sm:w-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-lg">
+              <Leaf className="h-5 w-5 sm:h-6 sm:w-6 text-primary-foreground" />
             </div>
-            <div className="hidden sm:block">
+            <div>
               <div className="font-bold text-lg text-foreground">BasheeGardens</div>
-              <div className="text-xs text-muted-foreground font-medium">Equipment Hire & Garden Services</div>
+              <div className="text-xs text-muted-foreground font-medium hidden sm:block">Equipment Hire & Garden Services</div>
+              <div className="text-xs text-muted-foreground font-medium sm:hidden">Garden Hire</div>
             </div>
           </Link>
 
@@ -146,9 +147,9 @@ const Header = () => {
                     
                     {/* Contact Info */}
                     <div className="pt-4 space-y-2">
-                      <a href="tel:01234567890" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                      <a href="tel:07484844898" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Phone className="h-4 w-4" />
-                        <span>0123 456 789</span>
+                        <span>07484 844898</span>
                       </a>
                       <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Mail className="h-4 w-4" />

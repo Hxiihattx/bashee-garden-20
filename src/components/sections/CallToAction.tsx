@@ -26,7 +26,7 @@ const CallToAction = () => {
                 </Button>
               </Link>
               <Link to="/contact">
-                <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8 py-4 text-lg">
+                <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8 py-4 text-lg">
                   Get Free Quote
                 </Button>
               </Link>
@@ -39,7 +39,7 @@ const CallToAction = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Phone */}
               <a
-                href="tel:01234567890"
+                href="tel:07484844898"
                 className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300"
               >
                 <div className="flex flex-col items-center space-y-3">
@@ -47,7 +47,7 @@ const CallToAction = () => {
                     <Phone className="h-6 w-6" />
                   </div>
                   <h4 className="font-semibold">Call Us</h4>
-                  <p className="text-primary-foreground/80">0123 456 789</p>
+                  <p className="text-primary-foreground/80">07484 844898</p>
                   <p className="text-sm text-primary-foreground/60">Mon-Sat, 9AM-6PM</p>
                 </div>
               </a>
