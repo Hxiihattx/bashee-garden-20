@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, Instagram, Facebook, MessageCircle, Leaf } 
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-secondary to-secondary-light text-secondary-foreground">
+    <footer className="bg-gradient-to-br from-slate-800 to-slate-900 text-white">
       <div className="container-wide section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
           {/* Company Info - Larger Column */}
@@ -13,11 +13,11 @@ const Footer = () => {
                 <Leaf className="h-7 w-7 text-primary-foreground" />
               </div>
               <div>
-                <div className="font-bold text-xl text-secondary-foreground">BasheeGardens</div>
-                <div className="text-sm text-secondary-foreground/80 font-medium">Garden Equipment Hire</div>
+                <div className="font-bold text-xl text-white">BasheeGardens</div>
+                <div className="text-sm text-white/80 font-medium">Garden Equipment Hire</div>
               </div>
             </div>
-            <p className="text-sm leading-relaxed text-secondary-foreground/90">
+            <p className="text-sm leading-relaxed text-white/90">
               Professional garden equipment hire and clearance services across South East London. 
               Trusted by homeowners, landscapers, and councils since 2020.
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
           {/* Services */}
           <div className="lg:col-span-2 space-y-4">
             <h3 className="font-semibold text-lg">Services</h3>
-            <div className="flex flex-col space-y-2 text-sm text-secondary-foreground/90">
+            <div className="flex flex-col space-y-2 text-sm text-white/90">
               <span>Remote-Controlled Mowers</span>
               <span>Ride-On Tractors</span>
               <span>Hedge Trimmers</span>
@@ -107,10 +107,10 @@ const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-secondary-foreground/20">
+      <div className="border-t border-white/20">
         <div className="container-wide py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div className="text-sm text-secondary-foreground/80">
+            <div className="text-sm text-white/80">
               © 2024 BasheeGardens Hires Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">

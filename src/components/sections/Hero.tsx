@@ -1,17 +1,17 @@
 import { ArrowRight, CheckCircle, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-garden-equipment.jpg";
+import heroImage from "@/assets/equipment-collection.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden">
+    <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden pt-8 lg:pt-16">
       {/* Desktop Layout: Text Left, Image Right */}
       <div className="hidden lg:flex items-center h-full">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content Left */}
-            <div className="space-y-6 lg:space-y-8">
+            <div className="space-y-4 lg:space-y-5">
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
                 <CheckCircle className="h-4 w-4" />
@@ -19,13 +19,13 @@ const Hero = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-hero text-foreground leading-tight">
+              <h1 className="text-4xl font-bold text-foreground leading-tight">
                 Garden Equipment Hire Made Easy in 
                 <span className="text-primary"> South East London</span>
               </h1>
 
               {/* Subheading */}
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 Professional remote-controlled mowers, ride-on tractors, and garden clearance services. 
                 Trusted by homeowners, landscapers, and local councils across Croydon.
               </p>
@@ -47,7 +47,7 @@ const Hero = () => {
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 pt-2">
                 <Link to="/booking">
                   <Button className="btn-hero group">
                     <Leaf className="mr-2 h-5 w-5" />
@@ -63,7 +63,7 @@ const Hero = () => {
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center space-x-6 pt-6 text-sm text-muted-foreground">
+              <div className="flex items-center space-x-6 pt-3 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2">
                   <div className="h-2 w-2 bg-primary rounded-full"></div>
                   <span>Public Liability Insurance</span>

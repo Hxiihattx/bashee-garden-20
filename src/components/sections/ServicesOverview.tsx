@@ -69,18 +69,19 @@ const ServicesOverview = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
             <div
               key={index}
-            className="card-service group"
+              className="bg-card rounded-xl border border-border p-4 hover:-translate-y-2 cursor-pointer transition-all duration-300 overflow-hidden group"
+              style={{ boxShadow: '0 4px 20px -2px hsl(var(--primary) / 0.1)' }}
             >
               {/* Image */}
-              <div className="relative overflow-hidden rounded-lg mb-3">
+              <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-32 xl:h-40 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
@@ -99,7 +100,7 @@ const ServicesOverview = () => {
                   {service.features.map((feature, featureIndex) => (
                     <span
                       key={featureIndex}
-                      className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium"
+                      className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs font-medium"
                     >
                       {feature}
                     </span>

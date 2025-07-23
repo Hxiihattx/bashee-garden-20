@@ -150,7 +150,7 @@ const Equipment = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full rounded-2xl shadow-elegant"
+                    className="w-full h-[400px] object-cover rounded-2xl shadow-elegant"
                   />
                   {item.popular && (
                     <div className="absolute top-4 left-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold flex items-center space-x-1">
@@ -166,19 +166,19 @@ const Equipment = () => {
                 {/* Content */}
                 <div className={`space-y-6 ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div>
-                    <h2 className="text-section mb-4">{item.title}</h2>
-                    <p className="text-body text-muted-foreground leading-relaxed">
+                    <h2 className="text-3xl font-bold mb-3">{item.title}</h2>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
                       {item.description}
                     </p>
                   </div>
 
                   {/* Features */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-3">Key Features</h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      {item.features.map((feature, featureIndex) => (
+                    <h3 className="text-lg font-semibold mb-2">Key Features</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+                      {item.features.slice(0, 4).map((feature, featureIndex) => (
                         <div key={featureIndex} className="flex items-center space-x-2">
-                          <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />
+                          <CheckCircle className="h-3 w-3 text-primary flex-shrink-0" />
                           <span className="text-sm">{feature}</span>
                         </div>
                       ))}
@@ -187,9 +187,9 @@ const Equipment = () => {
 
                   {/* Specifications */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-3">Specifications</h3>
-                    <div className="grid grid-cols-2 gap-y-2 text-sm">
-                      {Object.entries(item.specs).map(([key, value]) => (
+                    <h3 className="text-lg font-semibold mb-2">Specifications</h3>
+                    <div className="grid grid-cols-2 gap-y-1 text-sm">
+                      {Object.entries(item.specs).slice(0, 4).map(([key, value]) => (
                         <div key={key}>
                           <span className="text-muted-foreground">{key}:</span>
                           <span className="ml-2 font-medium">{value}</span>
