@@ -58,7 +58,7 @@ const FAQ = () => {
         },
         {
           question: "When do you deliver and collect?",
-          answer: "Delivery and collection are available Monday-Saturday, 9AM-6PM. We aim to deliver within 2-hour time slots and will call 30 minutes before arrival. Emergency equipment is available with shorter notice."
+          answer: "Delivery and collection are available Monday-Friday 9AM-5PM and Saturday 9AM-1PM. We're closed Sundays. We aim to deliver within 2-hour time slots and will call 30 minutes before arrival. Emergency equipment is available with shorter notice."
         },
         {
           question: "Is delivery included in the price?",
@@ -160,7 +160,7 @@ const FAQ = () => {
                 <Phone className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Call Us</span>
                 <span className="text-sm text-muted-foreground">0123 456 789</span>
-                <span className="text-xs text-muted-foreground mt-1">Mon-Sat 9AM-6PM</span>
+                <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
                 <Mail className="h-8 w-8 text-primary mb-2" />
@@ -172,7 +172,7 @@ const FAQ = () => {
                 <MessageCircle className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Live Chat</span>
                 <span className="text-sm text-muted-foreground">Quick Response</span>
-                <span className="text-xs text-muted-foreground mt-1">Mon-Sat 9AM-6PM</span>
+                <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
               </Link>
             </div>
             

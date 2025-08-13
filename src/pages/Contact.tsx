@@ -70,7 +70,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-primary font-medium">0123 456 789</p>
-                    <p className="text-sm text-muted-foreground">Mon-Sat, 9AM-6PM</p>
+                    <p className="text-sm text-muted-foreground">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
                   </div>
                 </a>
 
@@ -109,7 +109,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Live Chat</h3>
                     <p className="text-accent font-medium">Available Now</p>
-                    <p className="text-sm text-muted-foreground">Mon-Sat, 9AM-6PM</p>
+                    <p className="text-sm text-muted-foreground">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
                   </div>
                 </div>
               </div>
@@ -137,11 +137,11 @@ const Contact = () => {
                     <div className="space-y-1 text-sm">
                       <div className="flex justify-between">
                         <span>Monday - Friday</span>
-                        <span className="font-medium">9:00 AM - 6:00 PM</span>
+                        <span className="font-medium">9:00 AM - 5:00 PM</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Saturday</span>
-                        <span className="font-medium">9:00 AM - 4:00 PM</span>
+                        <span className="font-medium">9:00 AM - 1:00 PM</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Sunday</span>

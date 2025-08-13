@@ -49,7 +49,7 @@ const Header = () => {
               </a>
             </div>
             <div className="text-sm font-medium">
-              Live Chat: Mon–Sat, 9AM–6PM
+              Live Chat: Mon–Fri, 9AM–5PM, Sat: 9AM–1PM
             </div>
           </div>
         </div>

@@ -176,7 +176,7 @@ const TermsOfService = () => {
                   <p>Email: hello@basheegardenshires.co.uk</p>
                   <p>Phone: 0123 456 789</p>
                   <p>Service Area: South East London & Surrounding Areas</p>
-                  <p>Hours: Monday-Saturday, 9AM-6PM</p>
+                  <p>Hours: Monday-Friday 9AM-5PM, Saturday 9AM-1PM, Sunday Closed</p>
                 </div>
               </div>
             </section>
