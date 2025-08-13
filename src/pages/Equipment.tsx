@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 import hyundaiStrimmerImg from "@/assets/hyundai-grass-trimmer-kit.jpg";
-import mountfieldTractorImg from "@/assets/mountfield-1330m-actual.jpg";
+import mountfieldTractorImg from "@/assets/mountfield-1330m-red.jpg";
 import parkerChainsawImg from "@/assets/parker-chainsaw.jpg";
 import leafBlowerImg from "@/assets/leaf-blower.jpg";
 import robotMowerImg from "@/assets/robot-lawn-mower.jpg";
-import trackedMowerImg from "@/assets/tracked-remote-mower.jpg";
+import trackedMowerImg from "@/assets/tracked-remote-mower-orange.jpg";
 
 const Equipment = () => {
   const equipment = [
@@ -42,24 +42,24 @@ const Equipment = () => {
     },
     {
       id: "mountfield-lawn-tractor",
-      title: "Mountfield 1330M Lawn Tractor",
+      title: "Mountfield 1330M Rear-Collect Lawn Tractor with Manual Drive",
       image: mountfieldTractorImg,
-      description: "Rear collect lawn tractor with manual drive, perfect for large lawns and professional grass cutting.",
+      description: "The first ever twin-bladed garden tractor with a cutting-width under 90cm. Twin-blade design ensures a consistent cut and exceptional damp-weather bagging with high-capacity 200-litre grassbag.",
       features: [
-        "30-inch cutting deck",
-        "Rear grass collection",
-        "Manual transmission",
-        "Comfortable seat",
-        "Side discharge option",
-        "Reliable Briggs & Stratton engine"
+        "Twin-bladed 84cm cutting deck",
+        "200-litre rear grass collection",
+        "6-speed manual transmission (5+1)",
+        "Electric key start",
+        "Adjustable sprung seat",
+        "5-year manufacturer warranty"
       ],
       specs: {
-        "Cutting Width": "76cm (30\")",
-        "Engine": "Briggs & Stratton",
-        "Transmission": "Manual",
-        "Fuel Capacity": "3.8L",
-        "Cutting Height": "25-80mm",
-        "Collection Capacity": "150L"
+        "Engine": "STIGA ST 400 OHV 432cc",
+        "Power": "8.4hp / 6.3kW",
+        "Cutting Width": "84cm",
+        "Fuel Tank": "6 Litres",
+        "Cutting Heights": "25-80mm (7 positions)",
+        "Grass Collector": "200 Litres"
       },
       pricing: {
         daily: "£95",
@@ -126,29 +126,29 @@ const Equipment = () => {
     },
     {
       id: "robot-lawn-mower",
-      title: "Robot Lawn Mower",
+      title: "Remote Control Robot Grass Cutter 9HP",
       image: robotMowerImg,
-      description: "Autonomous robotic lawn mower for effortless grass cutting with programmable scheduling.",
+      description: "Professional remote control robotic lawn mower with 9HP 4-stroke engine. Features cordless operation, anti-slip technology and high torque for challenging terrain.",
       features: [
-        "Fully autonomous operation",
-        "Weather resistant",
-        "Programmable scheduling",
-        "Theft protection",
-        "Quiet operation",
-        "Mulching system"
+        "9HP 4-stroke petrol engine",
+        "Remote operated control",
+        "Anti-slip & antistall technology",
+        "High torque self-propelled",
+        "Cordless operation",
+        "1 year manufacturer warranty"
       ],
       specs: {
-        "Coverage Area": "Up to 1000m²",
-        "Cutting Width": "22cm",
-        "Cutting Height": "20-60mm",
-        "Battery Life": "60 minutes",
-        "Charge Time": "60 minutes",
-        "Slope Capability": "35%"
+        "Engine Type": "4-Stroke Petrol",
+        "Power": "9HP (350W Brushless Motor)",
+        "Tank Capacity": "1.4L",
+        "Voltage": "24V",
+        "Features": "Cordless, Remote Operated",
+        "Horsepower": "9 HP"
       },
       pricing: {
-        daily: "£70",
-        weekly: "£380",
-        monthly: "£1,050"
+        daily: "£120",
+        weekly: "£650",
+        monthly: "£1,800"
       },
       availability: "Available Now"
     },
