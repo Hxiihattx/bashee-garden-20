@@ -11,45 +11,45 @@ import equipmentCollectionImg from "@/assets/red-robot-mower.jpg";
 const ServicesOverview = () => {
   const services = [
     {
-      title: "Remote-Controlled Mowers",
-      description: "Professional tracked remote control mowers with rubber crawler tracks for steep slopes and challenging terrain.",
+      title: "Tracked Remote Control Mowers",
+      description: "Professional tracked remote control mowers with rubber crawler tracks for steep slopes and challenging terrain access.",
       image: remoteMowerImg,
-      features: ["Remote Operation", "Tracked System", "Steep Slopes"],
+      features: ["Remote Operation", "60° Slopes", "Safe Distance"],
       link: "/equipment"
     },
     {
-      title: "Ride-On Tractors",
-      description: "Twin-bladed Mountfield lawn tractors with rear collection for large areas and professional landscaping.",
+      title: "Mountfield Lawn Tractors",
+      description: "Twin-bladed Mountfield 1330M with 200L rear collection, 8.4hp STIGA engine and 5-year warranty.",
       image: rideOnImg,
-      features: ["Twin Blades", "200L Collection", "Professional"],
+      features: ["Twin Blades", "200L Collection", "5yr Warranty"],
       link: "/equipment"
     },
     {
-      title: "Petrol Chainsaws",
-      description: "Heavy-duty Parker chainsaws with 20-inch bars for tree work and professional forestry.",
+      title: "Parker Petrol Chainsaws",
+      description: "Heavy-duty Parker 58cc chainsaws with 20-inch bars, anti-vibration handles and safety chain brake.",
       image: hedgeTrimmerImg,
-      features: ["20\" Bar", "Anti-Vibration", "Safety Brake"],
+      features: ["58cc Engine", "20\" Bar", "Safety Brake"],
       link: "/equipment"
     },
     {
-      title: "Petrol Strimmers",
-      description: "Hyundai 52cc professional grass trimmers with dual cutting capability and shoulder harness.",
+      title: "Hyundai Grass Trimmers",
+      description: "Hyundai HYBC5200X 52cc professional grass trimmers with dual cutting capability and complete kit.",
       image: strimmerImg,
-      features: ["52cc Engine", "Dual Cutting", "Harness Included"],
+      features: ["52cc 2-Stroke", "Dual Cutting", "Complete Kit"],
       link: "/equipment"
     },
     {
-      title: "Leaf Blowers",
-      description: "3-in-1 leaf blowers with vacuum and mulching capability for efficient garden maintenance.",
+      title: "Leaf Blower Vacuum",
+      description: "Excel 25cc 3-in-1 leaf blower, vacuum and mulcher with variable speed control and large collection bag.",
       image: gardenClearanceImg,
-      features: ["3-in-1 Function", "Vacuum & Mulch", "Large Collection"],
+      features: ["3-in-1 Function", "Variable Speed", "45L Collection"],
       link: "/equipment"
     },
     {
-      title: "Robot Mowers",
-      description: "Remote control robotic lawn mowers with 9HP engines for autonomous grass cutting.",
+      title: "Remote Robot Mowers",
+      description: "9HP remote control robotic lawn mowers with cordless operation and anti-slip technology.",
       image: equipmentCollectionImg,
-      features: ["9HP Engine", "Remote Control", "Autonomous"],
+      features: ["9HP Engine", "Remote Control", "Anti-Slip"],
       link: "/equipment"
     }
   ];
