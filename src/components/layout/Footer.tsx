@@ -111,7 +111,7 @@ const Footer = () => {
         <div className="container-wide py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-sm text-white/80">
-              © 2024 BasheeGardens Hires Ltd. All rights reserved.
+              © 2025 BasheeGardens Hires Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="hover:text-primary transition-colors">
