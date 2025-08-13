@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import hyundaiStrimmerImg from "@/assets/hyundai-grass-trimmer.jpg";
+import hyundaiStrimmerImg from "@/assets/hyundai-trimmer-complete.jpg";
 import mountfieldTractorImg from "@/assets/mountfield-lawn-tractor.jpg";
 import parkerChainsawImg from "@/assets/parker-chainsaw.jpg";
 import leafBlowerImg from "@/assets/leaf-blower.jpg";
