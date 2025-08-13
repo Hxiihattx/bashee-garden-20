@@ -20,7 +20,7 @@ const FAQ = () => {
         },
         {
           question: "Do you require a deposit?",
-          answer: "Yes, we require a security deposit for all equipment rentals. The deposit amount varies by equipment value and is fully refundable upon return of equipment in good condition. Deposits can be paid by credit card or bank transfer."
+          answer: "Yes, we require a security deposit for all equipment rentals. The deposit amount varies by equipment value and is fully refundable upon return of equipment in good condition. Deposits can be paid by credit card or bank transfer. Bank details: Account 27724396, Sort Code 04-06-05."
         },
         {
           question: "What's included in the rental price?",
