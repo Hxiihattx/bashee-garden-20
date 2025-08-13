@@ -1,12 +1,12 @@
 import { ArrowRight, Zap, Truck, Shield, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import remoteMowerImg from "@/assets/tracked-remote-mower-orange.jpg";
-import rideOnImg from "@/assets/mountfield-1330m-red.jpg";
-import hedgeTrimmerImg from "@/assets/parker-chainsaw.jpg";
-import strimmerImg from "@/assets/hyundai-grass-trimmer-kit.jpg";
-import gardenClearanceImg from "@/assets/leaf-blower.jpg";
-import equipmentCollectionImg from "@/assets/robot-lawn-mower.jpg";
+import remoteMowerImg from "@/assets/tracked-mower-orange.jpg";
+import rideOnImg from "@/assets/mountfield-red-tractor.jpg";
+import hedgeTrimmerImg from "@/assets/parker-chainsaw-actual.jpg";
+import strimmerImg from "@/assets/hyundai-complete-kit.jpg";
+import gardenClearanceImg from "@/assets/black-leaf-blower.jpg";
+import equipmentCollectionImg from "@/assets/red-robot-mower.jpg";
 
 const ServicesOverview = () => {
   const services = [
