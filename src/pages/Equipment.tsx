@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import hyundaiStrimmerImg from "@/assets/hyundai-trimmer-complete.jpg";
+import hyundaiStrimmerImg from "@/assets/hyundai-grass-trimmer-kit.jpg";
 import mountfieldTractorImg from "@/assets/mountfield-1330m-actual.jpg";
 import parkerChainsawImg from "@/assets/parker-chainsaw.jpg";
 import leafBlowerImg from "@/assets/leaf-blower.jpg";
@@ -13,24 +13,24 @@ const Equipment = () => {
   const equipment = [
     {
       id: "hyundai-grass-trimmer",
-      title: "Hyundai HYBC5200X 52cc Grass Trimmer",
+      title: "Hyundai HYBC5200X 52cc 2-Stroke Petrol Grass Trimmer",
       image: hyundaiStrimmerImg,
-      description: "Professional 52cc 2-stroke petrol grass trimmer for efficient cutting and trimming in hard-to-reach areas.",
+      description: "The Hyundai HYBC5200X is a powerful petrol grass trimmer/brushcutter with dual cutting capability. Perfect for cutting or trimming all types of grass, brambles, shrubs and overgrowth with its powerful 52cc 2-Stroke Euro-V Hyundai low emission petrol engine.",
       features: [
-        "52cc 2-stroke engine",
-        "Double shoulder harness",
-        "Anti-vibration system",
-        "Quick start system",
-        "Multiple cutting attachments",
-        "Professional grade reliability"
+        "Dual cutting capability - nylon head & metal blade",
+        "Large cutting width 255mm to 450mm", 
+        "Bike handles for comfort and precise control",
+        "Split shaft for easy transport",
+        "Full double shoulder ergonomic harness",
+        "3 year Hyundai warranty"
       ],
       specs: {
-        "Engine Size": "52cc",
-        "Engine Type": "2-stroke petrol",
-        "Cutting Width": "40cm",
-        "Weight": "7.2kg",
-        "Fuel Tank": "1.2L",
-        "Shaft Type": "Straight"
+        "Engine Size": "52cc (1.45 kW / 2.0HP)",
+        "Engine Type": "2-Stroke Euro-V Petrol",
+        "Fuel Capacity": "1.2 Litres",
+        "Weight": "9.10kg",
+        "Trimmer Line": "2.4mm - 2.5mm",
+        "Starting System": "Recoil / Pull Start"
       },
       pricing: {
         daily: "£45",
