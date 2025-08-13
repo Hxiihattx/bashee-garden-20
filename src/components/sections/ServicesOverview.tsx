@@ -1,56 +1,56 @@
 import { ArrowRight, Zap, Truck, Shield, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import remoteMowerImg from "@/assets/hero-remote-mower.jpg";
-import rideOnImg from "@/assets/ride-on-tractor.jpg";
-import hedgeTrimmerImg from "@/assets/hedge-trimmer.jpg";
-import strimmerImg from "@/assets/strimmer.jpg";
-import gardenClearanceImg from "@/assets/garden-clearance.jpg";
-import equipmentCollectionImg from "@/assets/equipment-collection.jpg";
+import remoteMowerImg from "@/assets/tracked-remote-mower-orange.jpg";
+import rideOnImg from "@/assets/mountfield-1330m-red.jpg";
+import hedgeTrimmerImg from "@/assets/parker-chainsaw.jpg";
+import strimmerImg from "@/assets/hyundai-grass-trimmer-kit.jpg";
+import gardenClearanceImg from "@/assets/leaf-blower.jpg";
+import equipmentCollectionImg from "@/assets/robot-lawn-mower.jpg";
 
 const ServicesOverview = () => {
   const services = [
     {
       title: "Remote-Controlled Mowers",
-      description: "Advanced remote mowers for precise, safe grass cutting on any terrain.",
+      description: "Professional tracked remote control mowers with rubber crawler tracks for steep slopes and challenging terrain.",
       image: remoteMowerImg,
-      features: ["Remote Operation", "All Terrain", "Precision Cutting"],
-      link: "/equipment/remote-mowers"
+      features: ["Remote Operation", "Tracked System", "Steep Slopes"],
+      link: "/equipment"
     },
     {
       title: "Ride-On Tractors",
-      description: "Powerful ride-on tractors for large areas and professional landscaping.",
+      description: "Twin-bladed Mountfield lawn tractors with rear collection for large areas and professional landscaping.",
       image: rideOnImg,
-      features: ["Large Coverage", "Professional Grade", "Efficient"],
-      link: "/equipment/ride-on-tractors"
+      features: ["Twin Blades", "200L Collection", "Professional"],
+      link: "/equipment"
     },
     {
-      title: "Hedge Trimmers",
-      description: "Professional hedge trimmers for perfect garden maintenance.",
+      title: "Petrol Chainsaws",
+      description: "Heavy-duty Parker chainsaws with 20-inch bars for tree work and professional forestry.",
       image: hedgeTrimmerImg,
-      features: ["Precision Cutting", "Professional Results", "Various Sizes"],
-      link: "/equipment/hedge-trimmers"
+      features: ["20\" Bar", "Anti-Vibration", "Safety Brake"],
+      link: "/equipment"
     },
     {
       title: "Petrol Strimmers",
-      description: "High-performance strimmers for edges and difficult areas.",
+      description: "Hyundai 52cc professional grass trimmers with dual cutting capability and shoulder harness.",
       image: strimmerImg,
-      features: ["Edge Perfection", "Powerful Engine", "Versatile Use"],
-      link: "/equipment/strimmers"
+      features: ["52cc Engine", "Dual Cutting", "Harness Included"],
+      link: "/equipment"
     },
     {
-      title: "Garden Clearance",
-      description: "Complete garden clearance services with professional operators.",
+      title: "Leaf Blowers",
+      description: "3-in-1 leaf blowers with vacuum and mulching capability for efficient garden maintenance.",
       image: gardenClearanceImg,
-      features: ["Full Service", "Professional Team", "Waste Removal"],
-      link: "/services/garden-clearance"
+      features: ["3-in-1 Function", "Vacuum & Mulch", "Large Collection"],
+      link: "/equipment"
     },
     {
-      title: "Maintenance Services",
-      description: "Ongoing maintenance for schools, councils, and estate managers.",
+      title: "Robot Mowers",
+      description: "Remote control robotic lawn mowers with 9HP engines for autonomous grass cutting.",
       image: equipmentCollectionImg,
-      features: ["Regular Service", "Trained Operators", "Fully Insured"],
-      link: "/services/maintenance"
+      features: ["9HP Engine", "Remote Control", "Autonomous"],
+      link: "/equipment"
     }
   ];
 
