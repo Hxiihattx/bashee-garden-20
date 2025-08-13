@@ -39,9 +39,9 @@ const Header = () => {
         <div className="container-wide">
           <div className="flex items-center justify-between text-sm">
             <div className="flex items-center space-x-4">
-              <a href="tel:07484844898" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
+              <a href="tel:07963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Phone className="h-3 w-3" />
-                <span>07484 844898</span>
+                <span>07963378502</span>
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
@@ -147,9 +147,9 @@ const Header = () => {
                     
                     {/* Contact Info */}
                     <div className="pt-4 space-y-2">
-                      <a href="tel:07484844898" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                      <a href="tel:07963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Phone className="h-4 w-4" />
-                        <span>07484 844898</span>
+                        <span>07963378502</span>
                       </a>
                       <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Mail className="h-4 w-4" />

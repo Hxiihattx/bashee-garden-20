@@ -2,123 +2,181 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import remoteMowerImg from "@/assets/hero-remote-mower.jpg";
-import rideOnImg from "@/assets/ride-on-tractor.jpg";
-import hedgeTrimmerImg from "@/assets/hedge-trimmer.jpg";
-import strimmerImg from "@/assets/strimmer.jpg";
+import hyundaiStrimmerImg from "@/assets/hyundai-grass-trimmer.jpg";
+import mountfieldTractorImg from "@/assets/mountfield-lawn-tractor.jpg";
+import parkerChainsawImg from "@/assets/parker-chainsaw.jpg";
+import leafBlowerImg from "@/assets/leaf-blower.jpg";
+import robotMowerImg from "@/assets/robot-lawn-mower.jpg";
+import trackedMowerImg from "@/assets/tracked-remote-mower.jpg";
 
 const Equipment = () => {
   const equipment = [
     {
-      id: "remote-mowers",
-      title: "Remote-Controlled Mowers",
-      image: remoteMowerImg,
-      description: "Advanced remote-controlled mowers for precision cutting and enhanced safety on challenging terrain.",
+      id: "hyundai-grass-trimmer",
+      title: "Hyundai HYBC5200X 52cc Grass Trimmer",
+      image: hyundaiStrimmerImg,
+      description: "Professional 52cc 2-stroke petrol grass trimmer for efficient cutting and trimming in hard-to-reach areas.",
       features: [
-        "Remote operation up to 200m range",
-        "Handles slopes up to 55 degrees",
-        "Precision cutting technology",
-        "All-weather capability",
-        "Low noise operation",
-        "Environmentally friendly"
+        "52cc 2-stroke engine",
+        "Double shoulder harness",
+        "Anti-vibration system",
+        "Quick start system",
+        "Multiple cutting attachments",
+        "Professional grade reliability"
       ],
       specs: {
-        "Cutting Width": "50cm",
-        "Engine Type": "Electric/Petrol",
-        "Slope Capability": "Up to 55°",
-        "Operating Range": "200m",
-        "Cutting Height": "20-80mm",
-        "Weight": "45kg"
+        "Engine Size": "52cc",
+        "Engine Type": "2-stroke petrol",
+        "Cutting Width": "40cm",
+        "Weight": "7.2kg",
+        "Fuel Tank": "1.2L",
+        "Shaft Type": "Straight"
       },
       pricing: {
-        daily: "£80",
-        weekly: "£450",
-        monthly: "£1,200"
+        daily: "£45",
+        weekly: "£220",
+        monthly: "£580"
       },
       availability: "Available Now",
       popular: true
     },
     {
-      id: "ride-on-tractors",
-      title: "Ride-On Tractors",
-      image: rideOnImg,
-      description: "Professional-grade ride-on tractors perfect for large areas and efficient garden maintenance.",
+      id: "mountfield-lawn-tractor",
+      title: "Mountfield 1330M Lawn Tractor",
+      image: mountfieldTractorImg,
+      description: "Rear collect lawn tractor with manual drive, perfect for large lawns and professional grass cutting.",
       features: [
-        "Large cutting width for efficiency",
-        "Comfortable operator seat",
-        "Mulching capability",
+        "30-inch cutting deck",
+        "Rear grass collection",
+        "Manual transmission",
+        "Comfortable seat",
         "Side discharge option",
-        "Easy height adjustment",
-        "Reliable petrol engine"
+        "Reliable Briggs & Stratton engine"
       ],
       specs: {
-        "Cutting Width": "107cm",
-        "Engine Type": "Petrol",
-        "Fuel Capacity": "15L",
-        "Turning Radius": "46cm",
-        "Cutting Height": "25-102mm",
-        "Weight": "180kg"
+        "Cutting Width": "76cm (30\")",
+        "Engine": "Briggs & Stratton",
+        "Transmission": "Manual",
+        "Fuel Capacity": "3.8L",
+        "Cutting Height": "25-80mm",
+        "Collection Capacity": "150L"
       },
       pricing: {
-        daily: "£120",
-        weekly: "£650",
-        monthly: "£1,800"
+        daily: "£95",
+        weekly: "£520",
+        monthly: "£1,450"
       },
       availability: "Available Now"
     },
     {
-      id: "hedge-trimmers",
-      title: "Professional Hedge Trimmers",
-      image: hedgeTrimmerImg,
-      description: "High-performance hedge trimmers for professional topiary and hedge maintenance.",
+      id: "parker-chainsaw",
+      title: "Parker 58cc 20\" Petrol Chainsaw",
+      image: parkerChainsawImg,
+      description: "Heavy-duty 58cc petrol chainsaw with 20-inch bar, ideal for tree felling and professional forestry work.",
       features: [
-        "Double-sided cutting blade",
-        "Anti-vibration system",
-        "Various blade lengths available",
-        "Safety switch protection",
-        "Ergonomic design",
-        "Professional grade durability"
+        "58cc powerful engine",
+        "20-inch cutting bar",
+        "Anti-vibration handles",
+        "Automatic chain lubrication",
+        "Easy start system",
+        "Safety chain brake"
       ],
       specs: {
-        "Blade Length": "60cm/75cm",
-        "Engine Type": "Petrol 2-stroke",
-        "Engine Size": "23cc",
-        "Cutting Capacity": "28mm",
-        "Weight": "4.5kg",
-        "Fuel Tank": "0.4L"
+        "Engine Size": "58cc",
+        "Bar Length": "20 inches (50cm)",
+        "Engine Type": "2-stroke petrol",
+        "Weight": "6.5kg",
+        "Fuel Tank": "0.55L",
+        "Oil Tank": "0.26L"
       },
       pricing: {
-        daily: "£35",
-        weekly: "£180",
-        monthly: "£500"
+        daily: "£55",
+        weekly: "£280",
+        monthly: "£750"
       },
       availability: "Available Now"
     },
     {
-      id: "strimmers",
-      title: "Petrol Strimmers",
-      image: strimmerImg,
-      description: "Powerful petrol strimmers for edge cutting, overgrowth clearance, and detailed garden work.",
+      id: "leaf-blower",
+      title: "Excel 25cc Leaf Blower Vacuum",
+      image: leafBlowerImg,
+      description: "3-in-1 multi garden tool: leaf blower, vacuum, and mulcher for efficient garden maintenance.",
       features: [
-        "Powerful 2-stroke engine",
-        "Multiple cutting head options",
-        "Adjustable handle height",
-        "Quick-start system",
-        "Fuel-efficient operation",
-        "Professional reliability"
+        "25cc 2-stroke engine",
+        "3-in-1 functionality",
+        "Variable speed control",
+        "Large collection bag",
+        "Mulching capability",
+        "Lightweight design"
       ],
       specs: {
-        "Engine Type": "Petrol 2-stroke",
         "Engine Size": "25cc",
-        "Cutting Width": "38cm",
-        "Shaft Type": "Straight",
-        "Weight": "5.2kg",
-        "Fuel Tank": "0.5L"
+        "Engine Type": "2-stroke petrol",
+        "Air Speed": "270 km/h",
+        "Collection Bag": "45L",
+        "Weight": "4.5kg",
+        "Mulch Ratio": "10:1"
       },
       pricing: {
-        daily: "£25",
-        weekly: "£130",
-        monthly: "£350"
+        daily: "£40",
+        weekly: "£200",
+        monthly: "£530"
+      },
+      availability: "Available Now"
+    },
+    {
+      id: "robot-lawn-mower",
+      title: "Robot Lawn Mower",
+      image: robotMowerImg,
+      description: "Autonomous robotic lawn mower for effortless grass cutting with programmable scheduling.",
+      features: [
+        "Fully autonomous operation",
+        "Weather resistant",
+        "Programmable scheduling",
+        "Theft protection",
+        "Quiet operation",
+        "Mulching system"
+      ],
+      specs: {
+        "Coverage Area": "Up to 1000m²",
+        "Cutting Width": "22cm",
+        "Cutting Height": "20-60mm",
+        "Battery Life": "60 minutes",
+        "Charge Time": "60 minutes",
+        "Slope Capability": "35%"
+      },
+      pricing: {
+        daily: "£70",
+        weekly: "£380",
+        monthly: "£1,050"
+      },
+      availability: "Available Now"
+    },
+    {
+      id: "tracked-remote-mower",
+      title: "Remote Control Tracked Mower",
+      image: trackedMowerImg,
+      description: "Professional tracked remote control mower for steep slopes and challenging terrain access.",
+      features: [
+        "Remote control operation",
+        "Tracked crawler system",
+        "Steep slope capability",
+        "Heavy-duty construction",
+        "Professional cutting deck",
+        "Safe operation from distance"
+      ],
+      specs: {
+        "Remote Range": "150m",
+        "Slope Capability": "Up to 60°",
+        "Cutting Width": "60cm",
+        "Engine Type": "Petrol 4-stroke",
+        "Weight": "280kg",
+        "Track Type": "Rubber crawler"
+      },
+      pricing: {
+        daily: "£150",
+        weekly: "£750",
+        monthly: "£2,100"
       },
       availability: "Available Now"
     }
@@ -299,9 +357,9 @@ const Equipment = () => {
                 Check Availability
               </Button>
             </Link>
-            <a href="tel:01234567890">
+            <a href="tel:07963378502">
               <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
-                Call: 0123 456 789
+                Call: 07963378502
               </Button>
             </a>
           </div>

@@ -1,7 +1,7 @@
 import { ArrowRight, CheckCircle, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/equipment-collection.jpg";
+import heroImage from "@/assets/robot-lawn-mower.jpg";
 
 const Hero = () => {
   return (

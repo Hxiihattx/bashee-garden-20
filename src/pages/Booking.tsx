@@ -393,9 +393,9 @@ const Booking = () => {
               Our team is here to help you choose the right equipment and schedule your booking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:07484844898" className="flex items-center gap-2 text-sm text-primary hover:underline">
+              <a href="tel:07963378502" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Phone className="h-4 w-4" />
-                Call us: 07484 844898
+                Call us: 07963378502
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Mail className="h-4 w-4" />

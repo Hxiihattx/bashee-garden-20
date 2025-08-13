@@ -68,9 +68,9 @@ const Footer = () => {
           <div className="lg:col-span-3 space-y-4">
             <h3 className="font-semibold text-lg">Contact Us</h3>
             <div className="space-y-3">
-              <a href="tel:07484844898" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+              <a href="tel:07963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                <span>07484 844898</span>
+                <span>07963378502</span>
               </a>
               <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
