@@ -2,12 +2,12 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import hyundaiStrimmerImg from "@/assets/hyundai-complete-kit.jpg";
-import mountfieldTractorImg from "@/assets/mountfield-red-tractor.jpg";
-import parkerChainsawImg from "@/assets/parker-chainsaw-actual.jpg";
-import leafBlowerImg from "@/assets/black-leaf-blower.jpg";
-import robotMowerImg from "@/assets/red-robot-mower.jpg";
-import trackedMowerImg from "@/assets/tracked-mower-orange.jpg";
+const hyundaiStrimmerImg = "/lovable-uploads/89715c80-76ed-4e73-96c2-a138b7db7187.png";
+const mountfieldTractorImg = "/lovable-uploads/160552da-bc6b-4e0f-9604-2d846a8abc7d.png";
+const parkerChainsawImg = "/lovable-uploads/4c693b18-a988-4abe-9d7d-975b162e0507.png";
+const leafBlowerImg = "/lovable-uploads/6a85f9ee-9ca5-48ed-bc14-087e92f16a47.png";
+const robotMowerImg = "/lovable-uploads/eec4063e-ef7d-421c-8068-eed9d7cf2a75.png";
+const trackedMowerImg = "/lovable-uploads/3cc9dfd7-883c-4555-84b7-66426bfaebf2.png";
 
 const Equipment = () => {
   const equipment = [
