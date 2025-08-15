@@ -61,7 +61,7 @@ const Contact = () => {
               {/* Contact Methods */}
               <div className="space-y-6">
                 <a
-                  href="tel:01234567890"
+                  href="tel:07963378502"
                   className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -69,13 +69,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-primary font-medium">0123 456 789</p>
+                    <p className="text-primary font-medium">07963378502</p>
                     <p className="text-sm text-muted-foreground">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:hello@basheegardenshires.co.uk"
+                  href="mailto:info@basheegardens.com"
                   className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -83,24 +83,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-primary font-medium">hello@basheegardenshires.co.uk</p>
+                    <p className="text-primary font-medium">info@basheegardens.com</p>
                     <p className="text-sm text-muted-foreground">24-hour response time</p>
                   </div>
                 </a>
 
-                <a
-                  href="mailto:bashee1@icloud.com"
-                  className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group"
-                >
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                    <Mail className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">Alternative Email</h3>
-                    <p className="text-primary font-medium">bashee1@icloud.com</p>
-                    <p className="text-sm text-muted-foreground">Direct contact</p>
-                  </div>
-                </a>
 
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-accent/10">
                   <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center">
@@ -292,9 +279,9 @@ const Contact = () => {
           <p className="text-primary-foreground/90 mb-4">
             Call us directly for same-day availability and emergency equipment hire
           </p>
-          <a href="tel:01234567890">
+          <a href="tel:07963378502">
             <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold">
-              Call Now: 0123 456 789
+              Call Now: 07963378502
             </Button>
           </a>
         </div>

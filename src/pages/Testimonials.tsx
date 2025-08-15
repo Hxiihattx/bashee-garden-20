@@ -259,7 +259,7 @@ const TestimonialsPage = () => {
           </div>
 
           <div className="mt-8 text-primary-foreground/80">
-            <p className="text-sm">📞 Call us today: 0123 456 789</p>
+            <p className="text-sm">📞 Call us today: 07963378502</p>
           </div>
         </div>
       </section>

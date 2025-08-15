@@ -173,8 +173,8 @@ const TermsOfService = () => {
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>BasheeGardens Hires Ltd</strong></p>
-                  <p>Email: hello@basheegardenshires.co.uk</p>
-                  <p>Phone: 0123 456 789</p>
+                  <p>Email: info@basheegardens.com</p>
+                  <p>Phone: 07963378502</p>
                   <p>Service Area: South East London & Surrounding Areas</p>
                   <p>Hours: Monday-Friday 9AM-5PM, Saturday 9AM-1PM, Sunday Closed</p>
                 </div>

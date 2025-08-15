@@ -43,13 +43,13 @@ const Header = () => {
                 <Phone className="h-3 w-3" />
                 <span>07963378502</span>
               </a>
-              <a href="mailto:hello@basheegardenshires.co.uk" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
+              <a href="mailto:info@basheegardens.com" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
-                <span>hello@basheegardenshires.co.uk</span>
+                <span>info@basheegardens.com</span>
               </a>
             </div>
-            <div className="text-sm font-medium">
-              Live Chat: Mon–Fri, 9AM–5PM, Sat: 9AM–1PM
+            <div className="text-sm font-medium hidden lg:block">
+              Mon–Fri: 9AM–5PM, Sat: 9AM–1PM
             </div>
           </div>
         </div>
@@ -151,9 +151,9 @@ const Header = () => {
                         <Phone className="h-4 w-4" />
                         <span>07963378502</span>
                       </a>
-                      <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                      <a href="mailto:info@basheegardens.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Mail className="h-4 w-4" />
-                        <span>hello@basheegardenshires.co.uk</span>
+                        <span>info@basheegardens.com</span>
                       </a>
                     </div>
                   </div>

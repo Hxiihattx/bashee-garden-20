@@ -36,7 +36,7 @@ const CallToAction = () => {
             <h3 className="text-2xl font-semibold mb-8">Or Contact Us Directly</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Phone */}
-              <a href="tel:07484844898" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
+              <a href="tel:07963378502" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Phone className="h-6 w-6" />
@@ -48,13 +48,13 @@ const CallToAction = () => {
               </a>
 
               {/* Email */}
-              <a href="mailto:hello@basheegardenshires.co.uk" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
+              <a href="mailto:info@basheegardens.com" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Mail className="h-6 w-6" />
                   </div>
                   <h4 className="font-semibold">Email Us</h4>
-                  <p className="text-primary-foreground/80 text-sm">hello@basheegardenshires.co.uk</p>
+                  <p className="text-primary-foreground/80 text-sm">info@basheegardens.com</p>
                   <p className="text-sm text-primary-foreground/60">24-hour response</p>
                 </div>
               </a>

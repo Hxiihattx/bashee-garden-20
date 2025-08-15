@@ -12,7 +12,7 @@ const FAQ = () => {
       questions: [
         {
           question: "How do I book equipment?",
-          answer: "You can book equipment through our online booking system, by calling us at 0123 456 789, or by emailing hello@basheegardenshires.co.uk. We recommend booking at least 48 hours in advance to ensure availability."
+          answer: "You can book equipment through our online booking system, by calling us at 07963378502, or by emailing info@basheegardens.com. We recommend booking at least 48 hours in advance to ensure availability."
         },
         {
           question: "What are your rental rates?",
@@ -156,16 +156,16 @@ const FAQ = () => {
               Our friendly team is here to help you choose the right equipment and answer any questions.
             </p>
             <div className="grid md:grid-cols-3 gap-4">
-              <a href="tel:01234567890" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
+              <a href="tel:07963378502" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
                 <Phone className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Call Us</span>
-                <span className="text-sm text-muted-foreground">0123 456 789</span>
+                <span className="text-sm text-muted-foreground">07963378502</span>
                 <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
               </a>
-              <a href="mailto:hello@basheegardenshires.co.uk" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
+              <a href="mailto:info@basheegardens.com" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
                 <Mail className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Email Us</span>
-                <span className="text-sm text-muted-foreground text-center">hello@basheegardenshires.co.uk</span>
+                <span className="text-sm text-muted-foreground text-center">info@basheegardens.com</span>
                 <span className="text-xs text-muted-foreground mt-1">24/7 Response</span>
               </a>
               <Link to="/contact" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">

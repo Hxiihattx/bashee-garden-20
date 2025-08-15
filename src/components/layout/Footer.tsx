@@ -72,13 +72,9 @@ const Footer = () => {
                 <Phone className="h-4 w-4" />
                 <span>07963378502</span>
               </a>
-              <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+              <a href="mailto:info@basheegardens.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>hello@basheegardenshires.co.uk</span>
-              </a>
-              <a href="mailto:bashee1@icloud.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
-                <Mail className="h-4 w-4" />
-                <span>bashee1@icloud.com</span>
+                <span>info@basheegardens.com</span>
               </a>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />

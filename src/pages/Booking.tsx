@@ -397,9 +397,9 @@ const Booking = () => {
                 <Phone className="h-4 w-4" />
                 Call us: 07963378502
               </a>
-              <a href="mailto:hello@basheegardenshires.co.uk" className="flex items-center gap-2 text-sm text-primary hover:underline">
+              <a href="mailto:info@basheegardens.com" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Mail className="h-4 w-4" />
-                Email: hello@basheegardenshires.co.uk
+                Email: info@basheegardens.com
               </a>
             </div>
           </div>
