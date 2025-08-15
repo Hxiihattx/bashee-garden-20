@@ -5,7 +5,7 @@ const heroImage = "/lovable-uploads/2d16e2bf-642c-4fb7-98dc-d2d93d058118.png";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden pt-8 lg:pt-16">
+    <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
       {/* Desktop Layout: Text Left, Image Right */}
       <div className="hidden lg:flex items-center h-full">
         <div className="container-wide">
@@ -92,14 +92,13 @@ const Hero = () => {
 
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
-        {/* Image Section - 16:9 ratio */}
-        <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+        {/* Image Section - Full height */}
+        <div className="relative w-full h-[70vh]">
           <img
             src={heroImage}
             alt="Professional garden equipment and landscaping"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
         </div>
 
         {/* Content Section */}

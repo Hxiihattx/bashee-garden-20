@@ -15,11 +15,11 @@ import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 
 const equipment = [
-  { id: "remote-mower", name: "Remote-Controlled Mower", price: "£45/day", description: "Perfect for slopes and hard-to-reach areas" },
-  { id: "ride-on-tractor", name: "Ride-On Tractor", price: "£65/day", description: "Ideal for large lawns and estates" },
-  { id: "hedge-trimmer", name: "Hedge Trimmer", price: "£25/day", description: "Professional grade for precise trimming" },
-  { id: "strimmer", name: "Petrol Strimmer", price: "£20/day", description: "Heavy-duty for tough weeds and edges" },
-  { id: "clearance-service", name: "Garden Clearance Service", price: "£200/day", description: "Full service with operator included" }
+  { id: "remote-mower", name: "Remote-Controlled Mower", description: "Perfect for slopes and hard-to-reach areas" },
+  { id: "ride-on-tractor", name: "Ride-On Tractor", description: "Ideal for large lawns and estates" },
+  { id: "hedge-trimmer", name: "Hedge Trimmer", description: "Professional grade for precise trimming" },
+  { id: "strimmer", name: "Petrol Strimmer", description: "Heavy-duty for tough weeds and edges" },
+  { id: "clearance-service", name: "Garden Clearance Service", description: "Full service with operator included" }
 ];
 
 const timeSlots = [
@@ -170,9 +170,6 @@ const Booking = () => {
                           <h3 className="font-semibold text-sm lg:text-base text-foreground">{item.name}</h3>
                           <p className="text-xs lg:text-sm text-muted-foreground">{item.description}</p>
                         </div>
-                        <div className="text-right">
-                          <p className="font-bold text-primary text-sm lg:text-base">{item.price}</p>
-                        </div>
                       </div>
                     </div>
                   ))}
@@ -271,7 +268,7 @@ const Booking = () => {
                     <div className="p-3 lg:p-4 bg-muted rounded-lg">
                       <h4 className="font-semibold mb-2 text-sm lg:text-base">Your Selection</h4>
                       <p className="text-xs lg:text-sm text-muted-foreground">
-                        {getSelectedEquipmentDetails()?.name} - {getSelectedEquipmentDetails()?.price}
+                        {getSelectedEquipmentDetails()?.name}
                         {needsOperator === "yes" && " + Operator fee"}
                       </p>
                     </div>

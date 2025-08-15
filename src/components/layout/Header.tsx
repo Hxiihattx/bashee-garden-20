@@ -37,8 +37,8 @@ const Header = () => {
       {/* Top bar with contact info */}
       <div className="bg-primary text-primary-foreground py-2">
         <div className="container-wide">
-          <div className="flex items-center justify-between text-sm">
-            <div className="flex items-center space-x-4">
+          <div className="flex items-center justify-center lg:justify-between text-sm">
+            <div className="hidden lg:flex items-center space-x-4">
               <a href="tel:07963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Phone className="h-3 w-3" />
                 <span>07963378502</span>
@@ -46,6 +46,13 @@ const Header = () => {
               <a href="mailto:info@basheegardens.com" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
                 <span>info@basheegardens.com</span>
+              </a>
+            </div>
+            {/* Mobile centered phone number */}
+            <div className="lg:hidden">
+              <a href="tel:07963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
+                <Phone className="h-3 w-3" />
+                <span>07963378502</span>
               </a>
             </div>
             <div className="text-sm font-medium hidden lg:block">
