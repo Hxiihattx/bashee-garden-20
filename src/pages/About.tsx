@@ -7,14 +7,14 @@ const About = () => {
   const values = [{
     icon: Target,
     title: "Our Mission",
-    description: "To make professional garden equipment accessible to all, from homeowners to large estates, with the highest standards of service and safety."
+    description: "To make garden equipment accessible to all, from homeowners to large estates, with the highest standards of service and safety."
   }, {
     icon: Heart,
     title: "Customer Focus",
-    description: "Every customer matters. We provide personalized service, expert advice, and support throughout your hire period."
+    description: "Every customer matters. We provide personalised service, expert advice, and support throughout your hire period."
   }, {
     icon: Award,
-    title: "Professional Standards",
+    title: "Standards",
     description: "We maintain the highest standards in equipment maintenance, operator training, and safety protocols."
   }];
   const trustSignals = [{
@@ -35,7 +35,7 @@ const About = () => {
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-hero mb-6">About BasheeGardens Hires Ltd</h1>
+            <h1 className="text-hero mb-6">About Bashee Gardens</h1>
             <p className="text-body text-muted-foreground">Your trusted professional garden equipment hire and maintenance services.</p>
           </div>
         </div>
@@ -48,28 +48,18 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-section">Professional Garden Equipment Experts</h2>
               <p className="text-body leading-relaxed">
-                BasheeGardens Hires Ltd was founded with a simple mission: to provide access to 
+                Bashee Gardens was founded with a simple mission: to provide access to 
                 professional-grade garden equipment for everyone, from homeowners tackling weekend 
                 projects to professional landscapers managing large estates.
               </p>
               <p className="text-body leading-relaxed">
                 Based in South East London, we serve the local community with modern equipment, 
                 expert knowledge, and a commitment to safety that has earned us the trust of 
-                schools, councils, and professional contractors.
+                domestic and commercial customers.
               </p>
-              <div className="flex items-center space-x-6 text-sm">
-                <div className="flex items-center space-x-2">
-                  <div className="h-2 w-2 bg-primary rounded-full"></div>
-                  <span className="font-medium">5+ Years Experience</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="h-2 w-2 bg-primary rounded-full"></div>
-                  <span className="font-medium">500+ Happy Customers</span>
-                </div>
-              </div>
             </div>
             <div className="relative">
-              <img src={equipmentCollectionImg} alt="Professional garden equipment collection" className="rounded-2xl shadow-elegant" />
+              <img src="/lovable-uploads/160552da-bc6b-4e0f-9604-2d846a8abc7d.png" alt="Professional garden equipment collection" className="rounded-2xl shadow-elegant" />
               <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-lg">
                 <div className="text-center">
                   <div className="text-2xl font-bold">100%</div>
@@ -111,18 +101,18 @@ const About = () => {
             <h2 className="text-section">Our Story</h2>
             <div className="space-y-6 text-body leading-relaxed text-muted-foreground">
               <p>
-                BasheeGardens Hires started when we recognized a gap in the market for reliable, 
-                professional garden equipment hire in South East London. Too many people were 
+                Bashee Gardens started when we recognised a gap in the market for reliable, 
+                garden equipment hire in South East London. Too many people were 
                 struggling with unsuitable tools or paying premium prices for simple garden maintenance.
               </p>
               <p>
                 We began with a commitment to providing modern, well-maintained equipment at fair prices, 
                 backed by expert advice and genuine customer service. Our introduction of remote-controlled 
-                mowers revolutionized how our customers approach challenging terrain and safety concerns.
+                mowers revolutionised how our customers approach challenging terrain and safety concerns.
               </p>
               <p>
                 Today, we're proud to serve a diverse community of customers, from individual homeowners 
-                to major local councils, all united by their trust in our equipment and service. 
+                to commercial businesses, all united by their trust in our equipment and service. 
                 Our commitment to safety, quality, and customer satisfaction remains unchanged.
               </p>
             </div>
