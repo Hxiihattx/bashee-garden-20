@@ -32,11 +32,6 @@ const Equipment = () => {
         "Trimmer Line": "2.4mm - 2.5mm",
         "Starting System": "Recoil / Pull Start"
       },
-      pricing: {
-        daily: "£45",
-        weekly: "£220",
-        monthly: "£580"
-      },
       availability: "Available Now",
       popular: true
     },
@@ -61,11 +56,6 @@ const Equipment = () => {
         "Cutting Heights": "25-80mm (7 positions)",
         "Grass Collector": "200 Litres"
       },
-      pricing: {
-        daily: "£95",
-        weekly: "£520",
-        monthly: "£1,450"
-      },
       availability: "Available Now"
     },
     {
@@ -88,11 +78,6 @@ const Equipment = () => {
         "Weight": "6.5kg",
         "Fuel Tank": "0.55L",
         "Oil Tank": "0.26L"
-      },
-      pricing: {
-        daily: "£55",
-        weekly: "£280",
-        monthly: "£750"
       },
       availability: "Available Now"
     },
@@ -117,11 +102,6 @@ const Equipment = () => {
         "Weight": "4.5kg",
         "Mulch Ratio": "10:1"
       },
-      pricing: {
-        daily: "£40",
-        weekly: "£200",
-        monthly: "£530"
-      },
       availability: "Available Now"
     },
     {
@@ -145,11 +125,6 @@ const Equipment = () => {
         "Features": "Cordless, Remote Operated",
         "Horsepower": "9 HP"
       },
-      pricing: {
-        daily: "£120",
-        weekly: "£650",
-        monthly: "£1,800"
-      },
       availability: "Available Now"
     },
     {
@@ -172,11 +147,6 @@ const Equipment = () => {
         "Engine Type": "Petrol 4-stroke",
         "Weight": "280kg",
         "Track Type": "Rubber crawler"
-      },
-      pricing: {
-        daily: "£150",
-        weekly: "£750",
-        monthly: "£2,100"
       },
       availability: "Available Now"
     }
@@ -208,7 +178,7 @@ const Equipment = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-[400px] object-cover rounded-2xl shadow-elegant"
+                    className="w-full h-[450px] object-cover rounded-2xl shadow-elegant min-h-[450px]"
                   />
                   {item.popular && (
                     <div className="absolute top-4 left-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold flex items-center space-x-1">
@@ -222,7 +192,7 @@ const Equipment = () => {
                 </div>
 
                 {/* Content */}
-                <div className={`space-y-6 ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                <div className={`space-y-6 min-h-[450px] flex flex-col justify-center ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div>
                     <h2 className="text-3xl font-bold mb-3">{item.title}</h2>
                     <p className="text-muted-foreground leading-relaxed mb-4">
@@ -254,28 +224,6 @@ const Equipment = () => {
                         </div>
                       ))}
                     </div>
-                  </div>
-
-                  {/* Pricing */}
-                  <div className="bg-muted/50 p-6 rounded-xl">
-                    <h3 className="text-xl font-semibold mb-3">Hire Rates</h3>
-                    <div className="grid grid-cols-3 gap-4 text-center">
-                      <div>
-                        <div className="text-sm text-muted-foreground">Daily</div>
-                        <div className="text-lg font-bold text-primary">{item.pricing.daily}</div>
-                      </div>
-                      <div>
-                        <div className="text-sm text-muted-foreground">Weekly</div>
-                        <div className="text-lg font-bold text-primary">{item.pricing.weekly}</div>
-                      </div>
-                      <div>
-                        <div className="text-sm text-muted-foreground">Monthly</div>
-                        <div className="text-lg font-bold text-primary">{item.pricing.monthly}</div>
-                      </div>
-                    </div>
-                    <p className="text-xs text-muted-foreground mt-3 text-center">
-                      *Includes delivery, collection, and basic instruction
-                    </p>
                   </div>
 
                   {/* CTA Buttons */}

@@ -15,7 +15,6 @@ const Services = () => {
       description: "State-of-the-art remote mowers perfect for challenging terrain and precision cutting.",
       image: remoteMowerImg,
       features: ["Remote operation for safety", "All-terrain capability", "Precision cutting technology", "Slope handling up to 55°"],
-      pricing: "From £80/day",
       link: "/equipment/remote-mowers"
     },
     {
@@ -23,7 +22,6 @@ const Services = () => {
       description: "Professional-grade ride-on tractors for large areas and efficient grass cutting.",
       image: rideOnImg,
       features: ["Large cutting width", "Comfortable operation", "Mulching capability", "Professional results"],
-      pricing: "From £120/day",
       link: "/equipment/ride-on-tractors"
     },
     {
@@ -31,7 +29,6 @@ const Services = () => {
       description: "Professional hedge trimmers for perfect topiary and hedge maintenance.",
       image: hedgeTrimmerImg,
       features: ["Various blade lengths", "Petrol and electric options", "Professional grade", "Safety features"],
-      pricing: "From £35/day",
       link: "/equipment/hedge-trimmers"
     },
     {
@@ -39,7 +36,6 @@ const Services = () => {
       description: "High-performance strimmers for edges, overgrowth, and detailed work.",
       image: strimmerImg,
       features: ["Powerful 2-stroke engines", "Various cutting heads", "Ergonomic design", "Professional durability"],
-      pricing: "From £25/day",
       link: "/equipment/strimmers"
     },
     {
@@ -47,7 +43,6 @@ const Services = () => {
       description: "Complete garden clearance service with waste removal.",
       image: gardenClearanceImg,
       features: ["Professional operators", "Waste disposal included", "Full site clearance", "Emergency callouts"],
-      pricing: "From £150/day",
       link: "/equipment/garden-clearance"
     },
     {
@@ -55,7 +50,6 @@ const Services = () => {
       description: "Regular lawn care and maintenance services.",
       image: remoteMowerImg,
       features: ["Weekly/monthly service", "Professional maintenance", "Seasonal treatments", "Equipment included"],
-      pricing: "From £200/month",
       link: "/equipment/lawn-maintenance"
     }
   ];
@@ -64,20 +58,17 @@ const Services = () => {
     {
       title: "Garden Clearance (With Operator)",
       description: "Complete garden clearance service with professional operators and waste removal.",
-      features: ["Fully trained operators", "All equipment provided", "Waste removal included", "Public liability insurance"],
-      pricing: "From £200/day"
+      features: ["Fully trained operators", "All equipment provided", "Waste removal included", "Public liability insurance"]
     },
     {
-      title: "Maintenance Services",
+      title: "Maintenance Services", 
       description: "Regular maintenance contracts for schools, councils, and estate managers.",
-      features: ["Scheduled maintenance", "Professional operators", "Equipment maintenance", "Flexible contracts"],
-      pricing: "Contact for quote"
+      features: ["Scheduled maintenance", "Professional operators", "Equipment maintenance", "Flexible contracts"]
     },
     {
       title: "Equipment with Operator",
-      description: "Hire any equipment with a professional operator for complex or large projects.",
-      features: ["Experienced operators", "Safety training included", "Efficient operation", "Quality guarantee"],
-      pricing: "From £300/day"
+      description: "Hire any equipment with a professional operator for complex or large projects.", 
+      features: ["Experienced operators", "Safety training included", "Efficient operation", "Quality guarantee"]
     }
   ];
 
@@ -132,9 +123,6 @@ const Services = () => {
               <div key={index} className="card-elegant overflow-hidden hover:-translate-y-2 transition-all duration-300">
                 <div className="relative h-64">
                   <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
-                  <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
-                    {item.pricing}
-                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-subsection mb-3">{item.title}</h3>
@@ -184,7 +172,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="text-lg font-semibold text-primary mb-4">{service.pricing}</div>
+                
                 <Link to="/contact">
                   <Button variant="outline" className="w-full">
                     Get Quote
