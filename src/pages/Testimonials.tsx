@@ -18,7 +18,7 @@ const TestimonialsPage = () => {
       name: "Mark Thompson",
       role: "Landscape Contractor",
       location: "Bromley",
-      content: "Bashee Gardens has become our go-to supplier for equipment hire. Their ride-on tractors are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for projects across South London.",
+      content: "Bashee Gardens has become our go-to supplier for equipment hire. Their ride-on mowers are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for projects across South London.",
       rating: 5,
       project: "Commercial Landscaping",
       image: "/placeholder.svg"

@@ -16,7 +16,7 @@ const FAQ = () => {
         },
         {
           question: "What are your rental rates?",
-          answer: "Our rates vary by equipment type: Remote-controlled mowers from £45/day, Ride-on tractors from £65/day, Hedge trimmers from £25/day, Strimmers from £20/day. Garden clearance services start from £200/day including operator. Contact us for weekly rates and bulk discounts."
+          answer: "Our rates vary by equipment type: Remote-controlled mowers from £45/day, Ride-on mowers from £65/day, Hedge trimmers from £25/day, Strimmers from £20/day. Garden clearance services start from £200/day including operator. Contact us for weekly rates and bulk discounts."
         },
         {
           question: "Do you require a deposit?",
@@ -41,7 +41,7 @@ const FAQ = () => {
         },
         {
           question: "Is there an age restriction for using the equipment?",
-          answer: "Users must be 18+ for power equipment like mowers and strimmers. For ride-on tractors, users must be 21+ with a valid driving license. All users must complete our safety briefing before operation."
+          answer: "Users must be 18+ for power equipment like mowers and strimmers. For ride-on mowers, users must be 21+ with a valid driving license. All users must complete our safety briefing before operation."
         },
         {
           question: "What safety equipment is provided?",

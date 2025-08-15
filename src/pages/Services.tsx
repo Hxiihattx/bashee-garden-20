@@ -11,43 +11,43 @@ import gardenClearanceImg from "@/assets/garden-clearance.jpg";
 const Services = () => {
   const hireEquipment = [
     {
+      title: "Garden Clearance",
+      description: "Complete garden clearance service with professional waste removal and site preparation.",
+      image: gardenClearanceImg,
+      features: ["Professional operators", "Waste disposal included", "Full site clearance", "Emergency callouts"],
+      link: "/equipment/garden-clearance"
+    },
+    {
       title: "Remote-Controlled Mowers",
-      description: "State-of-the-art remote mowers perfect for challenging terrain and precision cutting.",
-      image: remoteMowerImg,
-      features: ["Remote operation for safety", "All-terrain capability", "Precision cutting technology", "Slope handling up to 55°"],
+      description: "State-of-the-art remote mowers perfect for challenging terrain and precision cutting operations.",
+      image: "/lovable-uploads/2d16e2bf-642c-4fb7-98dc-d2d93d058118.png",
+      features: ["Remote operation for safety", "All-terrain capability", "Precision cutting technology", "Advanced GPS navigation"],
       link: "/equipment/remote-mowers"
     },
     {
-      title: "Ride-On Tractors",
-      description: "Professional-grade ride-on tractors for large areas and efficient grass cutting.",
+      title: "Ride-On Mowers",
+      description: "Professional-grade ride-on mowers for large areas and efficient grass cutting operations.",
       image: rideOnImg,
       features: ["Large cutting width", "Comfortable operation", "Mulching capability", "Professional results"],
-      link: "/equipment/ride-on-tractors"
+      link: "/equipment/ride-on-mowers"
     },
     {
       title: "Hedge Trimmers",
-      description: "Professional hedge trimmers for perfect topiary and hedge maintenance.",
+      description: "Professional hedge trimmers for perfect topiary and comprehensive hedge maintenance services.",
       image: hedgeTrimmerImg,
       features: ["Various blade lengths", "Petrol and electric options", "Professional grade", "Safety features"],
       link: "/equipment/hedge-trimmers"
     },
     {
       title: "Petrol Strimmers",
-      description: "High-performance strimmers for edges, overgrowth, and detailed work.",
+      description: "High-performance strimmers for edges, overgrowth removal, and detailed garden work.",
       image: strimmerImg,
       features: ["Powerful 2-stroke engines", "Various cutting heads", "Ergonomic design", "Professional durability"],
       link: "/equipment/strimmers"
     },
     {
-      title: "Garden Clearance",
-      description: "Complete garden clearance service with waste removal.",
-      image: gardenClearanceImg,
-      features: ["Professional operators", "Waste disposal included", "Full site clearance", "Emergency callouts"],
-      link: "/equipment/garden-clearance"
-    },
-    {
       title: "Lawn Maintenance",
-      description: "Regular lawn care and maintenance services.",
+      description: "Regular lawn care and comprehensive maintenance services for optimal garden health.",
       image: remoteMowerImg,
       features: ["Weekly/monthly service", "Professional maintenance", "Seasonal treatments", "Equipment included"],
       link: "/equipment/lawn-maintenance"
@@ -56,7 +56,7 @@ const Services = () => {
 
   const services = [
     {
-      title: "Garden Clearance (With Operator)",
+      title: "Garden Clearance",
       description: "Complete garden clearance service with professional operators and waste removal.",
       features: ["Fully trained operators", "All equipment provided", "Waste removal included", "Public liability insurance"]
     },
@@ -200,28 +200,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* FAQs Section */}
-      <section className="section-padding">
-        <div className="container-narrow">
-          <h2 className="text-section text-center mb-12">Frequently Asked Questions</h2>
-          
-          <div className="space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index} className="card-elegant p-6">
-                <h3 className="text-lg font-semibold mb-3 text-primary">{faq.question}</h3>
-                <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-muted-foreground mb-4">Still have questions?</p>
-            <Link to="/contact">
-              <Button>Contact Our Team</Button>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Trust Indicators */}
       <section className="section-padding-sm bg-muted/20">

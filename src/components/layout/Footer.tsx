@@ -41,9 +41,6 @@ const Footer = () => {
               <Link to="/booking" className="text-sm hover:text-primary transition-colors">
                 Book Equipment
               </Link>
-              <Link to="/faq" className="text-sm hover:text-primary transition-colors">
-                FAQs
-              </Link>
               <Link to="/blog" className="text-sm hover:text-primary transition-colors">
                 Blog
               </Link>

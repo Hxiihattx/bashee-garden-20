@@ -19,7 +19,7 @@ const Testimonials = () => {
     {
       name: "Mark Thompson",
       role: "Landscape Contractor",
-      content: "Bashee Gardens has become our go-to for equipment hire. Their ride-on tractors are well-maintained and the delivery service is always on time. Highly recommend!",
+      content: "Bashee Gardens has become our go-to for equipment hire. Their ride-on mowers are well-maintained and the delivery service is always on time. Highly recommend!",
       rating: 5,
       image: "/placeholder.svg"
     },

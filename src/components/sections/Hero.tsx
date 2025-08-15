@@ -26,7 +26,7 @@ const Hero = () => {
 
               {/* Subheading */}
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Professional remote-controlled mowers, ride-on tractors, and garden clearance services. 
+                Professional remote-controlled mowers, ride-on mowers, and garden clearance services.
                 Trusted by homeowners, landscapers, and local councils across Croydon.
               </p>
 
@@ -118,7 +118,7 @@ const Hero = () => {
 
             {/* Subheading */}
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Professional remote-controlled mowers, ride-on tractors, and garden clearance services. 
+              Professional remote-controlled mowers, ride-on mowers, and garden clearance services. 
               Trusted by homeowners, landscapers, and local councils.
             </p>
 
