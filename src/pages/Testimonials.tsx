@@ -18,7 +18,7 @@ const TestimonialsPage = () => {
       name: "Mark Thompson",
       role: "Landscape Contractor",
       location: "Bromley",
-      content: "BasheeGardens has become our go-to supplier for equipment hire. Their ride-on tractors are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for projects across South London.",
+      content: "Bashee Gardens has become our go-to supplier for equipment hire. Their ride-on tractors are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for projects across South London.",
       rating: 5,
       project: "Commercial Landscaping",
       image: "/placeholder.svg"
@@ -27,7 +27,7 @@ const TestimonialsPage = () => {
       name: "Emma Davis",
       role: "School Facilities Manager",
       location: "Sutton",
-      content: "We've used their garden clearance service multiple times for our school grounds. The team is professional, fully insured, and always leaves the area spotless. Parents and staff have commented on how well-maintained our outdoor spaces look since we started using BasheeGardens.",
+      content: "We've used their garden clearance service multiple times for our school grounds. The team is professional, fully insured, and always leaves the area spotless. Parents and staff have commented on how well-maintained our outdoor spaces look since we started using Bashee Gardens.",
       rating: 5,
       project: "School Grounds Maintenance",
       image: "/placeholder.svg"
@@ -36,7 +36,7 @@ const TestimonialsPage = () => {
       name: "David Wilson",
       role: "Council Parks Department",
       location: "Sutton Council",
-      content: "As a council department, we need reliable partners who understand the importance of safety and professionalism. BasheeGardens delivers on both fronts. Their modern equipment and trained operators help us maintain high standards across all our green spaces.",
+      content: "As a council department, we need reliable partners who understand the importance of safety and professionalism. Bashee Gardens delivers on both fronts. Their modern equipment and trained operators help us maintain high standards across all our green spaces.",
       rating: 5,
       project: "Public Parks Maintenance",
       image: "/placeholder.svg"
@@ -45,7 +45,7 @@ const TestimonialsPage = () => {
       name: "James Wilson",
       role: "Estate Manager",
       location: "Kingston",
-      content: "Managing multiple properties is much easier with BasheeGardens as our equipment partner. Their hedge trimmers and strimmers are always in excellent condition, and their expert advice helps us tackle challenging maintenance tasks efficiently.",
+      content: "Managing multiple properties is much easier with Bashee Gardens as our equipment partner. Their hedge trimmers and strimmers are always in excellent condition, and their expert advice helps us tackle challenging maintenance tasks efficiently.",
       rating: 5,
       project: "Estate Management",
       image: "/placeholder.svg"
@@ -72,7 +72,7 @@ const TestimonialsPage = () => {
       name: "Amanda Foster",
       role: "Community Garden Coordinator",
       location: "Bromley",
-      content: "Our community garden project was transformed thanks to BasheeGardens' equipment and operator services. They helped us clear overgrown areas and establish beautiful, maintainable spaces that the whole community now enjoys.",
+      content: "Our community garden project was transformed thanks to Bashee Gardens' equipment and operator services. They helped us clear overgrown areas and establish beautiful, maintainable spaces that the whole community now enjoys.",
       rating: 5,
       project: "Community Garden",
       image: "/placeholder.svg"

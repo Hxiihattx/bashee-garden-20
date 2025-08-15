@@ -13,7 +13,7 @@ const Footer = () => {
                 <Leaf className="h-7 w-7 text-primary-foreground" />
               </div>
               <div>
-                <div className="font-bold text-xl text-white">BasheeGardens</div>
+                <div className="font-bold text-xl text-white">Bashee Gardens</div>
                 <div className="text-sm text-white/80 font-medium">Garden Equipment Hire</div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Footer = () => {
         <div className="container-wide py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-sm text-white/80">
-              © 2025 BasheeGardens Hires Ltd. All rights reserved.
+              © 2025 Bashee Gardens Hires Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="hover:text-primary transition-colors">

@@ -13,7 +13,7 @@ const TermsOfService = () => {
                 Last updated: January 2024
               </p>
               <p className="text-body">
-                These Terms of Service ("Terms") govern your use of services provided by BasheeGardens Hires Ltd 
+                These Terms of Service ("Terms") govern your use of services provided by Bashee Gardens Hires Ltd 
                 ("Company", "we", "our", or "us"). By booking our services, you agree to these Terms.
               </p>
             </div>
@@ -21,7 +21,7 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-subsection text-foreground mb-4">1. Service Description</h2>
               <div className="text-body">
-                <p className="mb-4">BasheeGardens Hires Ltd provides:</p>
+                <p className="mb-4">Bashee Gardens Hires Ltd provides:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Garden equipment hire services</li>
                   <li>Remote-controlled mower rental</li>
@@ -172,7 +172,7 @@ const TermsOfService = () => {
                   For questions about these Terms of Service, please contact us:
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
-                  <p><strong>BasheeGardens Hires Ltd</strong></p>
+                  <p><strong>Bashee Gardens Hires Ltd</strong></p>
                   <p>Email: info@basheegardens.com</p>
                   <p>Phone: 07963378502</p>
                   <p>Service Area: South East London & Surrounding Areas</p>

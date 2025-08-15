@@ -19,7 +19,7 @@ const Testimonials = () => {
     {
       name: "Mark Thompson",
       role: "Landscape Contractor",
-      content: "BasheeGardens has become our go-to for equipment hire. Their ride-on tractors are well-maintained and the delivery service is always on time. Highly recommend!",
+      content: "Bashee Gardens has become our go-to for equipment hire. Their ride-on tractors are well-maintained and the delivery service is always on time. Highly recommend!",
       rating: 5,
       image: "/placeholder.svg"
     },
@@ -40,7 +40,7 @@ const Testimonials = () => {
     {
       name: "James Wilson",
       role: "Estate Manager",
-      content: "Managing multiple properties is much easier with BasheeGardens. Their hedge trimmers and strimmers are always in excellent condition, and their advice is invaluable.",
+      content: "Managing multiple properties is much easier with Bashee Gardens. Their hedge trimmers and strimmers are always in excellent condition, and their advice is invaluable.",
       rating: 5,
       image: "/placeholder.svg"
     },

@@ -9,7 +9,7 @@ const Blog = () => {
       title: "Best Remote-Controlled Mowers for 2024",
       excerpt: "Discover the latest in remote-controlled mower technology and find the perfect solution for your garden.",
       date: "2024-01-15",
-      author: "BasheeGardens Team",
+      author: "Bashee Gardens Team",
       readTime: "5 min read",
       image: "/placeholder.svg"
     },

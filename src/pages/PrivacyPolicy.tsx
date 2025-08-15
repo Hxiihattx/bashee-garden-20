@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
                 Last updated: January 2024
               </p>
               <p className="text-body">
-                BasheeGardens Hires Ltd ("we", "our", or "us") is committed to protecting your privacy. 
+                Bashee Gardens Hires Ltd ("we", "our", or "us") is committed to protecting your privacy. 
                 This Privacy Policy explains how we collect, use, and safeguard your information when you use our services.
               </p>
             </div>
@@ -120,7 +120,7 @@ const PrivacyPolicy = () => {
                   If you have any questions about this Privacy Policy or your personal data, please contact us:
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
-                  <p><strong>BasheeGardens Hires Ltd</strong></p>
+                  <p><strong>Bashee Gardens Hires Ltd</strong></p>
                   <p>Email: info@basheegardens.com</p>
                   <p>Phone: 07963378502</p>
                   <p>Address: South East London, UK</p>

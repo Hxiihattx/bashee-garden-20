@@ -48,7 +48,7 @@ const About = () => {
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-hero mb-6">About BasheeGardens Hires Ltd</h1>
+            <h1 className="text-hero mb-6">About Bashee Gardens Hires Ltd</h1>
             <p className="text-body text-muted-foreground">
               Your trusted partner for professional garden equipment hire and maintenance services 
               across South East London and Croydon.
@@ -64,7 +64,7 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-section">Professional Garden Equipment Experts</h2>
               <p className="text-body leading-relaxed">
-                BasheeGardens Hires Ltd was founded with a simple mission: to provide access to 
+                Bashee Gardens Hires Ltd was founded with a simple mission: to provide access to 
                 professional-grade garden equipment for everyone, from homeowners tackling weekend 
                 projects to professional landscapers managing large estates.
               </p>
@@ -133,7 +133,7 @@ const About = () => {
             <h2 className="text-section">Our Story</h2>
             <div className="space-y-6 text-body leading-relaxed text-muted-foreground">
               <p>
-                BasheeGardens Hires started when we recognized a gap in the market for reliable, 
+                Bashee Gardens Hires started when we recognized a gap in the market for reliable, 
                 professional garden equipment hire in South East London. Too many people were 
                 struggling with unsuitable tools or paying premium prices for simple garden maintenance.
               </p>

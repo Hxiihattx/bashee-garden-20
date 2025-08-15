@@ -71,7 +71,7 @@ const Header = () => {
               <Leaf className="h-5 w-5 sm:h-6 sm:w-6 text-primary-foreground" />
             </div>
             <div>
-              <div className="font-bold text-lg text-foreground">BasheeGardens</div>
+              <div className="font-bold text-lg text-foreground">Bashee Gardens</div>
               <div className="text-xs text-muted-foreground font-medium hidden sm:block">Equipment Hire & Garden Services</div>
               <div className="text-xs text-muted-foreground font-medium sm:hidden">Garden Hire</div>
             </div>
@@ -115,7 +115,7 @@ const Header = () => {
                       <Leaf className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <div>
-                      <div className="font-bold text-lg text-foreground">BasheeGardens</div>
+                      <div className="font-bold text-lg text-foreground">Bashee Gardens</div>
                       <div className="text-xs text-muted-foreground font-medium">Equipment Hire & Garden Services</div>
                     </div>
                   </div>

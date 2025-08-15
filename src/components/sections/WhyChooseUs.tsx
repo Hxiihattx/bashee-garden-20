@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-section mb-6">
-            Why Choose BasheeGardens Hires?
+            Why Choose Bashee Gardens Hires?
           </h2>
           <p className="text-body text-muted-foreground">
             We're not just another equipment hire company. We're your local partners in maintaining 
