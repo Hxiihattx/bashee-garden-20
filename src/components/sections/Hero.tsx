@@ -92,8 +92,8 @@ const Hero = () => {
 
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
-        {/* Image Section - Full height */}
-        <div className="relative w-full h-[70vh]">
+        {/* Image Section - 3:2 ratio */}
+        <div className="relative w-full" style={{ aspectRatio: '3/2' }}>
           <img
             src={heroImage}
             alt="Professional garden equipment and landscaping"
