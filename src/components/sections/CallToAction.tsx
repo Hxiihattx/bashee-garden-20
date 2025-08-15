@@ -1,10 +1,8 @@
 import { ArrowRight, Phone, Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
 const CallToAction = () => {
-  return (
-    <section className="section-padding bg-gradient-to-r from-primary via-primary-light to-accent text-primary-foreground">
+  return <section className="section-padding bg-gradient-to-r from-primary via-primary-light to-accent text-primary-foreground">
       <div className="container-wide">
         <div className="text-center max-w-4xl mx-auto">
           {/* Main CTA */}
@@ -26,7 +24,7 @@ const CallToAction = () => {
                 </Button>
               </Link>
               <Link to="/contact">
-                <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8 py-4 text-lg">
+                <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:text-primary font-semibold px-8 py-4 text-lg bg-black/0">
                   Get Free Quote
                 </Button>
               </Link>
@@ -38,10 +36,7 @@ const CallToAction = () => {
             <h3 className="text-2xl font-semibold mb-8">Or Contact Us Directly</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Phone */}
-              <a
-                href="tel:07484844898"
-                className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300"
-              >
+              <a href="tel:07484844898" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Phone className="h-6 w-6" />
@@ -53,10 +48,7 @@ const CallToAction = () => {
               </a>
 
               {/* Email */}
-              <a
-                href="mailto:hello@basheegardenshires.co.uk"
-                className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300"
-              >
+              <a href="mailto:hello@basheegardenshires.co.uk" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Mail className="h-6 w-6" />
@@ -89,8 +81,6 @@ const CallToAction = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CallToAction;
