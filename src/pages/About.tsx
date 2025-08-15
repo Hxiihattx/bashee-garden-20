@@ -3,56 +3,40 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, Shield, Users, Award, Heart, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 import equipmentCollectionImg from "@/assets/equipment-collection.jpg";
-
 const About = () => {
-  const values = [
-    {
-      icon: Target,
-      title: "Our Mission",
-      description: "To make professional garden equipment accessible to all, from homeowners to large estates, with the highest standards of service and safety."
-    },
-    {
-      icon: Heart,
-      title: "Customer Focus",
-      description: "Every customer matters. We provide personalized service, expert advice, and support throughout your hire period."
-    },
-    {
-      icon: Award,
-      title: "Professional Standards",
-      description: "We maintain the highest standards in equipment maintenance, operator training, and safety protocols."
-    }
-  ];
-
-  const trustSignals = [
-    {
-      title: "Public Liability Insurance",
-      description: "Comprehensive coverage for complete peace of mind"
-    },
-    {
-      title: "Safety Checks",
-      description: "Regular maintenance and safety inspections on all equipment"
-    },
-    {
-      title: "Professional Operators",
-      description: "Fully trained, experienced operators for all services"
-    },
-    {
-      title: "Local Business",
-      description: "Proudly serving the South East London community"
-    }
-  ];
-
-  return (
-    <Layout>
+  const values = [{
+    icon: Target,
+    title: "Our Mission",
+    description: "To make professional garden equipment accessible to all, from homeowners to large estates, with the highest standards of service and safety."
+  }, {
+    icon: Heart,
+    title: "Customer Focus",
+    description: "Every customer matters. We provide personalized service, expert advice, and support throughout your hire period."
+  }, {
+    icon: Award,
+    title: "Professional Standards",
+    description: "We maintain the highest standards in equipment maintenance, operator training, and safety protocols."
+  }];
+  const trustSignals = [{
+    title: "Public Liability Insurance",
+    description: "Comprehensive coverage for complete peace of mind"
+  }, {
+    title: "Safety Checks",
+    description: "Regular maintenance and safety inspections on all equipment"
+  }, {
+    title: "Professional Operators",
+    description: "Fully trained, experienced operators for all services"
+  }, {
+    title: "Local Business",
+    description: "Proudly serving the South East London community"
+  }];
+  return <Layout>
       {/* Header */}
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-hero mb-6">About Bashee Gardens Hires Ltd</h1>
-            <p className="text-body text-muted-foreground">
-              Your trusted partner for professional garden equipment hire and maintenance services 
-              across South East London and Croydon.
-            </p>
+            <h1 className="text-hero mb-6">About BasheeGardens Hires Ltd</h1>
+            <p className="text-body text-muted-foreground">Your trusted professional garden equipment hire and maintenance services.</p>
           </div>
         </div>
       </section>
@@ -64,7 +48,7 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-section">Professional Garden Equipment Experts</h2>
               <p className="text-body leading-relaxed">
-                Bashee Gardens Hires Ltd was founded with a simple mission: to provide access to 
+                BasheeGardens Hires Ltd was founded with a simple mission: to provide access to 
                 professional-grade garden equipment for everyone, from homeowners tackling weekend 
                 projects to professional landscapers managing large estates.
               </p>
@@ -85,11 +69,7 @@ const About = () => {
               </div>
             </div>
             <div className="relative">
-              <img
-                src={equipmentCollectionImg}
-                alt="Professional garden equipment collection"
-                className="rounded-2xl shadow-elegant"
-              />
+              <img src={equipmentCollectionImg} alt="Professional garden equipment collection" className="rounded-2xl shadow-elegant" />
               <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-lg">
                 <div className="text-center">
                   <div className="text-2xl font-bold">100%</div>
@@ -113,15 +93,13 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {values.map((value, index) => (
-              <div key={index} className="text-center space-y-4">
+            {values.map((value, index) => <div key={index} className="text-center space-y-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto">
                   <value.icon className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold">{value.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{value.description}</p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -133,7 +111,7 @@ const About = () => {
             <h2 className="text-section">Our Story</h2>
             <div className="space-y-6 text-body leading-relaxed text-muted-foreground">
               <p>
-                Bashee Gardens Hires started when we recognized a gap in the market for reliable, 
+                BasheeGardens Hires started when we recognized a gap in the market for reliable, 
                 professional garden equipment hire in South East London. Too many people were 
                 struggling with unsuitable tools or paying premium prices for simple garden maintenance.
               </p>
@@ -169,8 +147,7 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {trustSignals.map((signal, index) => (
-              <div key={index} className="text-center space-y-4">
+            {trustSignals.map((signal, index) => <div key={index} className="text-center space-y-4">
                 <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center mx-auto">
                   <Shield className="h-6 w-6" />
                 </div>
@@ -178,8 +155,7 @@ const About = () => {
                 <p className="text-sm text-primary-foreground/80 leading-relaxed">
                   {signal.description}
                 </p>
-              </div>
-            ))}
+              </div>)}
           </div>
 
           <div className="text-center mt-12">
@@ -225,8 +201,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default About;
