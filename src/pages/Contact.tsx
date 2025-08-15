@@ -47,9 +47,9 @@ const Contact = () => {
 
       <section className="section-padding">
         <div className="container-wide">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Contact Information */}
-            <div className="space-y-8">
+            <div className="space-y-8 lg:sticky lg:top-8">
               <div>
                 <h2 className="text-section mb-6">Get In Touch</h2>
                 <p className="text-body text-muted-foreground mb-8">

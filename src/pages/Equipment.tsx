@@ -12,6 +12,29 @@ const trackedMowerImg = "/lovable-uploads/3cc9dfd7-883c-4555-84b7-66426bfaebf2.p
 const Equipment = () => {
   const equipment = [
     {
+      id: "tracked-remote-mower",
+      title: "Remote Control Tracked Mower",
+      image: trackedMowerImg,
+      description: "Professional tracked remote control mower for steep slopes and challenging terrain access.",
+      features: [
+        "Remote control operation",
+        "Tracked crawler system",
+        "Steep slope capability",
+        "Heavy-duty construction",
+        "Professional cutting deck",
+        "Safe operation from distance"
+      ],
+      specs: {
+        "Remote Range": "150m",
+        "Slope Capability": "Up to 60°",
+        "Cutting Width": "60cm",
+        "Engine Type": "Petrol 4-stroke",
+        "Weight": "280kg",
+        "Track Type": "Rubber crawler"
+      },
+      availability: "Available Now"
+    },
+    {
       id: "hyundai-grass-trimmer",
       title: "Hyundai HYBC5200X 52cc 2-Stroke Petrol Grass Trimmer",
       image: hyundaiStrimmerImg,
@@ -124,29 +147,6 @@ const Equipment = () => {
         "Voltage": "24V",
         "Features": "Cordless, Remote Operated",
         "Horsepower": "9 HP"
-      },
-      availability: "Available Now"
-    },
-    {
-      id: "tracked-remote-mower",
-      title: "Remote Control Tracked Mower",
-      image: trackedMowerImg,
-      description: "Professional tracked remote control mower for steep slopes and challenging terrain access.",
-      features: [
-        "Remote control operation",
-        "Tracked crawler system",
-        "Steep slope capability",
-        "Heavy-duty construction",
-        "Professional cutting deck",
-        "Safe operation from distance"
-      ],
-      specs: {
-        "Remote Range": "150m",
-        "Slope Capability": "Up to 60°",
-        "Cutting Width": "60cm",
-        "Engine Type": "Petrol 4-stroke",
-        "Weight": "280kg",
-        "Track Type": "Rubber crawler"
       },
       availability: "Available Now"
     }
