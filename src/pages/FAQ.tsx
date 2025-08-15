@@ -189,10 +189,6 @@ const FAQ = () => {
         {/* Additional Help */}
         <div className="mt-12 text-center">
           <h3 className="text-lg font-semibold text-foreground mb-4">Need Immediate Assistance?</h3>
-          <p className="text-muted-foreground mb-6">
-            For urgent equipment issues or emergency bookings, call us directly. 
-            We're here to help get your garden project back on track.
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
               <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">

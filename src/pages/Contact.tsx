@@ -265,7 +265,7 @@ const Contact = () => {
               </form>
 
               <p className="text-xs text-muted-foreground mt-4 text-center">
-                We'll respond within 24 hours. For urgent requests, please call us directly.
+                We will get back to you as soon as possible in working hours.
               </p>
             </div>
           </div>
@@ -276,9 +276,6 @@ const Contact = () => {
       <section className="section-padding-sm bg-primary text-primary-foreground">
         <div className="container-wide text-center">
           <h3 className="text-xl font-bold mb-2">Need Equipment Urgently?</h3>
-          <p className="text-primary-foreground/90 mb-4">
-            Call us directly for same-day availability and emergency equipment hire
-          </p>
           <a href="tel:07963378502">
             <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold">
               Call Now: 07963378502
