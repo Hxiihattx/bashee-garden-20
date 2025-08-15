@@ -19,7 +19,9 @@ const Footer = () => {
             </div>
             <p className="text-sm leading-relaxed text-white/90">
               Professional garden equipment hire and clearance services across South East London. 
-              Trusted by homeowners, landscapers, and councils since 2020.
+              We provide comprehensive domestic and commercial gardening solutions, from state-of-the-art 
+              remote-controlled mowers to complete garden maintenance packages. Trusted by homeowners 
+              and businesses since 2020.
             </p>
           </div>
 
@@ -35,9 +37,6 @@ const Footer = () => {
               </Link>
               <Link to="/about" className="text-sm hover:text-primary transition-colors">
                 About Us
-              </Link>
-              <Link to="/testimonials" className="text-sm hover:text-primary transition-colors">
-                Testimonials
               </Link>
               <Link to="/booking" className="text-sm hover:text-primary transition-colors">
                 Book Equipment
@@ -56,7 +55,7 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Services</h3>
             <div className="flex flex-col space-y-2 text-sm text-white/90">
               <span>Remote-Controlled Mowers</span>
-              <span>Ride-On Tractors</span>
+              <span>Ride-On Mowers</span>
               <span>Hedge Trimmers</span>
               <span>Petrol Strimmers</span>
               <span>Garden Clearance</span>

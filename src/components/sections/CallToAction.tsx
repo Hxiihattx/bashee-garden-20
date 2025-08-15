@@ -55,7 +55,7 @@ const CallToAction = () => {
                   </div>
                   <h4 className="font-semibold">Email Us</h4>
                   <p className="text-primary-foreground/80 text-sm">info@basheegardens.com</p>
-                  <p className="text-sm text-primary-foreground/60">24-hour response</p>
+                  <p className="text-sm text-primary-foreground/60">Same day response</p>
                 </div>
               </a>
 

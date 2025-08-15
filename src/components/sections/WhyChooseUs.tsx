@@ -8,11 +8,6 @@ const WhyChooseUs = () => {
       description: "Advanced remote mowers for precision cutting and enhanced safety, perfect for challenging terrain."
     },
     {
-      icon: Users,
-      title: "Trusted by Professionals",
-      description: "Chosen by landscapers, schools, councils, and estate managers across South East London."
-    },
-    {
       icon: Award,
       title: "Fully Insured & Licensed",
       description: "Complete public liability insurance and professional certifications for your peace of mind."
@@ -26,11 +21,6 @@ const WhyChooseUs = () => {
       icon: CheckCircle,
       title: "Professional Operators",
       description: "Experienced, trained operators available for all equipment and garden clearance services."
-    },
-    {
-      icon: Headphones,
-      title: "Expert Support",
-      description: "Professional guidance and support throughout your hire period with live chat and phone support."
     }
   ];
 
@@ -56,7 +46,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-16">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -75,24 +65,6 @@ const WhyChooseUs = () => {
           ))}
         </div>
 
-        {/* Stats Section */}
-        <div className="bg-gradient-to-r from-primary to-primary-light rounded-2xl p-8 lg:p-12 text-primary-foreground">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4">Trusted by the Community</h3>
-            <p className="text-primary-foreground/90 text-lg">
-              Our commitment to quality service has earned the trust of hundreds of customers
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-primary-foreground/80 font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
 
         {/* Trust Badges */}
         <div className="mt-16 text-center">
