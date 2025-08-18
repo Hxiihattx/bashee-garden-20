@@ -5,7 +5,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Clock, MessageCircle, Instagram, Facebook, Send } from "lucide-react";
 import { useState } from "react";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -14,7 +13,6 @@ const Contact = () => {
     service: "",
     message: ""
   });
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Scroll to top after form submission
@@ -22,16 +20,13 @@ const Contact = () => {
     // Handle form submission here
     console.log("Form submitted:", formData);
   };
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
-
-  return (
-    <Layout>
+  return <Layout>
       {/* Header */}
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
@@ -60,10 +55,7 @@ const Contact = () => {
 
               {/* Contact Methods */}
               <div className="space-y-6">
-                <a
-                  href="tel:07963378502"
-                  className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group"
-                >
+                <a href="tel:07963378502" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                     <Phone className="h-6 w-6" />
                   </div>
@@ -74,10 +66,7 @@ const Contact = () => {
                   </div>
                 </a>
 
-                <a
-                  href="mailto:info@basheegardens.com"
-                  className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group"
-                >
+                <a href="mailto:info@basheegardens.com" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                     <Mail className="h-6 w-6" />
                   </div>
@@ -193,50 +182,22 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <Label htmlFor="name">Name *</Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                      className="mt-1"
-                    />
+                    <Input id="name" name="name" value={formData.name} onChange={handleInputChange} required className="mt-1" />
                   </div>
                   <div>
                     <Label htmlFor="phone">Phone</Label>
-                    <Input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      className="mt-1"
-                    />
+                    <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} className="mt-1" />
                   </div>
                 </div>
 
                 <div>
                   <Label htmlFor="email">Email *</Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    required
-                    className="mt-1"
-                  />
+                  <Input id="email" name="email" type="email" value={formData.email} onChange={handleInputChange} required className="mt-1" />
                 </div>
 
                 <div>
                   <Label htmlFor="service">Service Interest</Label>
-                  <select
-                    id="service"
-                    name="service"
-                    value={formData.service}
-                    onChange={handleInputChange}
-                    className="mt-1 w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                  >
+                  <select id="service" name="service" value={formData.service} onChange={handleInputChange} className="mt-1 w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring">
                     <option value="">Select a service</option>
                     <option value="remote-mower">Remote-Controlled Mower</option>
                     <option value="ride-on">Ride-On Tractor</option>
@@ -250,16 +211,7 @@ const Contact = () => {
 
                 <div>
                   <Label htmlFor="message">Message *</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    rows={5}
-                    required
-                    className="mt-1"
-                    placeholder="Tell us about your project, dates needed, and any specific requirements..."
-                  />
+                  <Textarea id="message" name="message" value={formData.message} onChange={handleInputChange} rows={5} required className="mt-1" placeholder="Tell us about your project, dates needed, and any specific requirements..." />
                 </div>
 
                 <Button type="submit" className="w-full btn-hero group">
@@ -287,8 +239,6 @@ const Contact = () => {
           </a>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Contact;
