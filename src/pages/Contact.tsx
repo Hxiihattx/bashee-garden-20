@@ -144,6 +144,10 @@ const Contact = () => {
                 <h3 className="font-semibold mb-4">Bank Transfer Details</h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground">Account Name:</span>
+                    <span className="font-mono font-medium">Bashee 1 Ltd</span>
+                  </div>
+                  <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">Account Number:</span>
                     <span className="font-mono font-medium">27724396</span>
                   </div>

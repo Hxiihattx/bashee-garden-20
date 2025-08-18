@@ -7,7 +7,7 @@ const About = () => {
   const values = [{
     icon: Target,
     title: "Our Mission",
-    description: "To make garden equipment accessible to all, from homeowners to large estates, with the highest standards of service and safety."
+    description: "To make garden equipment accessible to all, from homeowners to landscapers, with the highest standards of service and safety."
   }, {
     icon: Heart,
     title: "Customer Focus",
@@ -50,7 +50,7 @@ const About = () => {
               <p className="text-body leading-relaxed">
                 Bashee Gardens was founded with a simple mission: to provide access to 
                 professional-grade garden equipment for everyone, from homeowners tackling weekend 
-                projects to professional landscapers managing large estates.
+                projects to professional landscapers.
               </p>
               <p className="text-body leading-relaxed">
                 Based in South East London, we serve the local community with modern equipment, 
@@ -112,7 +112,7 @@ const About = () => {
               </p>
               <p>
                 Today, we're proud to serve a diverse community of customers, from individual homeowners 
-                to commercial businesses, all united by their trust in our equipment and service. 
+                to businesses, all united by their trust in our equipment and service.
                 Our commitment to safety, quality, and customer satisfaction remains unchanged.
               </p>
             </div>

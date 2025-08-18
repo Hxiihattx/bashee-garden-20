@@ -22,7 +22,7 @@ const Blog = () => {
       image: "/placeholder.svg"
     },
     {
-      title: "Choosing the Right Equipment for Large Properties",
+      title: "Choosing the Right Equipment for Your Projects",
       excerpt: "A comprehensive guide to selecting garden equipment for estates and large residential properties.",
       date: "2024-01-05",
       author: "Equipment Specialist",

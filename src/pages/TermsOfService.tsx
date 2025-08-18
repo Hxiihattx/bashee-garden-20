@@ -46,7 +46,7 @@ const TermsOfService = () => {
                 <h3 className="font-semibold">Payment Terms</h3>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Payment is required at the time of booking</li>
-                  <li>We accept major credit cards and bank transfers (Account: 27724396, Sort Code: 04-06-05)</li>
+                  <li>We accept major credit cards and bank transfers (Account Name: Bashee 1 Ltd, Account: 27724396, Sort Code: 04-06-05)</li>
                   <li>A security deposit may be required for certain equipment</li>
                   <li>All prices include VAT where applicable</li>
                 </ul>
@@ -117,7 +117,7 @@ const TermsOfService = () => {
                 </ul>
                 
                 <h3 className="font-semibold mb-3">Customer Liability</h3>
-                <p>Customers are responsible for any damage to equipment beyond normal wear and tear, and for any third-party claims arising from their use of our equipment.</p>
+                <p>Customers are responsible for any damage to equipment and for any third-party claims arising from their use of our equipment.</p>
               </div>
             </section>
 
