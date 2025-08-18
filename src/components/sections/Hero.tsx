@@ -1,7 +1,7 @@
 import { ArrowRight, CheckCircle, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-mower-action.gif";
+const heroImage = "/lovable-uploads/d6a941da-0a9a-40f6-8cb1-43e554890b14.png";
 
 const Hero = () => {
   return (
