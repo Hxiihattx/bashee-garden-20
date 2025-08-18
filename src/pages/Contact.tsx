@@ -110,19 +110,10 @@ const Contact = () => {
                   <Clock className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <h3 className="font-semibold mb-2">Business Hours</h3>
-                    <div className="space-y-1 text-sm">
-                      <div className="flex justify-between">
-                        <span>Monday - Friday</span>
-                        <span className="font-medium">9:00 AM - 5:00 PM</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Saturday</span>
-                        <span className="font-medium">9:00 AM - 1:00 PM</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Sunday</span>
-                        <span className="font-medium">Closed</span>
-                      </div>
+                    <div className="space-y-1 text-sm font-mono">
+                      <div>Monday - Friday     9:00 AM - 5:00 PM</div>
+                      <div>Saturday            9:00 AM - 1:00 PM</div>
+                      <div>Sunday              Closed</div>
                     </div>
                   </div>
                 </div>
