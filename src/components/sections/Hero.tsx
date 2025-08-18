@@ -75,13 +75,15 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Image Right */}
+            {/* Video Right */}
             <div className="relative">
               <div className="relative z-10">
-                <img
-                  src={heroImage}
-                  alt="Professional garden equipment and landscaping"
-                  className="w-full h-[600px] object-cover rounded-2xl shadow-elegant"
+                <iframe
+                  src="https://www.youtube.com/embed/AZB8wz6nkEM?autoplay=1&mute=1&loop=1&controls=0&playlist=AZB8wz6nkEM&rel=0&showinfo=0&modestbranding=1"
+                  className="w-full h-[600px] rounded-2xl shadow-elegant"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="Professional garden equipment demonstration"
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl"></div>
@@ -92,12 +94,14 @@ const Hero = () => {
 
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
-        {/* Image Section - 3:2 ratio */}
+        {/* Video Section - 3:2 ratio */}
         <div className="relative w-full" style={{ aspectRatio: '3/2' }}>
-          <img
-            src={heroImage}
-            alt="Professional garden equipment and landscaping"
-            className="w-full h-full object-cover"
+          <iframe
+            src="https://www.youtube.com/embed/AZB8wz6nkEM?autoplay=1&mute=1&loop=1&controls=0&playlist=AZB8wz6nkEM&rel=0&showinfo=0&modestbranding=1"
+            className="w-full h-full"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            title="Professional garden equipment demonstration"
           />
         </div>
 
