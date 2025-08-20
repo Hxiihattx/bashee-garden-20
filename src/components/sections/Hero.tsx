@@ -1,9 +1,41 @@
-import { ArrowRight, CheckCircle, Leaf } from "lucide-react";
+import { ArrowRight, CheckCircle, Leaf, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 const heroImage = "/lovable-uploads/d6a941da-0a9a-40f6-8cb1-43e554890b14.png";
 
 const Hero = () => {
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
+  // Handle ESC key to close modal
+  useEffect(() => {
+    const handleEscKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsVideoModalOpen(false);
+      }
+    };
+
+    if (isVideoModalOpen) {
+      document.addEventListener('keydown', handleEscKey);
+      document.body.style.overflow = 'hidden'; // Prevent background scroll
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscKey);
+      document.body.style.overflow = 'unset';
+    };
+  }, [isVideoModalOpen]);
+
+  const openVideoModal = () => {
+    setIsVideoModalOpen(true);
+  };
+
+  const closeVideoModal = () => {
+    setIsVideoModalOpen(false);
+  };
+
   return (
     <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
       {/* Desktop Layout: Text Left, Image Right */}
@@ -76,7 +108,7 @@ const Hero = () => {
 
             {/* Image Right with Play Button */}
             <div className="relative">
-              <div className="relative z-10 group cursor-pointer" onClick={() => window.location.href = 'https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21'}>
+              <div className="relative z-10 group cursor-pointer" onClick={openVideoModal}>
                 <img
                   src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
                   alt="Professional garden equipment demonstration"
@@ -98,7 +130,7 @@ const Hero = () => {
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
         {/* Image Section with Play Button - 3:2 ratio */}
-        <div className="relative w-full group cursor-pointer" style={{ aspectRatio: '3/2' }} onClick={() => window.location.href = 'https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21'}>
+        <div className="relative w-full group cursor-pointer" style={{ aspectRatio: '3/2' }} onClick={openVideoModal}>
           <img
             src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
             alt="Professional garden equipment demonstration"
@@ -178,6 +210,38 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      {/* Video Modal */}
+      {isVideoModalOpen && (
+        <div 
+          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+          onClick={closeVideoModal}
+        >
+          <div 
+            className="relative w-full max-w-4xl bg-black rounded-lg overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={closeVideoModal}
+              className="absolute top-4 right-4 z-10 w-8 h-8 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center text-white transition-colors"
+            >
+              <X className="h-4 w-4" />
+            </button>
+            
+            {/* Video Container - 16:9 Aspect Ratio */}
+            <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+              <iframe
+                src="https://www.youtube.com/embed/AZB8wz6nkEM?controls=1&modestbranding=1&rel=0&autoplay=1&mute=0&loop=0"
+                title="Garden Equipment Demonstration"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
