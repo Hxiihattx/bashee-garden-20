@@ -83,7 +83,7 @@ const TermsOfService = () => {
                   <li>Delivery times are estimates and may vary due to weather or traffic</li>
                   <li>Someone must be present for delivery and collection</li>
                   <li>Additional charges apply for failed delivery attempts</li>
-                  <li>We provide delivery within our service area of South East London</li>
+                  <li>We provide delivery within our service area</li>
                   <li>Equipment must be accessible for our delivery team</li>
                 </ul>
               </div>
@@ -173,9 +173,9 @@ const TermsOfService = () => {
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
-                  <p>Email: info@basheegardens.com</p>
+                  <p>Email: info@basheegardens.co.uk</p>
                   <p>Phone: 07963378502</p>
-                  <p>Service Area: South East London & Surrounding Areas</p>
+                  <p>Service Area: Croydon & Surrounding Areas</p>
                   <p>Hours: Monday-Friday 9AM-5PM, Saturday 9AM-1PM, Sunday Closed</p>
                 </div>
               </div>

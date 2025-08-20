@@ -75,7 +75,7 @@ const Services = () => {
   const faqs = [
     {
       question: "Do you deliver equipment?",
-      answer: "Yes, we provide free delivery and collection across South East London, including Croydon and surrounding areas."
+      answer: "Yes, we provide free delivery and collection across Croydon and surrounding areas."
     },
     {
       question: "Can I hire equipment with an operator?",
@@ -103,7 +103,7 @@ const Services = () => {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-hero mb-6">Garden Equipment and Hire Services</h1>
             <p className="text-body text-muted-foreground">
-              Professional garden equipment hire and services across South East London. 
+              Professional garden equipment hire and services. 
               From remote-controlled mowers to complete garden clearance with trained operators.
             </p>
           </div>

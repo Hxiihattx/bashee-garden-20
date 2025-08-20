@@ -28,7 +28,7 @@ const About = () => {
     description: "Fully trained, experienced operators for all services"
   }, {
     title: "Local Business",
-    description: "Proudly serving the South East London community"
+    description: "Proudly serving the local community"
   }];
   return <Layout>
       {/* Header */}
@@ -53,7 +53,7 @@ const About = () => {
                 projects to professional landscapers.
               </p>
               <p className="text-body leading-relaxed">
-                Based in South East London, we serve the local community with modern equipment, 
+                Based locally, we serve the community with modern equipment, 
                 expert knowledge, and a commitment to safety that has earned us the trust of 
                 domestic and commercial customers.
               </p>
@@ -102,7 +102,7 @@ const About = () => {
             <div className="space-y-6 text-body leading-relaxed text-muted-foreground">
               <p>
                 Bashee Gardens started when we recognised a gap in the market for reliable, 
-                garden equipment hire in South East London. Too many people were 
+                garden equipment hire. Too many people were 
                 struggling with unsuitable tools or paying premium prices for simple garden maintenance.
               </p>
               <p>
@@ -119,7 +119,7 @@ const About = () => {
             <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-8 rounded-2xl">
               <blockquote className="text-lg font-medium text-center italic">
                 "Our commitment to safety and service has made us the trusted choice for garden 
-                equipment hire across South East London."
+                equipment hire."
               </blockquote>
             </div>
           </div>

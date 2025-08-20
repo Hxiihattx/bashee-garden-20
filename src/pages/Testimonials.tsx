@@ -133,7 +133,7 @@ const TestimonialsPage = () => {
             <h2 className="text-section mb-4">Real Reviews from Real Customers</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Our commitment to quality equipment and professional service has earned us 
-              hundreds of positive reviews from customers across South East London.
+              hundreds of positive reviews from customers.
             </p>
           </div>
 

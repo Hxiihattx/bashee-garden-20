@@ -42,9 +42,9 @@ const Header = () => {
                 <Phone className="h-3 w-3" />
                 <span>07963378502</span>
               </a>
-              <a href="mailto:info@basheegardens.com" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
+              <a href="mailto:info@basheegardens.co.uk" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
-                <span>info@basheegardens.com</span>
+                <span>info@basheegardens.co.uk</span>
               </a>
             </div>
             {/* Mobile centered phone number */}
@@ -157,9 +157,9 @@ const Header = () => {
                         <Phone className="h-4 w-4" />
                         <span>07963378502</span>
                       </a>
-                      <a href="mailto:info@basheegardens.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                      <a href="mailto:info@basheegardens.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Mail className="h-4 w-4" />
-                        <span>info@basheegardens.com</span>
+                        <span>info@basheegardens.co.uk</span>
                       </a>
                     </div>
                   </div>

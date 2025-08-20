@@ -18,8 +18,8 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm leading-relaxed text-white/90">
-              Professional garden equipment hire and clearance services across South East London. 
-              We provide comprehensive domestic and commercial gardening solutions, from state-of-the-art 
+              Professional garden equipment hire and clearance services. 
+              We provide comprehensive domestic and commercial gardening solutions, from state-of-the-art
               remote-controlled mowers to complete garden maintenance packages. Trusted by homeowners 
               and businesses since 2020.
             </p>
@@ -68,13 +68,13 @@ const Footer = () => {
                 <Phone className="h-4 w-4" />
                 <span>07963378502</span>
               </a>
-              <a href="mailto:info@basheegardens.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+              <a href="mailto:info@basheegardens.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>info@basheegardens.com</span>
+                <span>info@basheegardens.co.uk</span>
               </a>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>South East London & Croydon</span>
+                <span>Croydon & Surrounding Areas</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Clock className="h-4 w-4" />

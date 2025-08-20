@@ -20,8 +20,7 @@ const Hero = () => {
 
               {/* Main Heading */}
               <h1 className="text-4xl font-bold text-foreground leading-tight">
-                Garden Equipment Hire Made Easy in 
-                <span className="text-primary"> South East London</span>
+                Garden Hire & Maintainance Services
               </h1>
 
               {/* Subheading */}
@@ -75,16 +74,20 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Video Right */}
+            {/* Image Right with Play Button */}
             <div className="relative">
-              <div className="relative z-10">
-                <iframe
-                  src="https://www.youtube.com/embed/AZB8wz6nkEM?autoplay=1&mute=1&loop=1&controls=0&playlist=AZB8wz6nkEM&rel=0&showinfo=0&modestbranding=1"
-                  className="w-full h-[600px] rounded-2xl shadow-elegant"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  title="Professional garden equipment demonstration"
+              <div className="relative z-10 group cursor-pointer" onClick={() => window.open('https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21', '_blank')}>
+                <img
+                  src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
+                  alt="Professional garden equipment demonstration"
+                  className="w-full h-[600px] object-cover rounded-2xl shadow-elegant"
                 />
+                {/* Play Button Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
+                    <div className="w-0 h-0 border-l-[20px] border-l-primary border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1"></div>
+                  </div>
+                </div>
               </div>
               <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl"></div>
             </div>
@@ -94,15 +97,19 @@ const Hero = () => {
 
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
-        {/* Video Section - 3:2 ratio */}
-        <div className="relative w-full" style={{ aspectRatio: '3/2' }}>
-          <iframe
-            src="https://www.youtube.com/embed/AZB8wz6nkEM?autoplay=1&mute=1&loop=1&controls=0&playlist=AZB8wz6nkEM&rel=0&showinfo=0&modestbranding=1"
-            className="w-full h-full"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-            title="Professional garden equipment demonstration"
+        {/* Image Section with Play Button - 3:2 ratio */}
+        <div className="relative w-full group cursor-pointer" style={{ aspectRatio: '3/2' }} onClick={() => window.open('https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21', '_blank')}>
+          <img
+            src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
+            alt="Professional garden equipment demonstration"
+            className="w-full h-full object-cover"
           />
+          {/* Play Button Overlay */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
+              <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
+            </div>
+          </div>
         </div>
 
         {/* Content Section */}
@@ -116,8 +123,7 @@ const Hero = () => {
 
             {/* Main Heading - Mobile optimized */}
             <h1 className="text-hero text-foreground leading-tight">
-              Garden Equipment Hire Made Easy in 
-              <span className="text-primary"> South East London</span>
+              Garden Hire & Maintainance Services
             </h1>
 
             {/* Subheading */}

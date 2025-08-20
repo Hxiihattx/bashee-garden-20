@@ -148,7 +148,7 @@ const ServicesOverview = () => {
               <Truck className="h-6 w-6 text-primary" />
             </div>
             <h4 className="font-semibold">Local Delivery</h4>
-            <p className="text-sm text-muted-foreground">Free delivery across South East London</p>
+            <p className="text-sm text-muted-foreground">Free delivery across service areas</p>
           </div>
           <div className="text-center space-y-3">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">

@@ -48,13 +48,13 @@ const CallToAction = () => {
               </a>
 
               {/* Email */}
-              <a href="mailto:info@basheegardens.com" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
+              <a href="mailto:info@basheegardens.co.uk" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
-                  <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Mail className="h-6 w-6" />
+                  <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:bg-primary-foreground/30 transition-colors">
+                    <Mail className="h-6 w-6 text-primary-foreground" />
                   </div>
                   <h4 className="font-semibold">Email Us</h4>
-                  <p className="text-primary-foreground/80 text-sm">info@basheegardens.com</p>
+                  <p className="text-primary-foreground/80 text-sm">info@basheegardens.co.uk</p>
                   <p className="text-sm text-primary-foreground/60">Same day response</p>
                 </div>
               </a>
@@ -76,7 +76,7 @@ const CallToAction = () => {
           {/* Service Areas */}
           <div className="mt-12 text-center">
             <p className="text-primary-foreground/80">
-              <span className="font-semibold">Service Areas:</span> Croydon, Bromley, Sutton, Merton, Kingston, and surrounding South East London areas
+              <span className="font-semibold">Service Areas:</span> Croydon, Bromley, Sutton, Merton, Kingston, and surrounding areas
             </p>
           </div>
         </div>
