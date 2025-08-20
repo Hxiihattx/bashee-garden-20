@@ -305,7 +305,7 @@ const Equipment = () => {
               </Button>
             </Link>
             <a href="https://wa.me/447963378502">
-              <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
+              <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-8">
                 WhatsApp: 07963378502
               </Button>
             </a>

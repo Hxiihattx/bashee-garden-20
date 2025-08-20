@@ -156,9 +156,9 @@ const FAQ = () => {
               Our friendly team is here to help you choose the right equipment and answer any questions.
             </p>
             <div className="grid md:grid-cols-3 gap-4">
-              <a href="tel:07963378502" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
-                <Phone className="h-8 w-8 text-primary mb-2" />
-                <span className="font-semibold text-foreground">Call Us</span>
+              <a href="https://wa.me/447963378502" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
+                <MessageCircle className="h-8 w-8 text-primary mb-2" />
+                <span className="font-semibold text-foreground">WhatsApp Us</span>
                 <span className="text-sm text-muted-foreground">07963378502</span>
                 <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
               </a>

@@ -35,13 +35,13 @@ const CallToAction = () => {
           <div className="mt-16 pt-16 border-t border-primary-foreground/20">
             <h3 className="text-2xl font-semibold mb-8">Or Contact Us Directly</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Phone */}
-              <a href="tel:07963378502" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
+              {/* WhatsApp */}
+              <a href="https://wa.me/447963378502" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Phone className="h-6 w-6" />
+                    <MessageCircle className="h-6 w-6" />
                   </div>
-                  <h4 className="font-semibold">Call Us</h4>
+                  <h4 className="font-semibold">WhatsApp Us</h4>
                   <p className="text-primary-foreground/80">07963378502</p>
                   <p className="text-sm text-primary-foreground/60">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
                 </div>

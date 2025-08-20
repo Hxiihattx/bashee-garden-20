@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { CheckCircle, ArrowLeft, ArrowRight, Calendar as CalendarIcon, Clock, MapPin, User, Mail, Phone, MessageSquare } from "lucide-react";
+import { CheckCircle, ArrowLeft, ArrowRight, Calendar as CalendarIcon, Clock, MapPin, User, Mail, Phone, MessageSquare, MessageCircle } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -481,9 +481,9 @@ const Booking = () => {
               Our team is here to help you choose the right equipment and schedule your booking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:07963378502" className="flex items-center gap-2 text-sm text-primary hover:underline">
-                <Phone className="h-4 w-4" />
-                Call us: 07963378502
+              <a href="https://wa.me/447963378502" className="flex items-center gap-2 text-sm text-primary hover:underline">
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp us: 07963378502
               </a>
               <a href="mailto:info@basheegardens.co.uk" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Mail className="h-4 w-4" />
