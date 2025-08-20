@@ -47,9 +47,7 @@ const Contact = () => {
             <div className="space-y-8 lg:sticky lg:top-8">
               <div>
                 <h2 className="text-section mb-6">Get In Touch</h2>
-                <p className="text-body text-muted-foreground mb-8">
-                  WhatsApp us your photo/video along with your name and number, and we will provide you with a quote.
-                </p>
+                <p className="text-body text-muted-foreground mb-8">We're available Monday to Saturday to help with your garden equipment needs. Choose the contact method that works best for you.</p>
               </div>
 
               {/* Contact Methods */}
