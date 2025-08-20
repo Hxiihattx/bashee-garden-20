@@ -76,7 +76,7 @@ const Hero = () => {
 
             {/* Image Right with Play Button */}
             <div className="relative">
-              <div className="relative z-10 group cursor-pointer" onClick={() => window.open('https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21')}>
+              <div className="relative z-10 group cursor-pointer" onClick={() => window.location.href = 'https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21'}>
                 <img
                   src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
                   alt="Professional garden equipment demonstration"
@@ -98,7 +98,7 @@ const Hero = () => {
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
         {/* Image Section with Play Button - 3:2 ratio */}
-        <div className="relative w-full group cursor-pointer" style={{ aspectRatio: '3/2' }} onClick={() => window.open('https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21')}>
+        <div className="relative w-full group cursor-pointer" style={{ aspectRatio: '3/2' }} onClick={() => window.location.href = 'https://youtube.com/shorts/AZB8wz6nkEM?si=p4KzbOoJlkCpZT21'}>
           <img
             src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png"
             alt="Professional garden equipment demonstration"
