@@ -48,7 +48,7 @@ const Services = () => {
     {
       title: "Garden Services POA",
       description: "Regular lawn care and comprehensive maintenance services for optimal garden health.",
-      image: "/lovable-uploads/eecd80bf-6c21-4dc8-8d46-971c1d7c7270.png",
+      image: "/lovable-uploads/17208e17-5636-4ab0-bf2a-4e13c9cc1cba.png",
       features: ["Weekly/monthly service", "Professional maintenance", "Seasonal treatments", "Equipment included"],
       link: "/equipment/lawn-maintenance"
     }
