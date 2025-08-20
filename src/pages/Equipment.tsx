@@ -130,7 +130,7 @@ const Equipment = () => {
     {
       id: "robot-lawn-mower",
       title: "Remote Control Robot Grass Cutter 9HP",
-      image: robotMowerImg,
+      image: "/lovable-uploads/eecd80bf-6c21-4dc8-8d46-971c1d7c7270.png",
       description: "Professional remote control robotic lawn mower with 9HP 4-stroke engine. Features cordless operation, anti-slip technology and high torque for challenging terrain.",
       features: [
         "9HP 4-stroke petrol engine",

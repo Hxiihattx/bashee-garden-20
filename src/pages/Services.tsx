@@ -46,9 +46,9 @@ const Services = () => {
       link: "/equipment/strimmers"
     },
     {
-      title: "Lawn Maintenance",
+      title: "Garden Services POA",
       description: "Regular lawn care and comprehensive maintenance services for optimal garden health.",
-      image: remoteMowerImg,
+      image: "/lovable-uploads/eecd80bf-6c21-4dc8-8d46-971c1d7c7270.png",
       features: ["Weekly/monthly service", "Professional maintenance", "Seasonal treatments", "Equipment included"],
       link: "/equipment/lawn-maintenance"
     }
