@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone, Mail, Leaf } from "lucide-react";
+import { Menu, X, MessageCircle, Mail, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -38,24 +38,24 @@ const Header = () => {
         <div className="container-wide">
           <div className="flex items-center justify-center lg:justify-between text-sm">
             <div className="hidden lg:flex items-center space-x-4">
-              <a href="tel:07963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
-                <Phone className="h-3 w-3" />
-                <span>07963378502</span>
+              <a href="https://wa.me/447963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
+                <MessageCircle className="h-3 w-3" />
+                <span>WhatsApp: 07963378502</span>
               </a>
               <a href="mailto:info@basheegardens.co.uk" className="hidden sm:flex items-center space-x-1 hover:text-accent-light transition-colors">
                 <Mail className="h-3 w-3" />
                 <span>info@basheegardens.co.uk</span>
               </a>
             </div>
-            {/* Mobile centered phone number */}
+            {/* Mobile centered WhatsApp number */}
             <div className="lg:hidden">
-              <a href="tel:07963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
-                <Phone className="h-3 w-3" />
-                <span>07963378502</span>
+              <a href="https://wa.me/447963378502" className="flex items-center space-x-1 hover:text-accent-light transition-colors">
+                <MessageCircle className="h-3 w-3" />
+                <span>WhatsApp: 07963378502</span>
               </a>
             </div>
             <div className="text-sm font-medium hidden lg:block">
-              Mon–Fri: 9AM–5PM, Sat: 9AM–1PM
+              Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM
             </div>
           </div>
         </div>
@@ -153,9 +153,9 @@ const Header = () => {
                     
                     {/* Contact Info */}
                     <div className="pt-4 space-y-2">
-                      <a href="tel:07963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
-                        <Phone className="h-4 w-4" />
-                        <span>07963378502</span>
+                      <a href="https://wa.me/447963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                        <MessageCircle className="h-4 w-4" />
+                        <span>WhatsApp: 07963378502</span>
                       </a>
                       <a href="mailto:info@basheegardens.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                         <Mail className="h-4 w-4" />

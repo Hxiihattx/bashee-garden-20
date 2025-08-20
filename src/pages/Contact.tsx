@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock, MessageCircle, Instagram, Facebook, Send } from "lucide-react";
+import { Mail, MapPin, Clock, MessageCircle, Instagram, Facebook, Send } from "lucide-react";
 import { useState } from "react";
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -48,19 +48,18 @@ const Contact = () => {
               <div>
                 <h2 className="text-section mb-6">Get In Touch</h2>
                 <p className="text-body text-muted-foreground mb-8">
-                  We're available Monday to Saturday to help with your garden equipment needs. 
-                  Choose the contact method that works best for you.
+                  WhatsApp us your photo/video along with your name and number, and we will provide you with a quote.
                 </p>
               </div>
 
               {/* Contact Methods */}
               <div className="space-y-6">
-                <a href="tel:07963378502" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
+                <a href="https://wa.me/447963378502" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                    <Phone className="h-6 w-6" />
+                    <MessageCircle className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Phone</h3>
+                    <h3 className="font-semibold mb-1">WhatsApp</h3>
                     <p className="text-primary font-medium">07963378502</p>
                     <p className="text-sm text-muted-foreground">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
                   </div>
@@ -73,7 +72,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <p className="text-primary font-medium">info@basheegardens.co.uk</p>
-                    <p className="text-sm text-muted-foreground">24-hour response time</p>
+                    <p className="text-sm text-muted-foreground">We will get back to you as soon as possible during working hours.</p>
                   </div>
                 </a>
 
@@ -90,15 +89,14 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Service Area */}
+              {/* Contact Response */}
               <div className="bg-muted/30 p-6 rounded-xl">
                 <div className="flex items-start space-x-3 mb-4">
-                  <MapPin className="h-5 w-5 text-primary mt-1" />
+                  <MessageCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2">Service Areas</h3>
+                    <h3 className="font-semibold mb-2">Contact Response</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      We serve Croydon, Bromley, Sutton, Merton, 
-                      Kingston, and surrounding areas. Free delivery within our service area.
+                      We will get back to you as soon as possible during working hours.
                     </p>
                   </div>
                 </div>
@@ -223,9 +221,9 @@ const Contact = () => {
       <section className="section-padding-sm bg-primary text-primary-foreground">
         <div className="container-wide text-center">
           <h3 className="text-xl font-bold mb-2">Need Equipment Urgently?</h3>
-          <a href="tel:07963378502">
+          <a href="https://wa.me/447963378502">
             <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold">
-              Call Now: 07963378502
+              WhatsApp Now: 07963378502
             </Button>
           </a>
         </div>

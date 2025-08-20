@@ -160,8 +160,7 @@ const Equipment = () => {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-hero mb-6">Professional Garden Equipment</h1>
             <p className="text-body text-muted-foreground">
-              Modern, well-maintained equipment for all your garden maintenance needs. 
-              From remote-controlled mowers to professional strimmers.
+              Modern, well-maintained equipment for all garden needs — from remote-controlled mowers to strimmers.
             </p>
           </div>
         </div>
@@ -305,9 +304,9 @@ const Equipment = () => {
                 Check Availability
               </Button>
             </Link>
-            <a href="tel:07963378502">
+            <a href="https://wa.me/447963378502">
               <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
-                Call: 07963378502
+                WhatsApp: 07963378502
               </Button>
             </a>
           </div>

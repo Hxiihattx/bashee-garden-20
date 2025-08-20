@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock, Instagram, Facebook, MessageCircle, Leaf } from "lucide-react";
+import { MessageCircle, Mail, MapPin, Clock, Instagram, Facebook, Leaf } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -64,9 +64,9 @@ const Footer = () => {
           <div className="lg:col-span-3 space-y-4">
             <h3 className="font-semibold text-lg">Contact Us</h3>
             <div className="space-y-3">
-              <a href="tel:07963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
-                <Phone className="h-4 w-4" />
-                <span>07963378502</span>
+              <a href="https://wa.me/447963378502" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+                <MessageCircle className="h-4 w-4" />
+                <span>WhatsApp: 07963378502</span>
               </a>
               <a href="mailto:info@basheegardens.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
