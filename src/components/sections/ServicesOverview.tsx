@@ -6,7 +6,7 @@ const rideOnImg = "/lovable-uploads/160552da-bc6b-4e0f-9604-2d846a8abc7d.png";
 const hedgeTrimmerImg = "/lovable-uploads/4c693b18-a988-4abe-9d7d-975b162e0507.png";
 const strimmerImg = "/lovable-uploads/89715c80-76ed-4e73-96c2-a138b7db7187.png";
 const gardenClearanceImg = "/lovable-uploads/6a85f9ee-9ca5-48ed-bc14-087e92f16a47.png";
-const equipmentCollectionImg = "/lovable-uploads/eec4063e-ef7d-421c-8068-eed9d7cf2a75.png";
+const equipmentCollectionImg = "/lovable-uploads/4a0087ef-2a5b-45b8-8d7c-ef2c796d8d9d.png";
 
 const ServicesOverview = () => {
   const services = [
