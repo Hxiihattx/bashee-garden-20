@@ -43,7 +43,7 @@ const CallToAction = () => {
                   </div>
                   <h4 className="font-semibold">WhatsApp Us</h4>
                   <p className="text-primary-foreground/80">07963378502</p>
-                  <p className="text-sm text-primary-foreground/60">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
+                  <p className="text-sm text-primary-foreground/60">Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM</p>
                 </div>
               </a>
 
@@ -67,7 +67,7 @@ const CallToAction = () => {
                   </div>
                   <h4 className="font-semibold">Live Chat</h4>
                   <p className="text-primary-foreground/80">Instant Support</p>
-                  <p className="text-sm text-primary-foreground/60">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</p>
+                  <p className="text-sm text-primary-foreground/60">Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM</p>
                 </div>
               </div>
             </div>
