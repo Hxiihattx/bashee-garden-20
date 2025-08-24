@@ -46,10 +46,10 @@ const ServicesOverview = () => {
       link: "/equipment"
     },
     {
-      title: "Remote Robot Mowers",
-      description: "9HP remote control robotic lawn mowers with cordless operation and anti-slip technology.",
-      image: equipmentCollectionImg,
-      features: ["9HP Engine", "Remote Control", "Anti-Slip"],
+      title: "Excel 52cc Multi Tool",
+      description: "Compact 52cc petrol-powered multi-tool for efficient trimming, pruning, and cutting.",
+      image: "/lovable-uploads/bf0eb917-a647-4ccb-aa90-e3ce6be6a655.png",
+      features: ["5-in-1 Garden Tool", "Powerful 52cc Engine", "Easy to Operate"],
       link: "/equipment"
     }
   ];

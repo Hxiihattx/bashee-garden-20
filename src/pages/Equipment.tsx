@@ -59,10 +59,10 @@ const Equipment = () => {
       popular: true
     },
     {
-      id: "mountfield-lawn-tractor",
-      title: "Mountfield 1330M Rear-Collect Lawn Tractor with Manual Drive",
+      id: "mountfield-lawn-mower",
+      title: "Mountfield 1330M Rear-Collect Lawn Mower with Manual Drive",
       image: mountfieldTractorImg,
-      description: "The first ever twin-bladed garden tractor with a cutting-width under 90cm. Twin-blade design ensures a consistent cut and exceptional damp-weather bagging with high-capacity 200-litre grassbag.",
+      description: "The first ever twin-bladed garden mower with a cutting-width under 90cm. Twin-blade design ensures a consistent cut and exceptional damp-weather bagging with high-capacity 200-litre grassbag.",
       features: [
         "Twin-bladed 84cm cutting deck",
         "200-litre rear grass collection",
@@ -128,25 +128,21 @@ const Equipment = () => {
       availability: "Available Now"
     },
     {
-      id: "robot-lawn-mower",
-      title: "Remote Control Robot Grass Cutter 9HP",
-      image: "/lovable-uploads/eecd80bf-6c21-4dc8-8d46-971c1d7c7270.png",
-      description: "Professional remote control robotic lawn mower with 9HP 4-stroke engine. Features cordless operation, anti-slip technology and high torque for challenging terrain.",
+      id: "excel-52cc-multi-tool",
+      title: "Excel 52cc Petrol 5 in 1 Garden Multi Tools",
+      image: "/lovable-uploads/bf0eb917-a647-4ccb-aa90-e3ce6be6a655.png",
+      description: "Powerful and versatile 52cc petrol multi-tool combining five garden essentials in one machine — trimming, cutting, pruning, and edging with ease.",
       features: [
-        "9HP 4-stroke petrol engine",
-        "Remote operated control",
-        "Anti-slip & antistall technology",
-        "High torque self-propelled",
-        "Cordless operation",
-        "1 year manufacturer warranty"
+        "Strong 52cc Engine",
+        "5-in-1 Functionality",
+        "Ergonomic Design",
+        "Easy Start System"
       ],
       specs: {
-        "Engine Type": "4-Stroke Petrol",
-        "Power": "9HP (350W Brushless Motor)",
-        "Tank Capacity": "1.4L",
-        "Voltage": "24V",
-        "Features": "Cordless, Remote Operated",
-        "Horsepower": "9 HP"
+        "Engine": "52cc Petrol",
+        "Fuel Tank": "1.2L",
+        "Attachments": "Trimmer, Pruner, Hedge, Brush",
+        "Weight": "Approx. 12kg"
       },
       availability: "Available Now"
     }
