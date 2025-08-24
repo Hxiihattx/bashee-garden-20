@@ -52,6 +52,7 @@ const Footer = () => {
               <span>Ride-On Mowers</span>
               <span>Hedge Trimmers</span>
               <span>Petrol Strimmers</span>
+              <span>Excel 52cc Multi Tool</span>
               <span>Garden Clearance</span>
               <span>Operator Services</span>
             </div>
