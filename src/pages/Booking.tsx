@@ -314,6 +314,21 @@ const Booking = () => {
                           {needsOperator === "yes" ? "With Professional Operator" : "Self-Operated"}
                         </p>
                       </div>
+
+                      <div className="p-4 bg-primary/10 rounded-lg">
+                        <h4 className="font-semibold mb-3">Our Bank Account Details</h4>
+                        <Button 
+                          variant="outline" 
+                          size="sm"
+                          onClick={() => {
+                            window.scrollTo(0, 0);
+                            navigate('/contact#payments-details');
+                          }}
+                          className="w-full"
+                        >
+                          View Details
+                        </Button>
+                      </div>
                     </div>
 
                     <div className="space-y-4">

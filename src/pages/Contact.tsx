@@ -115,34 +115,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Bank Details */}
-              <div className="bg-muted/30 p-6 rounded-xl">
-                <h3 className="font-semibold mb-4">Bank Transfer Details</h3>
-                <div className="space-y-3 text-sm">
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Account Name:</span>
-                    <span className="font-mono font-medium">Bashee 1 Ltd</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Account Number:</span>
-                    <span className="font-mono font-medium">27724396</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Sort Code:</span>
-                    <span className="font-mono font-medium">04-06-05</span>
-                  </div>
-                  <div className="pt-2 border-t border-border">
-                    <p className="text-muted-foreground text-xs leading-relaxed">
-                      Bank Address: 4th Floor, The Featherstone Building, 66 City Road, London, EC1Y 2AL
-                    </p>
-                  </div>
-                  <div className="pt-2">
-                    <p className="text-xs text-muted-foreground">
-                      Please use your booking reference when making payment
-                    </p>
-                  </div>
-                </div>
-              </div>
 
               {/* Social Media */}
               <div>
@@ -210,6 +182,42 @@ const Contact = () => {
               <p className="text-xs text-muted-foreground mt-4 text-center">
                 We will get back to you as soon as possible in working hours.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Payments Details */}
+      <section className="section-padding bg-muted/30">
+        <div className="container-wide">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-section text-center mb-8">Payments Details</h2>
+            <div className="bg-background p-8 rounded-xl shadow-sm">
+              <h3 className="font-semibold mb-4 text-lg">Bank Transfer Details</h3>
+              <div className="space-y-3 text-sm">
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground">Account Name:</span>
+                  <span className="font-mono font-medium">Bashee 1 Ltd</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground">Account Number:</span>
+                  <span className="font-mono font-medium">27724396</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground">Sort Code:</span>
+                  <span className="font-mono font-medium">04-06-05</span>
+                </div>
+                <div className="pt-2 border-t border-border">
+                  <p className="text-muted-foreground text-xs leading-relaxed">
+                    Bank Address: 4th Floor, The Featherstone Building, 66 City Road, London, EC1Y 2AL
+                  </p>
+                </div>
+                <div className="pt-2">
+                  <p className="text-xs text-muted-foreground">
+                    Please use your booking reference when making payment
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

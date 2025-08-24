@@ -108,8 +108,8 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-subsection text-foreground mb-4">6. Liability and Insurance</h2>
               <div className="text-body">
-                <h3 className="font-semibold mb-3">Our Insurance</h3>
-                <p className="mb-4">We maintain comprehensive public liability insurance. However, this does not cover:</p>
+                <h3 className="font-semibold mb-3">Our Insurance for Bashee Team and Company</h3>
+                <p className="mb-4">We maintain comprehensive public liability insurance for the Bashee team and company. However, this does not cover:</p>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
                   <li>Damage caused by misuse of equipment</li>
                   <li>Injury resulting from failure to follow safety instructions</li>
