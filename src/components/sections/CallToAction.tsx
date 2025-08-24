@@ -1,4 +1,4 @@
-import { ArrowRight, Phone, Mail, MessageCircle } from "lucide-react";
+import { ArrowRight, MessageCircle, Mail, MessageCircle as WhatsApp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 const CallToAction = () => {
@@ -55,7 +55,7 @@ const CallToAction = () => {
                   </div>
                   <h4 className="font-semibold">Email Us</h4>
                   <p className="text-primary-foreground/80 text-sm">info@basheegardens.co.uk</p>
-                  <p className="text-sm text-primary-foreground/60">Same day response</p>
+                  <p className="text-sm text-primary-foreground/60">We will respond you during working hours</p>
                 </div>
               </a>
 
@@ -73,12 +73,6 @@ const CallToAction = () => {
             </div>
           </div>
 
-          {/* Service Areas */}
-          <div className="mt-12 text-center">
-            <p className="text-primary-foreground/80">
-              <span className="font-semibold">Service Areas:</span> Croydon, Bromley, Sutton, Merton, Kingston, and surrounding areas
-            </p>
-          </div>
         </div>
       </div>
     </section>;

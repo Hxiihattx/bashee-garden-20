@@ -47,33 +47,40 @@ const Hero = () => {
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
                 <CheckCircle className="h-4 w-4" />
-                <span>Trusted by Schools & Councils</span>
+                <span>Trusted By Homeowners</span>
               </div>
 
               {/* Main Heading */}
               <h1 className="text-4xl font-bold text-foreground leading-tight">
-                Garden Hire & Maintainance Services
+                Robotic Remote Mower
               </h1>
 
               {/* Subheading */}
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Professional remote-controlled mowers, ride-on mowers, and garden clearance services.
-                Trusted by homeowners, landscapers, and local councils across Croydon.
+                Prepare your garden easily for barbecues, events, or reclaim space with smart robotic lawn mower technology.
               </p>
 
               {/* Features List */}
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-primary" />
-                  <span className="text-foreground">Remote-Controlled Mowers</span>
+                  <span className="text-foreground">Easy to Use</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-primary" />
-                  <span className="text-foreground">Local Delivery</span>
+                  <span className="text-foreground">Petrol/Gas Powered (Loncin Engine)</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-primary" />
-                  <span className="text-foreground">Fully Insured</span>
+                  <span className="text-foreground">Cuts up to 2,000m²</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <span className="text-foreground">Intelligent Navigation</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <span className="text-foreground">Rapid Weeding Capability</span>
                 </div>
               </div>
 
@@ -82,13 +89,13 @@ const Hero = () => {
                 <Link to="/booking">
                   <Button className="btn-hero group">
                     <Leaf className="mr-2 h-5 w-5" />
-                    Book Equipment
+                    Hire Equipment
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
                 <Link to="/services">
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    View Services
+                    Hire Equipment
                   </Button>
                 </Link>
               </div>
@@ -150,33 +157,40 @@ const Hero = () => {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full text-xs font-medium">
               <CheckCircle className="h-3 w-3" />
-              <span>Trusted by Schools & Councils</span>
+              <span>Trusted By Homeowners</span>
             </div>
 
             {/* Main Heading - Mobile optimized */}
             <h1 className="text-hero text-foreground leading-tight">
-              Garden Hire & Maintainance Services
+              Robotic Remote Mower
             </h1>
 
             {/* Subheading */}
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Professional remote-controlled mowers, ride-on mowers, and garden clearance services. 
-              Trusted by homeowners, landscapers, and local councils.
+              Prepare your garden easily for barbecues, events, or reclaim space with smart robotic lawn mower technology.
             </p>
 
             {/* Features List */}
             <div className="flex flex-col gap-2">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Remote-Controlled Mowers</span>
+                <span className="text-sm text-foreground">Easy to Use</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Local Delivery & Setup</span>
+                <span className="text-sm text-foreground">Petrol/Gas Powered (Loncin Engine)</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Fully Insured Service</span>
+                <span className="text-sm text-foreground">Cuts up to 2,000m²</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <CheckCircle className="h-4 w-4 text-primary" />
+                <span className="text-sm text-foreground">Intelligent Navigation</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <CheckCircle className="h-4 w-4 text-primary" />
+                <span className="text-sm text-foreground">Rapid Weeding Capability</span>
               </div>
             </div>
 
@@ -185,13 +199,13 @@ const Hero = () => {
               <Link to="/booking" className="w-full">
                 <Button className="btn-hero w-full group">
                   <Leaf className="mr-2 h-4 w-4" />
-                  Book Equipment
+                  Hire Equipment
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
               <Link to="/services" className="w-full">
                 <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  View All Services
+                  Hire Equipment
                 </Button>
               </Link>
             </div>
@@ -204,7 +218,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <div className="h-1.5 w-1.5 bg-primary rounded-full"></div>
-                <span>Professional Operators Available</span>
+                <span>Professional Operators</span>
               </div>
             </div>
           </div>

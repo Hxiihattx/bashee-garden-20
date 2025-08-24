@@ -172,7 +172,7 @@ const Contact = () => {
                     <Input id="name" name="name" value={formData.name} onChange={handleInputChange} required className="mt-1" />
                   </div>
                   <div>
-                    <Label htmlFor="phone">Phone</Label>
+                    <Label htmlFor="phone">WhatsApp</Label>
                     <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} className="mt-1" />
                   </div>
                 </div>

@@ -18,7 +18,7 @@ const ServicesOverview = () => {
       link: "/equipment"
     },
     {
-      title: "Mountfield Lawn Tractors",
+      title: "Mountfield Lawn Mowers",
       description: "Twin-bladed Mountfield 1330M with 200L rear collection, 8.4hp STIGA engine and 5-year warranty.",
       image: rideOnImg,
       features: ["Twin Blades", "200L Collection", "5yr Warranty"],
@@ -110,7 +110,7 @@ const ServicesOverview = () => {
                 {/* CTA */}
                 <Link to="/booking">
                   <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-sm">
-                    Learn More
+                    Hire Now
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
@@ -148,7 +148,7 @@ const ServicesOverview = () => {
               <Truck className="h-6 w-6 text-primary" />
             </div>
             <h4 className="font-semibold">Local Delivery</h4>
-            <p className="text-sm text-muted-foreground">Free delivery across service areas</p>
+            <p className="text-sm text-muted-foreground">POA Delivery across service areas</p>
           </div>
           <div className="text-center space-y-3">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">

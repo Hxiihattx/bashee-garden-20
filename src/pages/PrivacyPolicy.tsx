@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           <div className="prose max-w-none space-y-8">
             <div>
               <p className="text-body text-muted-foreground mb-6">
-                Last updated: January 2024
+                Last updated: August 2025
               </p>
               <p className="text-body">
                 Bashee Gardens Hires Ltd ("we", "our", or "us") is committed to protecting your privacy. 
@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
                 <h3 className="font-semibold">Personal Information</h3>
                 <p>When you book our services, we may collect:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Name and contact information (email, phone number, address)</li>
+                  <li>Name and contact information (email, WhatsApp number, address)</li>
                   <li>Service location and requirements</li>
                   <li>Payment information (processed securely through third-party providers)</li>
                   <li>Communication preferences</li>
@@ -122,7 +122,7 @@ const PrivacyPolicy = () => {
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
                   <p>Email: info@basheegardens.co.uk</p>
-                  <p>Phone: 07963378502</p>
+                  <p>WhatsApp: 07963378502</p>
                   <p>Address: UK</p>
                 </div>
               </div>

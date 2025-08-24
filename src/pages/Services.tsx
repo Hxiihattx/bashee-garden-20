@@ -75,7 +75,7 @@ const Services = () => {
   const faqs = [
     {
       question: "Do you deliver equipment?",
-      answer: "Yes, we provide free delivery and collection across Croydon and surrounding areas."
+      answer: "Yes, we provide POA Delivery and collection across Croydon and surrounding areas."
     },
     {
       question: "Can I hire equipment with an operator?",

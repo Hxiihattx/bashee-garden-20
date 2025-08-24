@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
     {
       icon: MapPin,
       title: "Local Delivery Service",
-      description: "Free delivery and collection across Croydon and surrounding areas."
+      description: "POA Delivery and collection across Croydon and surrounding areas."
     },
     {
       icon: CheckCircle,

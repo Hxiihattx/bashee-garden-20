@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Phone, Mail, MessageCircle, HelpCircle } from "lucide-react";
+import { MessageCircle, Mail, MessageCircle as WhatsApp, HelpCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const FAQ = () => {

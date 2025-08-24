@@ -13,6 +13,7 @@ import { CheckCircle, ArrowLeft, ArrowRight, Calendar as CalendarIcon, Clock, Ma
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
+import BookingStepSelector from "@/components/sections/BookingStepSelector";
 const equipment = [{
   id: "remote-mower",
   name: "Remote-Controlled Mower",
@@ -36,7 +37,8 @@ const equipment = [{
 }];
 const timeSlots = ["9:00 AM - 11:00 AM", "11:00 AM - 2:00 PM", "2:00 PM - 4:00 PM", "All Day (9:00 AM - 5:00 PM)"];
 const Booking = () => {
-  const [currentStep, setCurrentStep] = useState(1);
+  const [currentStep, setCurrentStep] = useState(0); // Start at 0 for buy/hire selection
+  const [bookingType, setBookingType] = useState<"buy" | "hire" | null>(null);
   const [selectedEquipment, setSelectedEquipment] = useState("");
   const [selectedDate, setSelectedDate] = useState<Date>();
   const [selectedTime, setSelectedTime] = useState("");
@@ -55,7 +57,7 @@ const Booking = () => {
     toast
   } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const totalSteps = 5;
+  const totalSteps = 6; // Updated to include buy/hire selection
   const nextStep = () => {
     if (currentStep < totalSteps) {
       setCurrentStep(currentStep + 1);
@@ -70,8 +72,15 @@ const Booking = () => {
     // In a real app, this would submit to a backend
     setIsSubmitted(true);
   };
+  const handleBookingTypeSelection = (type: "buy" | "hire") => {
+    setBookingType(type);
+    setCurrentStep(1); // Move to equipment selection
+  };
+
   const isStepValid = () => {
     switch (currentStep) {
+      case 0:
+        return bookingType !== null;
       case 1:
         return selectedEquipment !== "";
       case 2:
@@ -101,38 +110,50 @@ const Booking = () => {
           </div>
 
           {/* Progress Bar */}
-          <div className="mb-12">
-            <div className="flex items-center justify-between mb-4">
-            {[1, 2, 3, 4, 5].map(step => <div key={step} className="flex items-center">
-                <div className={cn("w-10 h-10 rounded-full flex items-center justify-center text-sm font-semibold transition-colors", currentStep >= step ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground")}>
-                  {currentStep > step ? <CheckCircle className="h-5 w-5" /> : step}
-                </div>
-                {step < 5 && <div className={cn("h-1 w-12 mx-2 transition-colors", currentStep > step ? "bg-primary" : "bg-muted")} />}
-              </div>)}
+          {currentStep > 0 && (
+            <div className="mb-12">
+              <div className="flex items-center justify-between mb-4">
+              {[1, 2, 3, 4, 5].map(step => <div key={step} className="flex items-center">
+                  <div className={cn("w-10 h-10 rounded-full flex items-center justify-center text-sm font-semibold transition-colors", currentStep >= step ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground")}>
+                    {currentStep > step ? <CheckCircle className="h-5 w-5" /> : step}
+                  </div>
+                  {step < 5 && <div className={cn("h-1 w-12 mx-2 transition-colors", currentStep > step ? "bg-primary" : "bg-muted")} />}
+                </div>)}
+              </div>
+              <div className="flex justify-between text-xs text-muted-foreground">
+                <span>Equipment</span>
+                <span>Schedule</span>
+                <span>Service</span>
+                <span>Details</span>
+                <span>Summary</span>
+              </div>
             </div>
-            <div className="flex justify-between text-xs text-muted-foreground">
-              <span>Equipment</span>
-              <span>Schedule</span>
-              <span>Service</span>
-              <span>Details</span>
-              <span>Summary</span>
-            </div>
-          </div>
+          )}
 
           {/* Step Content */}
-          <Card className="mb-6 lg:mb-8">
-            <CardHeader className="pb-4 lg:pb-6">
-              <CardTitle className="flex items-center gap-2 text-lg lg:text-xl">
-                {currentStep === 1 && <><User className="h-4 w-4 lg:h-5 lg:w-5" /> Choose Equipment</>}
-                {currentStep === 2 && <><CalendarIcon className="h-4 w-4 lg:h-5 lg:w-5" /> Select Date & Time</>}
-                {currentStep === 3 && <><MessageSquare className="h-4 w-4 lg:h-5 lg:w-5" /> Service Options</>}
-                {currentStep === 4 && <><Mail className="h-4 w-4 lg:h-5 lg:w-5" /> Your Details</>}
-                {currentStep === 5 && <><CheckCircle className="h-4 w-4 lg:h-5 lg:w-5" /> Booking Summary</>}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4 lg:space-y-6 pt-0">
-              {/* Step 1: Equipment Selection */}
-              {currentStep === 1 && <div className="grid gap-4">
+          {currentStep === 0 ? (
+            <BookingStepSelector onSelection={handleBookingTypeSelection} />
+          ) : (
+            <Card className="mb-6 lg:mb-8">
+              <CardHeader className="pb-4 lg:pb-6">
+                <CardTitle className="flex items-center gap-2 text-lg lg:text-xl">
+                  {currentStep === 1 && <><User className="h-4 w-4 lg:h-5 lg:w-5" /> Choose Equipment</>}
+                  {currentStep === 2 && <><CalendarIcon className="h-4 w-4 lg:h-5 lg:w-5" /> Select Date & Time</>}
+                  {currentStep === 3 && <><MessageSquare className="h-4 w-4 lg:h-5 lg:w-5" /> Service Options</>}
+                  {currentStep === 4 && <><Mail className="h-4 w-4 lg:h-5 lg:w-5" /> Your Details</>}
+                  {currentStep === 5 && <><CheckCircle className="h-4 w-4 lg:h-5 lg:w-5" /> Booking Summary</>}
+                </CardTitle>
+                {bookingType && (
+                  <p className="text-sm text-muted-foreground">
+                    Booking type: <span className="font-semibold text-primary">
+                      {bookingType === "buy" ? "Purchase" : "Hire"}
+                    </span>
+                  </p>
+                )}
+              </CardHeader>
+              <CardContent className="space-y-4 lg:space-y-6 pt-0">
+                {/* Step 1: Equipment Selection */}
+                {currentStep === 1 && <div className="grid gap-4">
                   {equipment.map(item => <div key={item.id} className={cn("p-3 lg:p-4 border rounded-lg cursor-pointer transition-all hover:shadow-md", selectedEquipment === item.id ? "border-primary bg-primary/5 shadow-md" : "border-border hover:border-primary/50")} onClick={() => setSelectedEquipment(item.id)}>
                       <div className="flex items-center justify-between">
                         <div>
@@ -231,7 +252,7 @@ const Booking = () => {
                   })} placeholder="your@email.com" />
                     </div>
                     <div>
-                      <Label htmlFor="phone">Phone Number *</Label>
+                      <Label htmlFor="phone">WhatsApp Number *</Label>
                       <Input id="phone" type="tel" value={customerInfo.phone} onChange={e => setCustomerInfo({
                     ...customerInfo,
                     phone: e.target.value
@@ -300,7 +321,7 @@ const Booking = () => {
                         <h4 className="font-semibold mb-2">Contact Details</h4>
                         <p className="text-sm">Name: {customerInfo.name}</p>
                         <p className="text-sm">Email: {customerInfo.email}</p>
-                        <p className="text-sm">Phone: {customerInfo.phone}</p>
+                        <p className="text-sm">WhatsApp: {customerInfo.phone}</p>
                         {customerInfo.address && <p className="text-sm">Address: {customerInfo.address}</p>}
                         {customerInfo.postcode && <p className="text-sm">Postcode: {customerInfo.postcode}</p>}
                       </div>
@@ -349,27 +370,34 @@ const Booking = () => {
                   </Button>
                 </div>}
             </CardContent>
-          </Card>
+                </Card>
+              )}
 
           {/* Navigation Buttons */}
-          {(!isSubmitted || currentStep < 5) && <div className="flex items-center justify-between">
+          {currentStep > 0 && (!isSubmitted || currentStep < 5) && (
+            <div className="flex items-center justify-between">
               <Button variant="outline" onClick={prevStep} disabled={currentStep === 1} className="flex items-center gap-2">
                 <ArrowLeft className="h-4 w-4" />
                 Previous
               </Button>
 
               <div className="text-sm text-muted-foreground">
-                Step {currentStep} of {totalSteps}
+                Step {currentStep} of 5
               </div>
 
-              {currentStep < totalSteps ? <Button onClick={nextStep} disabled={!isStepValid()} className="flex items-center gap-2">
+              {currentStep < 5 ? (
+                <Button onClick={nextStep} disabled={!isStepValid()} className="flex items-center gap-2">
                   Next
                   <ArrowRight className="h-4 w-4" />
-                </Button> : <Button onClick={handleSubmit} disabled={!isStepValid() || isSubmitted} className="btn-hero flex items-center gap-2">
+                </Button>
+              ) : (
+                <Button onClick={handleSubmit} disabled={!isStepValid() || isSubmitted} className="btn-hero flex items-center gap-2">
                   <CheckCircle className="h-4 w-4" />
                   Submit Booking
-                </Button>}
-            </div>}
+                </Button>
+              )}
+            </div>
+          )}
 
           {/* Help Section */}
           <div className="mt-12 p-6 bg-primary/5 rounded-lg border border-primary/20">

@@ -10,7 +10,7 @@ const TermsOfService = () => {
           <div className="prose max-w-none space-y-8">
             <div>
               <p className="text-body text-muted-foreground mb-6">
-                Last updated: January 2024
+                Last updated: August 2025
               </p>
               <p className="text-body">
                 These Terms of Service ("Terms") govern your use of services provided by Bashee Gardens Hires Ltd 
@@ -174,9 +174,9 @@ const TermsOfService = () => {
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
                   <p>Email: info@basheegardens.co.uk</p>
-                  <p>Phone: 07963378502</p>
+                  <p>WhatsApp: 07963378502</p>
                   <p>Service Area: Croydon & Surrounding Areas</p>
-                  <p>Hours: Monday-Friday 9AM-5PM, Saturday 9AM-1PM, Sunday Closed</p>
+                  <p>Hours: Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM, Sun: Closed</p>
                 </div>
               </div>
             </section>
