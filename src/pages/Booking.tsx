@@ -19,8 +19,8 @@ const equipment = [{
   name: "Remote-Controlled Mower",
   description: "Perfect for slopes and hard-to-reach areas"
 }, {
-  id: "ride-on-tractor",
-  name: "Ride-On Tractor",
+  id: "ride-on-mower",
+  name: "Ride-On Mower",
   description: "Ideal for large lawns and estates"
 }, {
   id: "hedge-trimmer",
@@ -30,6 +30,10 @@ const equipment = [{
   id: "strimmer",
   name: "Petrol Strimmer",
   description: "Heavy-duty for tough weeds and edges"
+}, {
+  id: "excel-multi-tool",
+  name: "Excel 52cc Multi Tool",
+  description: "5-in-1 garden tool for versatile operations"
 }, {
   id: "clearance-service",
   name: "Garden Clearance Service",
