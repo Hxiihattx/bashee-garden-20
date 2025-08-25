@@ -232,8 +232,13 @@ const Hero = () => {
           onClick={closeVideoModal}
         >
           <div 
-            className="relative w-full max-w-4xl bg-black rounded-lg overflow-hidden"
+            className="relative bg-black rounded-lg overflow-hidden"
             onClick={(e) => e.stopPropagation()}
+            style={{
+              width: 'min(90vw, 400px)',
+              height: 'min(80vh, 711px)',
+              aspectRatio: '9/16'
+            }}
           >
             {/* Close Button */}
             <button
@@ -243,8 +248,8 @@ const Hero = () => {
               <X className="h-4 w-4" />
             </button>
             
-            {/* Video Container - 16:9 Aspect Ratio */}
-            <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+            {/* Video Container - 9:16 Portrait Aspect Ratio */}
+            <div className="relative w-full h-full">
               <iframe
                 src="https://www.youtube.com/embed/AZB8wz6nkEM?controls=1&modestbranding=1&rel=0&autoplay=1&mute=0&loop=0"
                 title="Garden Equipment Demonstration"
