@@ -84,7 +84,7 @@ const Hero = () => {
                 </Link>
                 <Link to="/booking">
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    Hire Equipment
+                    Buy Equipment
                   </Button>
                 </Link>
               </div>
@@ -188,7 +188,7 @@ const Hero = () => {
               </Link>
               <Link to="/booking" className="w-full">
                 <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  Hire Equipment
+                  Buy Equipment
                 </Button>
               </Link>
             </div>
