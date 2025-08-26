@@ -47,9 +47,7 @@ const Hero = () => {
               <h1 className="text-4xl font-bold text-foreground leading-tight">Gamepad Control Mower</h1>
 
               {/* Subheading */}
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Prepare your garden easily for barbecues, events, or reclaim space with smart robotic lawn mower technology.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">Want to prepare your garden for a barbecue, home event or get some space back?</p>
 
               {/* Features List */}
               <div className="flex flex-wrap gap-4">
