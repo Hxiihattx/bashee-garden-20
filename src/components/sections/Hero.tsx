@@ -82,7 +82,7 @@ const Hero = () => {
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
-                <Link to="/services">
+                <Link to="/booking">
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     Hire Equipment
                   </Button>
@@ -186,7 +186,7 @@ const Hero = () => {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link to="/services" className="w-full">
+              <Link to="/booking" className="w-full">
                 <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                   Hire Equipment
                 </Button>
