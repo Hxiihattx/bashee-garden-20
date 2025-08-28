@@ -32,7 +32,7 @@ const Hero = () => {
   };
   return <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
       {/* Desktop Layout: Text Left, Image Right */}
-      <div className="hidden lg:flex items-center h-full">
+      <div className="hidden md:flex items-center h-full">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content Left */}
@@ -120,7 +120,7 @@ const Hero = () => {
       </div>
 
       {/* Mobile Hero Image - Full Width */}
-      <div className="lg:hidden w-full relative group cursor-pointer" onClick={openVideoModal}>
+      <div className="md:hidden w-full relative group cursor-pointer" onClick={openVideoModal}>
         <img 
           src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
           alt="Gamepad Control Lawnmower - Mobile Hero" 
@@ -135,7 +135,7 @@ const Hero = () => {
       </div>
 
       {/* Mobile CTA Buttons Only */}
-      <div className="lg:hidden px-4 pt-5 pb-2 bg-background">
+      <div className="md:hidden px-4 pt-5 pb-2 bg-background">
         <div className="flex flex-col gap-3">
           <Link to="/booking" className="w-full">
             <Button className="btn-hero w-full group">
