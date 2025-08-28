@@ -133,7 +133,7 @@ const Hero = () => {
       </div>
 
       {/* Mobile Hero Buttons */}
-      <div className="lg:hidden px-4 py-6 bg-background">
+      <div className="lg:hidden px-4 pt-5 pb-5 bg-background">
         <div className="flex flex-col gap-3">
           <Link to="/booking" className="w-full">
             <Button className="btn-hero w-full group">
