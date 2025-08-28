@@ -30,7 +30,7 @@ const Hero = () => {
   const closeVideoModal = () => {
     setIsVideoModalOpen(false);
   };
-  return <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
+  return <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16 md:pb-[50px]">
       {/* Desktop Layout: Text Left, Image Right */}
       <div className="hidden md:flex items-center h-full">
         <div className="container-wide">
