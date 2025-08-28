@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-4xl font-bold text-foreground leading-tight">Gamepad Control Mower</h1>
+              <h1 className="text-4xl font-bold text-foreground leading-tight">Gamepad Control Lawnmower</h1>
 
               {/* Subheading */}
               <p className="text-lg text-muted-foreground leading-relaxed">Want to prepare your garden for a barbecue, home event or get some space back?</p>
@@ -105,7 +105,7 @@ const Hero = () => {
             {/* Image Right with Play Button */}
             <div className="relative">
               <div className="relative z-10 group cursor-pointer" onClick={openVideoModal}>
-                <img src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png" alt="Professional garden equipment demonstration" className="w-full h-[600px] object-cover rounded-2xl shadow-elegant" />
+                <img src="/lovable-uploads/108738d2-203a-440c-adad-4241cba74e04.png" alt="Gamepad Control Lawnmower" className="w-full h-[600px] object-cover rounded-2xl shadow-elegant" />
                 {/* Play Button Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
@@ -145,7 +145,7 @@ const Hero = () => {
 
             {/* Main Heading - Mobile optimized */}
             <h1 className="text-hero text-foreground leading-tight">
-              Robotic Remote Mower
+              Gamepad Control Lawnmower
             </h1>
 
             {/* Subheading */}
