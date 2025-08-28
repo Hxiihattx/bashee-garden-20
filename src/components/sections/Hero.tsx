@@ -120,12 +120,18 @@ const Hero = () => {
       </div>
 
       {/* Mobile Hero Image - Full Width */}
-      <div className="lg:hidden w-full">
+      <div className="lg:hidden w-full relative group cursor-pointer" onClick={openVideoModal}>
         <img 
           src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
           alt="Gamepad Control Lawnmower - Mobile Hero" 
           className="w-full h-auto object-cover"
         />
+        {/* Play Button Overlay - Center Right with 30px margin */}
+        <div className="absolute inset-y-0 right-[30px] flex items-center">
+          <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
+            <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
+          </div>
+        </div>
       </div>
 
       {/* Mobile Layout: Image Top, Content Bottom */}
