@@ -30,9 +30,9 @@ const Hero = () => {
   const closeVideoModal = () => {
     setIsVideoModalOpen(false);
   };
-  return <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16 md:pb-[50px]">
+  return <section className="relative overflow-hidden lg:pt-16 md:pb-[50px]">
       {/* Desktop Layout: Text Left, Image Right */}
-      <div className="hidden md:flex items-center h-full">
+      <div className="hidden md:flex items-center min-h-[80vh]">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content Left */}
@@ -119,14 +119,14 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile Hero Section - Optimized */}
-      <div className="md:hidden flex flex-col min-h-[85vh]">
-        {/* Mobile Hero Image - Full Width */}
-        <div className="flex-1 w-full relative group cursor-pointer" onClick={openVideoModal}>
+      {/* Mobile Hero Section - Natural Height */}
+      <div className="md:hidden">
+        {/* Mobile Hero Image - Natural Dimensions */}
+        <div className="w-full relative group cursor-pointer" onClick={openVideoModal}>
           <img 
             src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
             alt="Gamepad Control Lawnmower - Mobile Hero" 
-            className="w-full h-full min-h-[60vh] object-cover"
+            className="w-full h-auto object-contain"
           />
           {/* Play Button Overlay - Center Right with 30px margin */}
           <div className="absolute inset-y-0 right-[30px] flex items-center">
@@ -136,8 +136,8 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Mobile CTA Buttons - Fixed at Bottom */}
-        <div className="flex-shrink-0 px-4 pt-5 pb-[70px] bg-background">
+        {/* Mobile CTA Buttons - 70px bottom spacing */}
+        <div className="px-4 pt-5 pb-[70px] bg-background">
           <div className="flex flex-col gap-3">
             <Link to="/booking" className="w-full">
               <Button className="btn-hero w-full group">
