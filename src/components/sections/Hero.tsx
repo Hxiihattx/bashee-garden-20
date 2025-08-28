@@ -130,25 +130,7 @@ const Hero = () => {
         <div className="absolute inset-y-0 right-[30px] flex items-center">
           <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
             <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
-      </div>
-
-      {/* Mobile Hero Buttons */}
-      <div className="lg:hidden px-4 pt-5 pb-5 bg-background">
-        <div className="flex flex-col gap-3">
-          <Link to="/booking" className="w-full">
-            <Button className="btn-hero w-full group">
-              <Leaf className="mr-2 h-4 w-4" />
-              Hire Equipment
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-          <Link to="/booking" className="w-full">
-            <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Buy Equipment
-            </Button>
-          </Link>
-        </div>
-      </div>
+          </div>
         </div>
       </div>
 
