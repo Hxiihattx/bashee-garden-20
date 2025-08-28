@@ -125,7 +125,7 @@ const Hero = () => {
         <div className="relative w-full group cursor-pointer" style={{
         aspectRatio: '3/2'
       }} onClick={openVideoModal}>
-          <img src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png" alt="Professional garden equipment demonstration" className="w-full h-full object-cover" />
+          <img src="/lovable-uploads/87b69657-610a-452e-ac04-02102e828fb8.png" alt="Gamepad Control Lawnmower" className="w-full h-full object-cover" />
           {/* Play Button Overlay */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
