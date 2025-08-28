@@ -105,7 +105,7 @@ const Hero = () => {
             {/* Image Right with Play Button */}
             <div className="relative">
               <div className="relative z-10 group cursor-pointer" onClick={openVideoModal}>
-                <img src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png" alt="Professional garden equipment demonstration" className="w-full h-[600px] object-cover rounded-2xl shadow-elegant" />
+                <img src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png" alt="Professional garden equipment demonstration" className="w-full h-[510px] object-cover rounded-2xl shadow-elegant" />
                 {/* Play Button Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
