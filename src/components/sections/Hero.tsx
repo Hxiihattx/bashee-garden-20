@@ -30,7 +30,7 @@ const Hero = () => {
   const closeVideoModal = () => {
     setIsVideoModalOpen(false);
   };
-  return <section className="relative min-h-[70vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
+  return <section className="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden lg:pt-16">
       {/* Desktop Layout: Text Left, Image Right */}
       <div className="hidden lg:flex items-center h-full">
         <div className="container-wide">
@@ -121,7 +121,11 @@ const Hero = () => {
 
       {/* Mobile Hero Image - Full Width */}
       <div className="lg:hidden w-full relative group cursor-pointer" onClick={openVideoModal}>
-        <img src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" alt="Gamepad Control Lawnmower - Mobile Hero" className="w-full h-auto object-cover" />
+        <img 
+          src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
+          alt="Gamepad Control Lawnmower - Mobile Hero" 
+          className="w-full h-auto object-cover"
+        />
         {/* Play Button Overlay - Center Right with 30px margin */}
         <div className="absolute inset-y-0 right-[30px] flex items-center">
           <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
@@ -130,92 +134,21 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile Layout: Image Top, Content Bottom */}
-      <div className="lg:hidden">
-        {/* Image Section with Play Button - 3:2 ratio */}
-        <div className="relative w-full group cursor-pointer" style={{
-        aspectRatio: '3/2'
-      }} onClick={openVideoModal}>
-          <img src="/lovable-uploads/204d3966-1b18-4311-924c-f76200842a00.png" alt="Professional garden equipment demonstration" className="w-full h-full object-cover" />
-          {/* Play Button Overlay */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:bg-white transition-colors">
-              <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
-            </div>
-          </div>
-        </div>
-
-        {/* Content Section */}
-        <div className="px-4 py-8 bg-background">
-          <div className="space-y-4">
-            {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full text-xs font-medium">
-              <CheckCircle className="h-3 w-3" />
-              <span>Trusted By Homeowners</span>
-            </div>
-
-            {/* Main Heading - Mobile optimized */}
-            <h1 className="text-hero text-foreground leading-tight">
-              Robotic Remote Mower
-            </h1>
-
-            {/* Subheading */}
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Prepare your garden easily for barbecues, events, or reclaim space with smart robotic lawn mower technology.
-            </p>
-
-            {/* Features List */}
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Easy to Use</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Petrol/Gas Powered (Loncin Engine)</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Cuts up to 2,000m²</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Intelligent Navigation</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="h-4 w-4 text-primary" />
-                <span className="text-sm text-foreground">Rapid Weeding Capability</span>
-              </div>
-            </div>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col gap-3 pt-4">
-              <Link to="/booking" className="w-full">
-                <Button className="btn-hero w-full group">
-                  <Leaf className="mr-2 h-4 w-4" />
-                  Hire Equipment
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-              <Link to="/booking" className="w-full">
-                <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  Buy Equipment
-                </Button>
-              </Link>
-            </div>
-
-            {/* Trust Indicators */}
-            <div className="flex flex-col gap-2 pt-4 text-xs text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <div className="h-1.5 w-1.5 bg-primary rounded-full"></div>
-                <span>Public Liability Insurance</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="h-1.5 w-1.5 bg-primary rounded-full"></div>
-                <span>Professional Operators</span>
-              </div>
-            </div>
-          </div>
+      {/* Mobile CTA Buttons Only */}
+      <div className="lg:hidden px-4 pt-5 pb-2 bg-background">
+        <div className="flex flex-col gap-3">
+          <Link to="/booking" className="w-full">
+            <Button className="btn-hero w-full group">
+              <Leaf className="mr-2 h-4 w-4" />
+              Hire Equipment
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
+          <Link to="/booking" className="w-full">
+            <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              Buy Equipment
+            </Button>
+          </Link>
         </div>
       </div>
 
