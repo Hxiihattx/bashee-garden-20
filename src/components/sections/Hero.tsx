@@ -119,6 +119,15 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Mobile Hero Image - Full Width */}
+      <div className="lg:hidden w-full">
+        <img 
+          src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
+          alt="Gamepad Control Lawnmower - Mobile Hero" 
+          className="w-full h-auto object-cover"
+        />
+      </div>
+
       {/* Mobile Layout: Image Top, Content Bottom */}
       <div className="lg:hidden">
         {/* Image Section with Play Button - 3:2 ratio */}
