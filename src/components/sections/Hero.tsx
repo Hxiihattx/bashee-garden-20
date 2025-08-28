@@ -135,7 +135,7 @@ const Hero = () => {
       </div>
 
       {/* Mobile CTA Buttons Only */}
-      <div className="lg:hidden px-4 py-5 bg-background">
+      <div className="lg:hidden px-4 pt-5 pb-2 bg-background">
         <div className="flex flex-col gap-3">
           <Link to="/booking" className="w-full">
             <Button className="btn-hero w-full group">
