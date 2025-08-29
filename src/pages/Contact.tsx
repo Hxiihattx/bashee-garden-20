@@ -46,7 +46,7 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8 lg:sticky lg:top-8">
               <div>
-                <h2 className="text-section mb-6">Get In Touch</h2>
+                <h2 className="text-section mb-6">Contact us</h2>
                 <p className="text-body text-muted-foreground mb-8">We're available Monday to Saturday to help with your garden equipment needs. Choose the contact method that works best for you.</p>
               </div>
 
