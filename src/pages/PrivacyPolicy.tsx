@@ -121,7 +121,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
-                  <p>Email: info@basheegardens.co.uk</p>
+                  <p>Email: basheegardens@gmail.com</p>
                   <p>WhatsApp: 07963378502</p>
                   <p>Address: UK</p>
                 </div>

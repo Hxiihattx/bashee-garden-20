@@ -62,7 +62,7 @@ const Services = () => {
     },
     {
       title: "Maintenance Services", 
-      description: "Regular maintenance contracts for schools, councils, and estate managers.",
+      description: "Regular maintenance contracts for residential properties and estate managers.",
       features: ["Scheduled maintenance", "Professional operators", "Equipment maintenance", "Flexible contracts"]
     },
     {

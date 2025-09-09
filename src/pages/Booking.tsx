@@ -427,9 +427,9 @@ const Booking = () => {
                 <MessageCircle className="h-4 w-4" />
                 WhatsApp us: 07963378502
               </a>
-              <a href="mailto:info@basheegardens.co.uk" className="flex items-center gap-2 text-sm text-primary hover:underline">
+              <a href="mailto:basheegardens@gmail.com" className="flex items-center gap-2 text-sm text-primary hover:underline">
                 <Mail className="h-4 w-4" />
-                Email: info@basheegardens.co.uk
+                Email: basheegardens@gmail.com
               </a>
             </div>
           </div>

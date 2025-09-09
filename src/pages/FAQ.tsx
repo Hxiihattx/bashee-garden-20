@@ -12,7 +12,7 @@ const FAQ = () => {
       questions: [
         {
           question: "How do I book equipment?",
-          answer: "You can book equipment through our online booking system, by calling us at 07963378502, or by emailing info@basheegardens.co.uk. We recommend booking at least 48 hours in advance to ensure availability."
+          answer: "You can book equipment through our online booking system, by calling us at 07963378502, or by emailing basheegardens@gmail.com. We recommend booking at least 48 hours in advance to ensure availability."
         },
         {
           question: "What are your rental rates?",
@@ -162,10 +162,10 @@ const FAQ = () => {
                 <span className="text-sm text-muted-foreground">07963378502</span>
                 <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
               </a>
-              <a href="mailto:info@basheegardens.co.uk" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
+              <a href="mailto:basheegardens@gmail.com" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
                 <Mail className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Email Us</span>
-                <span className="text-sm text-muted-foreground text-center">info@basheegardens.co.uk</span>
+                <span className="text-sm text-muted-foreground text-center">basheegardens@gmail.com</span>
                 <span className="text-xs text-muted-foreground mt-1">24/7 Response</span>
               </a>
               <Link to="/contact" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">

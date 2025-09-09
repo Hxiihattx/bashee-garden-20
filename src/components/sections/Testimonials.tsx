@@ -24,16 +24,16 @@ const Testimonials = () => {
       image: "/placeholder.svg"
     },
     {
-      name: "Emma Davis",
-      role: "School Facilities Manager",
-      content: "We've used their garden clearance service multiple times for our school grounds. The team is professional, insured, and always leaves the area spotless.",
+      name: "Sarah Thompson",
+      role: "Homeowner",
+      content: "Amazing service! Their remote-controlled mower made quick work of our overgrown lawn. Professional, insured, and always leaves the area spotless.",
       rating: 5,
       image: "/placeholder.svg"
     },
     {
-      name: "Council Parks Department",
-      role: "Sutton Council",
-      content: "Reliable partner for our parks maintenance. Their professional operators and modern equipment help us maintain high standards across all our green spaces.",
+      name: "Michael Roberts",
+      role: "Residential Customer",
+      content: "Reliable partner for our garden maintenance. Their professional operators and modern equipment help us maintain high standards in our residential property.",
       rating: 5,
       image: "/placeholder.svg"
     },
@@ -62,7 +62,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-body text-muted-foreground">
-            Don't just take our word for it. See what homeowners, professionals, and local councils 
+            Don't just take our word for it. See what residential customers and homeowners 
             say about our equipment and service.
           </p>
         </div>

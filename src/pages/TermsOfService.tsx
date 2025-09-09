@@ -173,7 +173,7 @@ const TermsOfService = () => {
                 </p>
                 <div className="bg-muted p-4 rounded-lg">
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
-                  <p>Email: info@basheegardens.co.uk</p>
+                  <p>Email: basheegardens@gmail.com</p>
                   <p>WhatsApp: 07963378502</p>
                   <p>Service Area: Croydon & Surrounding Areas</p>
                   <p>Hours: Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM, Sun: Closed</p>

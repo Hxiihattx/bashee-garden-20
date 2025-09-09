@@ -64,7 +64,7 @@ const ServicesOverview = () => {
           </h2>
           <p className="text-body text-muted-foreground">
             From remote-controlled mowers to complete garden clearance, we provide the tools and expertise 
-            to keep your outdoor spaces pristine. Trusted by homeowners, landscapers, and local councils.
+            to keep your outdoor spaces pristine. Trusted by residential homeowners.
           </p>
         </div>
 

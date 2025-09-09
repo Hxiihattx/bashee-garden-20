@@ -7,7 +7,7 @@ const About = () => {
   const values = [{
     icon: Target,
     title: "Our Mission",
-    description: "To make garden equipment accessible to all, from homeowners to landscapers, with the highest standards of service and safety."
+    description: "To make garden equipment accessible to residential customers and homeowners, with the highest standards of service and safety."
   }, {
     icon: Heart,
     title: "Customer Focus",
@@ -49,8 +49,8 @@ const About = () => {
               <h2 className="text-section">Professional Garden Equipment Experts</h2>
               <p className="text-body leading-relaxed">
                 Bashee Gardens was founded with a simple mission: to provide access to 
-                professional-grade garden equipment for everyone, from homeowners tackling weekend 
-                projects to professional landscapers.
+                professional-grade garden equipment for residential customers and homeowners tackling weekend 
+                projects and home improvements.
               </p>
               <p className="text-body leading-relaxed">
                 Based locally, we serve the community with modern equipment, 

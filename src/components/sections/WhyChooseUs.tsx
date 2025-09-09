@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
 
   const stats = [
     { number: "500+", label: "Happy Customers" },
-    { number: "50+", label: "Schools & Councils" },
+    { number: "50+", label: "Residential Properties" },
     { number: "5+", label: "Years Experience" },
     { number: "100%", label: "Insured" }
   ];

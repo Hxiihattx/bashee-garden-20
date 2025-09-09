@@ -48,13 +48,13 @@ const CallToAction = () => {
               </a>
 
               {/* Email */}
-              <a href="mailto:info@basheegardens.co.uk" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
+              <a href="mailto:basheegardens@gmail.com" className="group p-6 rounded-xl bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors duration-300">
                 <div className="flex flex-col items-center space-y-3">
-                  <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center group-hover:bg-primary-foreground/30 transition-colors">
-                    <Mail className="h-6 w-6 text-primary-foreground" />
+                  <div className="w-12 h-12 bg-primary-foreground rounded-full flex items-center justify-center">
+                    <Mail className="h-6 w-6" />
                   </div>
                   <h4 className="font-semibold">Email Us</h4>
-                  <p className="text-primary-foreground/80 text-sm">info@basheegardens.co.uk</p>
+                  <p className="text-primary-foreground/80 text-sm">basheegardens@gmail.com</p>
                   <p className="text-sm text-primary-foreground/60">We will respond you during working hours</p>
                 </div>
               </a>

@@ -25,18 +25,18 @@ const TestimonialsPage = () => {
     },
     {
       name: "Emma Davis",
-      role: "School Facilities Manager",
+      role: "Homeowner",
       location: "Sutton",
-      content: "We've used their garden clearance service multiple times for our school grounds. The team is professional, fully insured, and always leaves the area spotless. Parents and staff have commented on how well-maintained our outdoor spaces look since we started using Bashee Gardens.",
+      content: "We've used their garden clearance service multiple times for our property. The team is professional, fully insured, and always leaves the area spotless. Our neighbors have commented on how well-maintained our outdoor spaces look since we started using Bashee Gardens.",
       rating: 5,
-      project: "School Grounds Maintenance",
+      project: "Residential Garden Maintenance",
       image: "/placeholder.svg"
     },
     {
       name: "David Wilson",
-      role: "Council Parks Department",
-      location: "Sutton Council",
-      content: "As a council department, we need reliable partners who understand the importance of safety and professionalism. Bashee Gardens delivers on both fronts. Their modern equipment and trained operators help us maintain high standards across all our green spaces.",
+      role: "Property Owner",
+      location: "Sutton",
+      content: "As a property owner, we need reliable partners who understand the importance of safety and professionalism. Bashee Gardens delivers on both fronts. Their modern equipment and trained operators help us maintain high standards across all our green spaces.",
       rating: 5,
       project: "Public Parks Maintenance",
       image: "/placeholder.svg"
@@ -81,7 +81,7 @@ const TestimonialsPage = () => {
 
   const stats = [
     { number: "500+", label: "Happy Customers" },
-    { number: "50+", label: "Schools & Councils" },
+    { number: "50+", label: "Residential Properties" },
     { number: "95%", label: "Repeat Customers" },
     { number: "24hr", label: "Response Time" }
   ];
@@ -94,7 +94,7 @@ const TestimonialsPage = () => {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-hero mb-6">Customer Testimonials</h1>
             <p className="text-body text-muted-foreground">
-              See what homeowners, professional landscapers, schools, and local councils 
+              See what residential customers and homeowners 
               say about our equipment and service quality.
             </p>
           </div>
@@ -212,24 +212,24 @@ const TestimonialsPage = () => {
             </div>
             <div className="space-y-3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                <span className="text-2xl">🌱</span>
+                <span className="text-2xl">🏡</span>
               </div>
-              <h3 className="font-semibold">Landscapers</h3>
-              <p className="text-sm text-muted-foreground">Professional contractors & developers</p>
+              <h3 className="font-semibold">Property Managers</h3>
+              <p className="text-sm text-muted-foreground">Residential estate managers</p>
             </div>
             <div className="space-y-3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                <span className="text-2xl">🏫</span>
+                <span className="text-2xl">🌲</span>
               </div>
-              <h3 className="font-semibold">Schools</h3>
-              <p className="text-sm text-muted-foreground">Educational facilities & grounds</p>
+              <h3 className="font-semibold">Private Estates</h3>
+              <p className="text-sm text-muted-foreground">Residential communities & estates</p>
             </div>
             <div className="space-y-3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                <span className="text-2xl">🏛️</span>
+                <span className="text-2xl">🏘️</span>
               </div>
-              <h3 className="font-semibold">Councils</h3>
-              <p className="text-sm text-muted-foreground">Public spaces & community areas</p>
+              <h3 className="font-semibold">Residential Areas</h3>
+              <p className="text-sm text-muted-foreground">Private homes & gardens</p>
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@ const TestimonialsPage = () => {
           <h2 className="text-3xl font-bold mb-4">Join Our Happy Customers</h2>
           <p className="text-primary-foreground/90 text-lg mb-8 max-w-2xl mx-auto">
             Experience the same quality equipment and professional service that has earned us 
-            these outstanding reviews. Book with confidence – we're trusted by schools and councils.
+            these outstanding reviews. Book with confidence – we're trusted by homeowners and residential customers.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -66,9 +66,9 @@ const Footer = () => {
                 <MessageCircle className="h-4 w-4" />
                 <span>WhatsApp: 07963378502</span>
               </a>
-              <a href="mailto:info@basheegardens.co.uk" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
+              <a href="mailto:basheegardens@gmail.com" className="flex items-center space-x-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>info@basheegardens.co.uk</span>
+                <span>basheegardens@gmail.com</span>
               </a>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
