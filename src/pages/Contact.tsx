@@ -63,6 +63,17 @@ const Contact = () => {
                   </div>
                 </a>
 
+                <a href="https://wa.me/447456083159" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                    <MessageCircle className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">WhatsApp</h3>
+                    <p className="text-primary font-medium">07456083159</p>
+                    <p className="text-sm text-muted-foreground">Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM</p>
+                  </div>
+                </a>
+
                 <a href="mailto:info@basheegardens.co.uk" className="flex items-start space-x-4 p-4 rounded-xl hover:bg-muted/50 transition-colors group">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                     <Mail className="h-6 w-6" />
