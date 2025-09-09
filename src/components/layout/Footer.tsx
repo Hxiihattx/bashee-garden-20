@@ -19,9 +19,9 @@ const Footer = () => {
             </div>
             <p className="text-sm leading-relaxed text-white/90">
               Professional garden equipment hire and clearance services. 
-              We provide comprehensive domestic and commercial gardening solutions, from state-of-the-art
+              We provide comprehensive domestic gardening solutions, from state-of-the-art
               remote-controlled mowers to complete garden maintenance packages. Trusted by homeowners 
-              and businesses since 2020.
+              since 2025.
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
               </a>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>Croydon & Surrounding Areas</span>
+                <span>London and Greater London Area</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Clock className="h-4 w-4" />
@@ -101,7 +101,7 @@ const Footer = () => {
         <div className="container-wide py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-sm text-white/80">
-              © 2025 Bashee Gardens Hires Ltd / Bashee 1 Ltd. All rights reserved.
+              © 2025 Bashee Gardens / Bashee Gardens Hires Ltd / Bashee 1 Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="hover:text-primary transition-colors">

@@ -55,7 +55,7 @@ const About = () => {
               <p className="text-body leading-relaxed">
                 Based locally, we serve the community with modern equipment, 
                 expert knowledge, and a commitment to safety that has earned us the trust of 
-                domestic and commercial customers.
+                residential customers and homeowners.
               </p>
             </div>
             <div className="relative">

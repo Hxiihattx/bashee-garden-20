@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle, Wrench, Users, Clock, Shield } from "lucide-react";
+import { ArrowRight, CheckCircle, Wrench, Users, Clock, Shield, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
 import remoteMowerImg from "@/assets/hero-remote-mower.jpg";
 import rideOnImg from "@/assets/ride-on-tractor.jpg";
@@ -75,7 +75,7 @@ const Services = () => {
   const faqs = [
     {
       question: "Do you deliver equipment?",
-      answer: "Yes, we provide POA Delivery and collection across Croydon and surrounding areas."
+      answer: "Yes, we provide POA Delivery and collection across London and Greater London Area."
     },
     {
       question: "Can I hire equipment with an operator?",
@@ -137,6 +137,7 @@ const Services = () => {
                   </ul>
                   <Link to="/booking">
                     <Button className="w-full group">
+                      <Leaf className="mr-2 h-4 w-4" />
                       Check Availability
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
@@ -174,7 +175,8 @@ const Services = () => {
                 </ul>
                 
                 <Link to="/contact">
-                  <Button variant="outline" className="w-full">
+                  <Button variant="outline" className="w-full group">
+                    <Leaf className="mr-2 h-4 w-4" />
                     Get Quote
                   </Button>
                 </Link>

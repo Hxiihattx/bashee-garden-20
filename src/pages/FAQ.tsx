@@ -54,7 +54,7 @@ const FAQ = () => {
       questions: [
         {
           question: "Where do you deliver?",
-          answer: "We deliver throughout Croydon, Bromley, Sutton, Merton, Kingston, Richmond, Wandsworth, and surrounding areas. Contact us to confirm delivery to your specific location."
+          answer: "We deliver throughout London and Greater London Area including Bromley, Sutton, Merton, Kingston, Richmond, Wandsworth, and surrounding areas. Contact us to confirm delivery to your specific location."
         },
         {
           question: "When do you deliver and collect?",
@@ -62,7 +62,7 @@ const FAQ = () => {
         },
         {
           question: "Is delivery included in the price?",
-          answer: "Yes, delivery and collection within our standard service area (within 15 miles of Croydon) is included. Additional charges may apply for distant locations or urgent same-day delivery."
+          answer: "Yes, delivery and collection within our standard service area (within 15 miles of Greater London) is included. Additional charges may apply for distant locations or urgent same-day delivery."
         },
         {
           question: "What if nobody is available for delivery?",
@@ -92,7 +92,7 @@ const FAQ = () => {
       questions: [
         {
           question: "Do you provide operators?",
-          answer: "Yes, we offer fully operated services for all equipment types. Our operators are trained, insured, and experienced with all types of garden maintenance. This is ideal for commercial clients or complex projects."
+          answer: "Yes, we offer fully operated services for all equipment types. Our operators are trained, insured, and experienced with all types of garden maintenance. This is ideal for residential customers or complex projects."
         },
         {
           question: "Are your operators insured?",
@@ -100,7 +100,7 @@ const FAQ = () => {
         },
         {
           question: "Can operators work unsupervised?",
-          answer: "Our operators can work independently for routine maintenance, but we prefer initial consultation to understand your specific requirements. For commercial properties, we can work to agreed schedules with minimal supervision."
+          answer: "Our operators can work independently for routine maintenance, but we prefer initial consultation to understand your specific requirements. For residential properties, we can work to agreed schedules with minimal supervision."
         }
       ]
     }

@@ -71,7 +71,7 @@ const TermsOfService = () => {
                   <li>Use while under the influence of alcohol or drugs</li>
                   <li>Modifications or repairs to equipment</li>
                   <li>Use outside the agreed service area</li>
-                  <li>Commercial use without prior agreement</li>
+                  <li>Resale or subletting of equipment</li>
                 </ul>
               </div>
             </section>
@@ -175,7 +175,7 @@ const TermsOfService = () => {
                   <p><strong>Bashee Gardens Hires Ltd</strong></p>
                   <p>Email: basheegardens@gmail.com</p>
                   <p>WhatsApp: 07963378502</p>
-                  <p>Service Area: Croydon & Surrounding Areas</p>
+                  <p>Service Area: London and Greater London Area</p>
                   <p>Hours: Mon – Fri: 9AM – 5PM / Sat: 9AM – 1PM, Sun: Closed</p>
                 </div>
               </div>

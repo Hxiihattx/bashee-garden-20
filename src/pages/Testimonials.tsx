@@ -8,7 +8,7 @@ const TestimonialsPage = () => {
     {
       name: "Sarah Johnson",
       role: "Homeowner",
-      location: "Croydon",
+      location: "London",
       content: "The remote-controlled mower was absolutely incredible! We have a sloped garden where it's normally quite dangerous to cut the grass with a regular mower. The remote mower handled it perfectly and gave us a professional finish. The team was helpful throughout the entire hire period.",
       rating: 5,
       project: "Garden Maintenance",
@@ -18,9 +18,9 @@ const TestimonialsPage = () => {
       name: "Mark Thompson",
       role: "Landscape Contractor",
       location: "Bromley",
-      content: "Bashee Gardens has become our go-to supplier for equipment hire. Their ride-on mowers are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for projects across South London.",
+      content: "Bashee Gardens has become our go-to supplier for equipment hire. Their ride-on mowers are always well-maintained, and the delivery service is consistently on time. The professional support and competitive pricing make them our preferred partner for residential projects across London.",
       rating: 5,
-      project: "Commercial Landscaping",
+      project: "Residential Landscaping",
       image: "/placeholder.svg"
     },
     {
@@ -62,7 +62,7 @@ const TestimonialsPage = () => {
     {
       name: "Robert Taylor",
       role: "Homeowner",
-      location: "Croydon",
+      location: "London",
       content: "I hired a petrol strimmer for weekend garden work. The equipment was delivered clean and in perfect working order. The brief training session ensured I could use it safely, and the results were professional-quality. Great value for money!",
       rating: 5,
       project: "DIY Garden Project",

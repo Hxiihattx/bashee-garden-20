@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock } from "lucide-react";
+import { ArrowRight, CheckCircle, Star, Zap, Shield, Clock, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
 const hyundaiStrimmerImg = "/lovable-uploads/89715c80-76ed-4e73-96c2-a138b7db7187.png";
 const mountfieldTractorImg = "/lovable-uploads/160552da-bc6b-4e0f-9604-2d846a8abc7d.png";
@@ -225,12 +225,14 @@ const Equipment = () => {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Link to="/contact" className="flex-1">
                       <Button className="w-full btn-hero group">
+                        <Leaf className="mr-2 h-4 w-4" />
                         Book Now
                         <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </Link>
                     <Link to="/contact" className="flex-1">
-                      <Button variant="outline" className="w-full">
+                      <Button variant="outline" className="w-full group">
+                        <Leaf className="mr-2 h-4 w-4" />
                         Get Quote
                       </Button>
                     </Link>

@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle, Leaf, X } from "lucide-react";
+import { ArrowRight, CheckCircle, Leaf, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -84,9 +84,21 @@ const Hero = () => {
                 </Link>
                 <Link to="/booking">
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                    <Leaf className="mr-2 h-5 w-5" />
                     Buy Equipment
                   </Button>
                 </Link>
+              </div>
+
+              {/* Contact Options */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-3">
+                <a href="https://wa.me/447963378502" className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <MessageCircle className="h-4 w-4" />
+                  <span>WhatsApp: 07963378502</span>
+                </a>
+                <a href="mailto:basheegardens@gmail.com" className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <span>Email: basheegardens@gmail.com</span>
+                </a>
               </div>
 
               {/* Trust Indicators */}
@@ -148,6 +160,7 @@ const Hero = () => {
             </Link>
             <Link to="/booking" className="w-full">
               <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <Leaf className="mr-2 h-4 w-4" />
                 Buy Equipment
               </Button>
             </Link>

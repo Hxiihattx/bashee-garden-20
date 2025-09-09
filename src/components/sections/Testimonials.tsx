@@ -11,7 +11,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "Homeowner, Croydon",
+      role: "Homeowner, London",
       content: "The remote-controlled mower was incredible! Perfect for our sloped garden where it's normally difficult to cut grass safely. Professional service from start to finish.",
       rating: 5,
       image: "/placeholder.svg"
