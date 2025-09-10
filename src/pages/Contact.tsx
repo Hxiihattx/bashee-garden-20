@@ -31,7 +31,7 @@ const Contact = () => {
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-hero mb-6">Contact Us</h1>
+            <h1 className="text-hero mb-6">Contact Bashee Gardens</h1>
             <p className="text-body text-muted-foreground">
               Get in touch for equipment hire, quotes, or expert advice. We're here to help 
               with all your garden maintenance needs.

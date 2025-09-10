@@ -83,9 +83,10 @@ const Hero = () => {
                   </Button>
                 </Link>
                 <Link to="/booking">
-                  <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                  <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground group">
                     <Leaf className="mr-2 h-5 w-5" />
                     Buy Equipment
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
               </div>
@@ -159,9 +160,10 @@ const Hero = () => {
               </Button>
             </Link>
             <Link to="/booking" className="w-full">
-              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group">
                 <Leaf className="mr-2 h-4 w-4" />
                 Buy Equipment
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
           </div>

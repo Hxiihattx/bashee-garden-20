@@ -12,9 +12,9 @@ const Services = () => {
   const hireEquipment = [
     {
       title: "Garden Clearance",
-      description: "Complete garden clearance service with professional waste removal and site preparation.",
+      description: "Complete garden clearance service with professional waste removal and site preparation. Please note: All clients must read our Terms & Conditions as all bookings are based on them having done so.",
       image: gardenClearanceImg,
-      features: ["Professional operators", "Waste disposal included", "Full site clearance", "Emergency callouts"],
+      features: ["Professional operators", "Full site clearance", "Emergency callouts", "Additional waste disposal costs apply (POA)"],
       link: "/equipment/garden-clearance"
     },
     {
@@ -178,6 +178,7 @@ const Services = () => {
                   <Button variant="outline" className="w-full group">
                     <Leaf className="mr-2 h-4 w-4" />
                     Get Quote
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
               </div>

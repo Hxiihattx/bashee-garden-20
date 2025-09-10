@@ -106,10 +106,10 @@ const Booking = () => {
       <div className="min-h-screen bg-muted/30 py-12">
         <div className="container-narrow">
           {/* Header */}
-          <div className="text-center mb-8 lg:mb-12">
-            <h1 className="text-2xl lg:text-section text-foreground mb-3 lg:mb-4">Book Your Equipment</h1>
-            <p className="text-sm lg:text-body text-muted-foreground max-w-2xl mx-auto">
-              Follow these simple steps to book your garden equipment. We'll confirm availability and arrange delivery.
+          <div className="page-header-content">
+            <h1 className="page-header-title">Book Your Garden Equipment</h1>
+            <p className="page-header-description max-w-2xl mx-auto">
+              Follow these simple steps to book your garden equipment. We'll confirm availability and arrange delivery throughout London and Greater London Area.
             </p>
           </div>
 

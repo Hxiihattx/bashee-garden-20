@@ -155,7 +155,7 @@ const FAQ = () => {
             <p className="text-center text-muted-foreground mb-6">
               Our friendly team is here to help you choose the right equipment and answer any questions.
             </p>
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-2 gap-4">
               <a href="https://wa.me/447963378502" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
                 <MessageCircle className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">WhatsApp Us</span>
@@ -166,14 +166,8 @@ const FAQ = () => {
                 <Mail className="h-8 w-8 text-primary mb-2" />
                 <span className="font-semibold text-foreground">Email Us</span>
                 <span className="text-sm text-muted-foreground text-center">basheegardens@gmail.com</span>
-                <span className="text-xs text-muted-foreground mt-1">24/7 Response</span>
+                <span className="text-xs text-muted-foreground mt-1">We will respond during working hours</span>
               </a>
-              <Link to="/contact" className="flex flex-col items-center p-4 bg-background rounded-lg hover:shadow-md transition-all">
-                <MessageCircle className="h-8 w-8 text-primary mb-2" />
-                <span className="font-semibold text-foreground">Live Chat</span>
-                <span className="text-sm text-muted-foreground">Quick Response</span>
-                <span className="text-xs text-muted-foreground mt-1">Mon-Fri: 9AM-5PM, Sat: 9AM-1PM</span>
-              </Link>
             </div>
             
             <div className="text-center mt-6">

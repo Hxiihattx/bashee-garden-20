@@ -166,7 +166,19 @@ const TermsOfService = () => {
             </section>
 
             <section>
-              <h2 className="text-subsection text-foreground mb-4">11. Contact Information</h2>
+              <h2 className="text-subsection text-foreground mb-4">11. Garden Waste Disposal</h2>
+              <div className="text-body">
+                <p className="mb-4">
+                  All garden waste disposal is an additional cost, price on application (POA). Skip hire and waste collections fall under the client's responsibility for cost. All local disposal charges are dependent on your local authority's policies. It is essential that clients seek this information when booking our services, as we base our service provision on this understanding.
+                </p>
+                <p className="mb-4">
+                  We cannot guarantee prices that are not within our direct control, including but not limited to local authority disposal fees, skip hire charges, and third-party waste collection services.
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-subsection text-foreground mb-4">12. Contact Information</h2>
               <div className="text-body">
                 <p className="mb-4">
                   For questions about these Terms of Service, please contact us:

@@ -154,9 +154,9 @@ const Equipment = () => {
       <section className="section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-hero mb-6">Professional Garden Equipment</h1>
+            <h1 className="text-hero mb-6">Professional Garden Equipment Hire</h1>
             <p className="text-body text-muted-foreground">
-              Modern, well-maintained equipment for all garden needs — from remote-controlled mowers to strimmers.
+              Modern, well-maintained equipment for all your residential garden needs. From remote-controlled mowers to professional strimmers — all available for hire with delivery throughout London and Greater London Area.
             </p>
           </div>
         </div>

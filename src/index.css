@@ -57,7 +57,7 @@
     --shadow-card: 0 2px 10px -2px hsl(var(--secondary) / 0.1);
     --shadow-hover: 0 8px 30px -4px hsl(var(--primary) / 0.15);
 
-  /* Typography scale - Improved sizes */
+  /* Typography scale - Professional consistency */
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 0.9375rem; /* 15px for desktop */
@@ -67,6 +67,13 @@
   --text-3xl: 2rem; /* Increased from 1.875rem */
   --text-4xl: 2.5rem; /* Increased from 2.25rem */
   --text-5xl: 3rem; /* New size for hero headings */
+  
+  /* Consistent font weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
 
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -217,6 +224,23 @@
 
   .text-caption {
     @apply text-sm text-muted-foreground;
+  }
+
+  /* Page header component */
+  .page-header {
+    @apply section-padding-sm bg-gradient-to-r from-primary/10 to-accent/10;
+  }
+
+  .page-header-content {
+    @apply text-center max-w-3xl mx-auto;
+  }
+
+  .page-header-title {
+    @apply text-hero mb-6;
+  }
+
+  .page-header-description {
+    @apply text-body text-muted-foreground;
   }
 
   /* Layout utilities */
