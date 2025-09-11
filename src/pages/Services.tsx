@@ -21,7 +21,7 @@ const Services = () => {
       title: "Remote-Controlled Mowers",
       description: "State-of-the-art remote mowers perfect for challenging terrain and precision cutting operations.",
       image: "/lovable-uploads/2d16e2bf-642c-4fb7-98dc-d2d93d058118.png",
-      features: ["Remote operation for safety", "All-terrain capability", "Precision cutting technology", "Advanced GPS navigation"],
+      features: ["Remote operation for safety", "Precision cutting technology", "Advanced GPS navigation", "Professional grade reliability"],
       link: "/equipment/remote-mowers"
     },
     {

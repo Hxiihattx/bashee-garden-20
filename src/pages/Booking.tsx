@@ -362,8 +362,8 @@ const Booking = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-green-600">Form Submitted Successfully!</h3>
                     <p className="text-muted-foreground mb-4">
-                      Thank you for your booking request. We will get back to you as soon as possible during our working hours.
-                    </p>
+                       Thank you for your booking request. All bookings are subject to our Terms & Conditions. We will get back to you as soon as possible during working hours.
+                     </p>
                   </div>
 
                   <div className="p-4 bg-primary/10 rounded-lg">
