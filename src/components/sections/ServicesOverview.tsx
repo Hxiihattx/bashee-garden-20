@@ -25,32 +25,50 @@ const ServicesOverview = () => {
       link: "/equipment"
     },
     {
+      title: "Garden Clearance",
+      description: "Complete garden clearance with professional waste removal and site preparation.",
+      image: gardenClearanceImg,
+      features: ["Professional operators", "Full site clearance", "Emergency call-outs"],
+      link: "/booking"
+    },
+    {
+      title: "Garden Services POA",
+      description: "Comprehensive garden maintenance and landscaping services tailored to your needs.",
+      image: equipmentCollectionImg,
+      features: ["Custom quotes", "Professional service", "Flexible scheduling"],
+      link: "/contact"
+    },
+    {
       title: "Parker Petrol Chainsaws",
       description: "Heavy-duty Parker 58cc chainsaws with 20-inch bars, anti-vibration handles and safety chain brake.",
       image: hedgeTrimmerImg,
       features: ["58cc Engine", "20\" Bar", "Safety Brake"],
-      link: "/equipment"
+      link: "/equipment",
+      isBold: true
     },
     {
       title: "Hyundai Grass Trimmers",
       description: "Hyundai HYBC5200X 52cc professional grass trimmers with dual cutting capability and complete kit.",
       image: strimmerImg,
       features: ["52cc 2-Stroke", "Dual Cutting", "Complete Kit"],
-      link: "/equipment"
+      link: "/equipment",
+      isBold: true
     },
     {
       title: "Leaf Blower Vacuum",
       description: "Excel 25cc 3-in-1 leaf blower, vacuum and mulcher with variable speed control and large collection bag.",
-      image: gardenClearanceImg,
+      image: "/lovable-uploads/eecd80bf-6c21-4dc8-8d46-971c1d7c7270.png",
       features: ["3-in-1 Function", "Variable Speed", "45L Collection"],
-      link: "/equipment"
+      link: "/equipment",
+      isBold: true
     },
     {
       title: "Excel 52cc Multi Tool",
       description: "Compact 52cc petrol-powered multi-tool for efficient trimming, pruning, and cutting.",
       image: "/lovable-uploads/bf0eb917-a647-4ccb-aa90-e3ce6be6a655.png",
       features: ["5-in-1 Garden Tool", "Powerful 52cc Engine", "Easy to Operate"],
-      link: "/equipment"
+      link: "/equipment",
+      isBold: true
     }
   ];
 
@@ -88,7 +106,7 @@ const ServicesOverview = () => {
 
               {/* Content */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">
+                <h3 className={`text-lg group-hover:text-primary transition-colors ${service.isBold ? 'font-bold' : 'font-semibold'}`}>
                   {service.title}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -127,7 +145,7 @@ const ServicesOverview = () => {
               <p className="text-primary-foreground/90">Our experts are here to help you find the perfect solution for your project.</p>
             </div>
             <Link to="/contact">
-              <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-8">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-8">
                 Get Expert Advice
               </Button>
             </Link>

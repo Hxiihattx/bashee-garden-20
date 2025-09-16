@@ -21,7 +21,7 @@ const Footer = () => {
               Professional garden equipment hire and clearance services. 
               We provide comprehensive domestic gardening solutions, from state-of-the-art
               remote-controlled mowers to complete garden maintenance packages. Trusted by homeowners 
-              since 2025.
+              across London and greater London.
             </p>
           </div>
 
