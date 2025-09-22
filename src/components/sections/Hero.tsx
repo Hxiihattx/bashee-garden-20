@@ -2,7 +2,7 @@ import { ArrowRight, CheckCircle, Leaf, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-const heroImage = "/lovable-uploads/d6a941da-0a9a-40f6-8cb1-43e554890b14.png";
+import mobileHeroImage from "@/assets/mobile-hero-mower.png";
 const Hero = () => {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
 
@@ -137,8 +137,8 @@ const Hero = () => {
         {/* Mobile Hero Image - Natural Dimensions */}
         <div className="w-full relative group cursor-pointer" onClick={openVideoModal}>
           <img 
-            src="/lovable-uploads/5d728947-4504-435a-934e-d7e09cd80b91.png" 
-            alt="Gamepad Control Lawnmower - Mobile Hero" 
+            src={mobileHeroImage} 
+            alt="Robotic Remote-Controlled Lawn Mower" 
             className="w-full h-auto object-contain"
           />
           {/* Play Button Overlay - Center Right with 30px margin */}
